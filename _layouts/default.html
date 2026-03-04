@@ -377,9 +377,16 @@
     #content img {
       max-width: 100%;
       height: auto;
-      margin: 20px 0;
       border: 1px solid var(--color-border);
       border-radius: 8px;
+      vertical-align: middle;
+    }
+
+    /* Standalone image — alone in paragraph → block with margin */
+    #content p:has(> img:only-child) {
+      margin: 20px 0;
+    }
+    #content p:has(> img:only-child) img {
       display: block;
     }
 
