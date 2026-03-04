@@ -32,14 +32,14 @@
     {% endfor %}
 
     <li class="has-children{% if is_active or has_active_child %} open{% endif %}">
-      <a href="{{ item_full_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a>
+      <a href="{{ item_full_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title | escape }}</a>
       <ul>
         {% include sidebar_item.html items=item.children %}
       </ul>
     </li>
   {% else %}
     <li>
-      <a href="{{ item_full_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a>
+      <a href="{{ item_full_url }}"{% if is_active %} class="active"{% endif %}>{{ item.title | escape }}</a>
     </li>
   {% endif %}
 {% endfor %}
