@@ -1,0 +1,27 @@
+title: Stimulsoft Reports Documentation
+description: Programming documentation for Stimulsoft Reports products.
+baseurl: "/user-manual"
+url: "https://artemcherniavsky.github.io"
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+relative_links:
+  enabled: true
+  collections: false
+
+# Apply our layout to all markdown pages (no frontmatter needed)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      render_with_liquid: false
+
+exclude:
+  - scripts/
+  - "*.py"
+  - README.md
+  - Gemfile
+  - Gemfile.lock
