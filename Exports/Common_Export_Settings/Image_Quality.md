@@ -1,0 +1,4 @@
+## Image Quality
+
+
+Image quality is the compression degree of JPEG.  If the compression is low then an image is of good quality and has big file size. If the compression is high then an image is of bad quality and has small file size. In Stimulsoft Reports an image quality can vary from 0.0 (the lowest quality) to 1.0 (highest quality). If an image quality is 1.0 it does not mean that the image is saved without compression. The JPEG algorithm always compresses an image. The 1.0 quality means that an image quality will be the same as the quality of an original document but the file size will be smaller than the original. The 0.0 quality means that the image has slightest similarity to the original document. In practice, the 0.9 quality has not great distinction from the 1.0 quality but the image with lower than the 0.1 quality looks bad. By default, in Stimulsoft Reports the image quality is 0.75.

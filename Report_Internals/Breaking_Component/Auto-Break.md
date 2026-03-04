@@ -1,0 +1,4 @@
+## Auto-break
+
+
+If a component of the report template is more than a page, then, when rendering a report, the component does not fit a page. If the CanBreak property is set to true, then the component will be broken into parts. If the CanBreak property is set to false, and the component is larger then the page of a report, the then report engine, tries to move it to the second page. If the data do not fit the second page, they will be forcibly broken, regardless of the value set for the CanBreak property and the availability of this property for the component of the report template. Moreover, when forced breaking, a blank page is output before the component. The first page of the report is empty, and each time data output begins with a new page. In this case, also all special bands are output on the page.

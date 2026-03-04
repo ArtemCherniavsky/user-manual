@@ -1,0 +1,1212 @@
+- title: Introduction
+  url: "/Introduction/"
+  children:
+    - title: Technical Support
+      url: "/Introduction/Technical_Support"
+    - title: Trial Limitations
+      url: "/Introduction/Trial_Limitations"
+    - title: Web Links and Online Resources
+      url: "/Introduction/Web_Links_and_Online_Resources"
+- title: Deployment
+  url: "/Deployment/"
+  children:
+    - title: Libraries of Report.WEB Package
+      url: "/Deployment/DLLs_in_Reports_Web_Package"
+    - title: Libraries of Reports.NET Package
+      url: "/Deployment/DLLs_in_Reports_Net_Package"
+    - title: Scripts of Reports.JS Package
+      url: "/Deployment/Files_in_Reports_JS_Package"
+    - title: Libraries of Reports.WPF Package
+      url: "/Deployment/DLLs_in_Reports_Wpf_Package"
+    - title: Scripts of Reports.PHP Package
+      url: "/Deployment/Files_in_Reports_PHP_Package"
+    - title: JAR Files of Reports.JAVA Package
+      url: "/Deployment/JAR_Files_in_Reports_Java_Package"
+    - title: Libraries of Dashboards.WEB Package
+      url: "/Deployment/DLLs_in_Dashboards_WEB_Package"
+    - title: Libraries of Dashboards.WIN Package
+      url: "/Deployment/DLLs_in_Dashboards_WIN_Package"
+    - title: Scripts of Dashboards.JS Package
+      url: "/Deployment/Scripts_in_Dashboards_JS_Package"
+    - title: Scripts of Dashboards.PHP Package
+      url: "/Deployment/Files_in_Dashboards_PHP_Package"
+    - title: Files of Stimulsoft Designer Application
+      url: "/Deployment/Files_in_Stimulsoft_Designer_App"
+    - title: Files of Stimulsoft Designer.JS Application
+      url: "/Deployment/Files_in_Stimulsoft_Designer_JS_App"
+    - title: Files of Stimulsoft Demo Application
+      url: "/Deployment/Files_in_Stimulsoft_Demo_App"
+- title: Reports and Dashboards for ASP.NET WebForms
+  url: "/Reports_Web/ASP_NET_Web_Forms/"
+  children:
+    - title: HTML5 Viewer
+      url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/How_to_Work"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Activation"
+        - title: Showing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Caching"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Export_and_Print"
+        - title: Viewer Events
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Event"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Timeout"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/How_to_Work"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Activation"
+        - title: Editing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports and New Dashboards
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Using_Themes"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Caching"
+        - title: Designer Events
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Events"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Timeout"
+        - title: Add custom functions
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Add_Custom_Functions"
+        - title: Settings
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Designer/Settings"
+- title: Reports and Dashboards for ASP.NET MVC
+  url: "/Reports_Web/ASP_NET_MVC/"
+  children:
+    - title: HTML5 Viewer
+      url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/How_to_Work"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Activation"
+        - title: Showing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Additional_methods"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Export_and_Print"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Timeout"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/How_It_Works"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Activation"
+        - title: Editing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports and New Dashboards
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Using_Themes"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Events"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Timeout"
+        - title: Add custom functions
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Add_Custom_Functions"
+        - title: Settings
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Designer/Settings"
+- title: Reports and Dashboards for ASP.NET Core MVC
+  url: "/Reports_Web/ASP_NET_Core/"
+  children:
+    - title: HTML5 Viewer
+      url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/How_to_Work"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Activation"
+        - title: Showing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Additional_methods"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Export_and_Print"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Timeout"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/How_It_Works"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Activation"
+        - title: Editing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports and New Dashboards
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Using_Themes"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Events"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Timeout"
+        - title: Add custom functions
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Add_Custom_Functions"
+        - title: Settings
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Designer/Settings"
+- title: Reports and Dashboards for ASP.NET Core Razor
+  url: "/Reports_Web/ASP_NET_Core_Razor/"
+  children:
+    - title: HTML5 Viewer
+      url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/How_to_Work"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Activation"
+        - title: Showing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Additional_methods"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Export_and_Print"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Timeout"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/How_It_Works"
+        - title: Activation
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Activation"
+        - title: Editing Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports and New Dashboards
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports and Dashboards
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Using_Themes"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Events"
+        - title: Timeout
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Timeout"
+        - title: Add custom functions
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Add_Custom_Functions"
+        - title: Settings
+          url: "/Reports_Web/ASP_NET_Core_Razor/Using_Web_Designer/Settings"
+- title: Reports and Dashboards for Blazor
+  url: "/Reports_Web/Blazor/"
+  children:
+    - title: Viewer
+      url: "/Reports_Web/Blazor/Using_Web_Viewer/"
+      children:
+        - title: Activation
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Activation"
+        - title: Showing Reports
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Export"
+        - title: Vieweing Modes
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Call_Designer"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Export_and_Print"
+        - title: Viewer Events
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Event"
+        - title: Viewer Settings
+          url: "/Reports_Web/Blazor/Using_Web_Viewer/Settings"
+    - title: Designer
+      url: "/Reports_Web/Blazor/Using_Web_Designer/"
+      children:
+        - title: Activation
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Activation"
+        - title: Editing Reports
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Using_Themes"
+        - title: Designer Events
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Events"
+        - title: Settings
+          url: "/Reports_Web/Blazor/Using_Web_Designer/Settings"
+- title: Reports for Angular
+  url: "/Reports_Web/Angular/"
+  children:
+    - title: Get Started
+      url: "/Reports_Web/Angular/Get_Started"
+    - title: Activation
+      url: "/Reports_Web/Angular/Activation"
+    - title: Angular Viewer
+      url: "/Reports_Web/Angular/Using_Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/Angular/Using_Web_Viewer/How_to_Work"
+        - title: Showing Reports
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Using_Themes"
+        - title: Basic Features
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Main_Features"
+        - title: Printing Reports
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Printing_Reports"
+        - title: Exporting Reports
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Additional_methods"
+        - title: Export and Printing from Code
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Export_and_Print"
+        - title: Timeout
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Timeout"
+        - title: Viewer Settings
+          url: "/Reports_Web/Angular/Using_Web_Viewer/Settings"
+        - title: API References
+          url: "/Reports_Web/Angular/Using_Web_Viewer/API_References"
+    - title: Angular Designer
+      url: "/Reports_Web/Angular/Using_Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/Angular/Using_Web_Designer/How_It_Works"
+        - title: Editing Reports
+          url: "/Reports_Web/Angular/Using_Web_Designer/Add_Designer"
+        - title: Creating New Reports
+          url: "/Reports_Web/Angular/Using_Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/Angular/Using_Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/Angular/Using_Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_Web/Angular/Using_Web_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/Angular/Using_Web_Designer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/Angular/Using_Web_Designer/Using_Themes"
+        - title: Caching
+          url: "/Reports_Web/Angular/Using_Web_Designer/Caching"
+        - title: Additional Methods
+          url: "/Reports_Web/Angular/Using_Web_Designer/Events"
+        - title: Timeout
+          url: "/Reports_Web/Angular/Using_Web_Designer/Timeout"
+        - title: Settings
+          url: "/Reports_Web/Angular/Using_Web_Designer/Settings"
+- title: Reports and Dashboards for JS
+  url: "/Reports_JS/"
+  children:
+    - title: Quick Start
+      url: "/Reports_JS/Getting_Started/"
+      children:
+        - title: Vanilla JavaScript
+          url: "/Reports_JS/Getting_Started/Vanilla_JavaScript"
+        - title: Vanilla JavaScript and CDN Services
+          url: "/Reports_JS/Getting_Started/Cdn_Service"
+        - title: Angular JS
+          url: "/Reports_JS/Getting_Started/Angular_JS"
+        - title: React JS
+          url: "/Reports_JS/Getting_Started/React_JS"
+        - title: Vue JS
+          url: "/Reports_JS/Getting_Started/Vue_JS"
+        - title: Node JS
+          url: "/Reports_JS/Getting_Started/Node_JS"
+        - title: Step by Step for Browser
+          url: "/Reports_JS/Getting_Started/Step_by_Step_For_Browser"
+        - title: Step by Step for Node.js
+          url: "/Reports_JS/Getting_Started/Step_by_Step_For_Node_js"
+    - title: HTML5 Viewer
+      url: "/Reports_JS/Web_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_JS/Web_Viewer/How_to_Work"
+        - title: Showing Reports
+          url: "/Reports_JS/Web_Viewer/Showing_Reports"
+        - title: Using Themes
+          url: "/Reports_JS/Web_Viewer/Using_Themes"
+        - title: Printing Reports
+          url: "/Reports_JS/Web_Viewer/Printing_Reports"
+        - title: Exporting Reports
+          url: "/Reports_JS/Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_JS/Web_Viewer/Mode_of_Show"
+        - title: Work with Parameters
+          url: "/Reports_JS/Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_JS/Web_Viewer/Work_with_Bookmarks"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_JS/Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_JS/Web_Viewer/Editable"
+        - title: Sending Report by Email
+          url: "/Reports_JS/Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_JS/Web_Viewer/Call_Designer"
+        - title: Viewer Events
+          url: "/Reports_JS/Web_Viewer/Viewer_Events"
+        - title: Viewer Settings
+          url: "/Reports_JS/Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_JS/Web_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_JS/Web_Designer/How_to_Work"
+        - title: Editing Reports
+          url: "/Reports_JS/Web_Designer/Add_Designer"
+        - title: Creating New Report
+          url: "/Reports_JS/Web_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_JS/Web_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_JS/Web_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_JS/Web_Designer/Save_Report"
+        - title: Using Themes
+          url: "/Reports_JS/Web_Designer/Using_Themes"
+        - title: Designer Events
+          url: "/Reports_JS/Web_Designer/Designer_Events"
+        - title: Customizations in Designer
+          url: "/Reports_JS/Web_Designer/Designer_Customization"
+        - title: Designer Settings
+          url: "/Reports_JS/Web_Designer/Settings"
+    - title: Engine
+      url: "/Reports_JS/Engine/"
+      children:
+        - title: Activation
+          url: "/Reports_JS/Engine/Activation"
+        - title: Connecting Data Files
+          url: "/Reports_JS/Engine/Connecting_Data_Files"
+        - title: Connecting SQL Databases
+          url: "/Reports_JS/Engine/Connecting_SQL_Data_Bases"
+        - title: Localization
+          url: "/Reports_JS/Engine/Localization"
+        - title: Loading and Saving Report
+          url: "/Reports_JS/Engine/Loading_and_Saving_Report"
+        - title: Saving Rendered Report
+          url: "/Reports_JS/Engine/Saving_Rendered_Report"
+        - title: Getting Access to Pages
+          url: "/Reports_JS/Engine/Getting_Access_to_Pages"
+        - title: Report Events
+          url: "/Reports_JS/Engine/Report_Events"
+        - title: Add custom functions
+          url: "/Reports_JS/Engine/Add_Custom_Functions"
+- title: Reports and Dashboards for PHP
+  url: "/Reports_and_Dashboards_for_PHP/"
+  children:
+    - title: Engine
+      url: "/Reports_and_Dashboards_for_PHP/Engine/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Usage"
+        - title: Optimization of Scripts Loading
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Optimazing_scripts_loading"
+        - title: License Activation
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Activation"
+        - title: Loading and Saving Reports
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Loading_and_Saving_Report"
+        - title: Rendering a Report
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Rendering_Report"
+        - title: Rendering a Report on Server Side
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Rendering_Report_on_Server_Side"
+        - title: PHP Events Handler
+          url: "/Reports_and_Dashboards_for_PHP/Engine/PHP_Handler"
+        - title: Working with Data  
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Working_with_Data"
+        - title: Connecting Data Files
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Connecting_Data_Files"
+        - title: Connecting SQL Data Adapters
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Connecting_SQL_Data"
+        - title: Work with Report Variables
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Using_Variables"
+        - title: Connecting Custom Fonts
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Connecting_Custom_Fonts"
+        - title: Printing Report from Code
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Printing_from_Code"
+        - title: Export Report from Code
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Export_from_Code"
+        - title: Engine Events
+          url: "/Reports_and_Dashboards_for_PHP/Engine/Events"
+    - title: HTML5 Viewer
+      url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Usage"
+        - title: License Activation
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Activation"
+        - title: Showing Reports
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Showing_Reports_and_Dashboards"
+        - title: Localization
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Localization"
+        - title: Printing Report
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Printing_Report"
+        - title: Report Export
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Export"
+        - title: Viewing Modes
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Mode_of_Show"
+        - title: Work with Report Variables
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Work_with_Bookmark"
+        - title: "Dynamic Sorting, Collapsing, and Drill-Down"
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Interaction"
+        - title: Editing Report
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Editable"
+        - title: Sending Report By Email
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Call_Designer"
+        - title: Appearance
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Using_Themes"
+        - title: Viewer Events
+          url: "/Reports_and_Dashboards_for_PHP/Web_Viewer/Events"
+        - title: Viewer Settings
+          url: "/Reports_and_Dashboards_for_PHP/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_and_Dashboards_for_PHP/Web_Designer/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Usage"
+        - title: License Activation
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Activation"
+        - title: Creating and Editing Reports
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Creating_Editing_Report"
+        - title: Saving Reports
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Saving_Report"
+        - title: Localization
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Localization"
+        - title: Preview
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Preview"
+        - title: Appearance
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Using_Themes"
+        - title: Adding Custom Functions
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Adding_Custom_Functions"
+        - title: Designer Events
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Events"
+        - title: Designer Settings
+          url: "/Reports_and_Dashboards_for_PHP/Web_Designer/Settings"
+- title: Reports and Dashboards for WinForms
+  url: "/Reports_Net/"
+  children:
+    - title: Activation
+      url: "/Reports_Net/Activation"
+    - title: WinForms Viewer
+      url: "/Reports_Net/Viewer/"
+      children:
+        - title: How to Show Report
+          url: "/Reports_Net/Viewer/How_to_Show_Report"
+        - title: Dot-Matrix Mode of WinForms Viewer
+          url: "/Reports_Net/Viewer/Dot_Matrix_Mode"
+    - title: Add custom functions
+      url: "/Reports_Net/Add_Custom_Functions"
+- title: Reports and Dashboards for Python
+  url: "/Reports_and_Dashboards_for_Python/"
+  children:
+    - title: Report Engine
+      url: "/Reports_and_Dashboards_for_Python/Engine/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_Python/Engine/Usage"
+        - title: Optimizing Scripts Loading
+          url: "/Reports_and_Dashboards_for_Python/Engine/Optimazing_scripts_loading"
+        - title: License Activation
+          url: "/Reports_and_Dashboards_for_Python/Engine/Activation"
+        - title: Loading and Saving Reports
+          url: "/Reports_and_Dashboards_for_Python/Engine/Loading_and_Saving_Report"
+        - title: Report Rendering
+          url: "/Reports_and_Dashboards_for_Python/Engine/Rendering_Report"
+        - title: Rendering a Report on Server Side
+          url: "/Reports_and_Dashboards_for_Python/Rendering_Report_on_Server_Side"
+        - title: Event Handler
+          url: "/Reports_and_Dashboards_for_Python/Engine/Handler"
+        - title: Working with Data
+          url: "/Reports_and_Dashboards_for_Python/Engine/Working_with_Data"
+        - title: Connecting Data Files
+          url: "/Reports_and_Dashboards_for_Python/Engine/Connecting_Data_Files"
+        - title: Connecting SQL Data Adapters
+          url: "/Reports_and_Dashboards_for_Python/Engine/Connecting_SQL_Data"
+        - title: Working with Report Variables
+          url: "/Reports_and_Dashboards_for_Python/Engine/Using_Variables"
+        - title: Connecting Custom Fonts
+          url: "/Reports_and_Dashboards_for_Python/Engine/Conneting_Custom_Fonts"
+        - title: Printing a Report From Code
+          url: "/Reports_and_Dashboards_for_Python/Engine/Printing_from_Code"
+        - title: Exporting a Report From Code
+          url: "/Reports_and_Dashboards_for_Python/Engine/Export_from_Code"
+        - title: Report Engine Events
+          url: "/Reports_and_Dashboards_for_Python/Engine/Events"
+    - title: HTML5 Viewer
+      url: "/Reports_and_Dashboards_for_Python/Web_Viewer/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Usage"
+        - title: Activation
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Activation"
+        - title: Showing Reports
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Showing_Reports_and_Dashboards"
+        - title: Localization
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Localization"
+        - title: Printing a Report
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Printing_Report"
+        - title: Report Export
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Export"
+        - title: Display Modes
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Mode_of_Show"
+        - title: Working with Report Variables  
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Work_with_Parameters"
+        - title: Working with Bookmarks
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Work_with_Bookmark"
+        - title: "Dynamic collapsing, sorting, and detailing"
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Interaction"
+        - title: Editing Rendered Reports
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Editable"
+        - title: Sending a report by Email
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Call_Designer"
+        - title: Appearance
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Using_Themes"
+        - title: Viewer Events
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Events"
+        - title: Viewer Settings
+          url: "/Reports_and_Dashboards_for_Python/Web_Viewer/Settings"
+    - title: HTML5 Designer
+      url: "/Reports_and_Dashboards_for_Python/Web_Designer/"
+      children:
+        - title: Usage
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Usage"
+        - title: Activation
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Activation"
+        - title: Creating and Editing Reports
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Creating_Editing_Report"
+        - title: Saving a Report
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Saving_Report"
+        - title: Localization
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Localization"
+        - title: Preview
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Preview"
+        - title: Designer Themes
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Using_Themes"
+        - title: Designer Events
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Events"
+        - title: Designer Settings
+          url: "/Reports_and_Dashboards_for_Python/Web_Designer/Settings"
+- title: Reports.Java
+  url: "/Reports_Java/"
+  children:
+    - title: Activation
+      url: "/Reports_Java/Activation"
+    - title: Java Viewer
+      url: "/Showing_Reports_in_Java/"
+      children:
+        - title: Showing Reports
+          url: "/Showing_Reports_in_Java/Showing_Reports"
+        - title: Custom Functions
+          url: "/Showing_Reports_in_Java/Totals"
+    - title: Java HTML5 Viewer
+      url: "/Using_Java_HTML5_Viewer/"
+      children:
+        - title: Installation
+          url: "/Using_Java_HTML5_Viewer/Installation"
+        - title: Creating Project
+          url: "/Using_Java_HTML5_Viewer/Creating_Project"
+        - title: Creating a Sample Page
+          url: "/Using_Java_HTML5_Viewer/Creating_Sample_Page"
+        - title: Create a Sample Page With Report HTML5 Viewer
+          url: "/Using_Java_HTML5_Viewer/Create_Sample_Page_With_Report_Web_Viewer"
+        - title: Description of Webviewer Tag
+          url: "/Using_Java_HTML5_Viewer/Description_of_Webviewer_Tag"
+        - title: Options
+          url: "/Using_Java_HTML5_Viewer/Options"
+        - title: Template JDBC Connections
+          url: "/Using_Java_HTML5_Viewer/Template_JDBC_Connections"
+    - title: HTML5 Designer
+      url: "/Using_Java_HTML5_Designer/"
+      children:
+        - title: Installation and Description HTML5 Designer
+          url: "/Using_Java_HTML5_Designer/Working_With_Report_Code"
+        - title: Template JDBC Coonections
+          url: "/Using_Java_HTML5_Designer/Template_JDBC_Coonections"
+- title: Reports.WPF
+  url: "/Reports_Wpf/"
+  children:
+    - title: Activation
+      url: "/Reports_Wpf/Activation"
+    - title: Wpf Viewer
+      url: "/Reports_Wpf/Viewer/"
+      children:
+        - title: How to Show Report
+          url: "/Reports_Wpf/Viewer/How_to_Show_Report"
+        - title: Dot-Matrix Mode of Wpf Viewer
+          url: "/Reports_Wpf/Viewer/Dot_Matrix_Mode"
+- title: Engine
+  url: "/Engine/"
+  children:
+    - title: Data
+      url: "/Engine/Data/"
+      children:
+        - title: "Business Objects in Net, Web"
+          url: "/Engine/Data/Business_Objects_in_Net_Web_Silverlight"
+        - title: Working with OData Using Business Objects
+          url: "/Engine/Data/Working_with_OData_Using_Business_Objects"
+        - title: Using Expression Values in Variable
+          url: "/Engine/Data/Using_of_Values_from_Field_in_Variable_Expression"
+    - title: Report Inheritance
+      url: "/Engine/Report_Inheritance/"
+      children:
+        - title: Basic Approaches
+          url: "/Engine/Report_Inheritance/Basic_Approaches"
+    - title: Right To Left
+      url: "/Engine/Right_to_Left/"
+      children:
+        - title: WinForms Viewer
+          url: "/Engine/Right_to_Left/WinForms_Viewer"
+        - title: WPF Designer and Viewer
+          url: "/Engine/Right_to_Left/WPF_Designer_and_Viewer"
+        - title: Icons
+          url: "/Engine/Right_to_Left/Icons"
+    - title: Exports
+      url: "/Engine/Exports/"
+      children:
+        - title: Export Reports From Code
+          url: "/Engine/Exports/Export_Reports_From_Code/"
+          children:
+            - title: ExportDocument Method
+              url: "/Engine/Exports/Export_Reports_From_Code/ExportDocument_Method"
+            - title: Export Service
+              url: "/Engine/Exports/Export_Reports_From_Code/Export_Service"
+        - title: Formats with Fixed Page Layout
+          url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/"
+          children:
+            - title: PDF
+              url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/PDF"
+            - title: ZUGFeRD
+              url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/Zugferd"
+            - title: Special Features of PDF/A
+              url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/Export_Features"
+            - title: Microsoft Power Point
+              url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/Microsoft_Power_Point_2007_2010"
+            - title: XPS
+              url: "/Engine/Exports/Formats_with_Fixed_Page_Layout/XPS"
+        - title: Web Documents
+          url: "/Engine/Exports/Web_Documents/"
+          children:
+            - title: HTML
+              url: "/Engine/Exports/Web_Documents/HTML"
+            - title: MHT
+              url: "/Engine/Exports/Web_Documents/MHT"
+        - title: Text Formats
+          url: "/Engine/Exports/Text_Formats/"
+          children:
+            - title: TXT
+              url: "/Engine/Exports/Text_Formats/TXT"
+            - title: RTF
+              url: "/Engine/Exports/Text_Formats/RTF"
+            - title: Word
+              url: "/Engine/Exports/Text_Formats/Word_2007_2010"
+            - title: ODT
+              url: "/Engine/Exports/Text_Formats/ODT"
+        - title: Spreadsheets
+          url: "/Engine/Exports/Spreadsheets/"
+          children:
+            - title: Excel
+              url: "/Engine/Exports/Spreadsheets/Excel"
+            - title: Excel 2007/2010
+              url: "/Engine/Exports/Spreadsheets/Excel_2007_2010"
+            - title: ODS
+              url: "/Engine/Exports/Spreadsheets/ODS"
+        - title: Data
+          url: "/Engine/Exports/Data/"
+          children:
+            - title: CSV
+              url: "/Engine/Exports/Data/CSV"
+            - title: DBF
+              url: "/Engine/Exports/Data/DBF"
+            - title: XML
+              url: "/Engine/Exports/Data/XML"
+            - title: DIF
+              url: "/Engine/Exports/Data/DIF"
+            - title: SYLK
+              url: "/Engine/Exports/Data/SYLK"
+        - title: Images
+          url: "/Engine/Exports/Images"
+    - title: Scripts
+      url: "/Engine/Scripts/"
+      children:
+        - title: Programming Language of Report
+          url: "/Engine/Scripts/Programming_Language_of_Report"
+        - title: Report Code
+          url: "/Engine/Scripts/Report_Code"
+    - title: Reports as Source Code
+      url: "/Engine/Reports_as_Source_Code"
+    - title: Reports as Assemblies
+      url: "/Engine/Reports_as_Assemblies"
+    - title: Standalone Reports
+      url: "/Engine/Standalone_Reports"
+    - title: Deployment Reports as Files
+      url: "/Engine/Deployment_Reports_as_Files"
+- title: Out_Of_Date
+  url: "/Out_Of_Date/"
+  children:
+    - title: Flash Viewer
+      url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/How_to_Work"
+        - title: Showing Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Showing_Reports"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Using_Themes"
+        - title: Printing Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Printing_Reports"
+        - title: Exporting Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Export_Setting"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Work_with_Bookmarks"
+        - title: Dynamic Sorting and Drill-Down
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Interaction"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Cashing"
+        - title: Export and Printing Reports from Code
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Export_Report_from_Code"
+        - title: Viewer Events
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Event"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Viewer/Settings"
+    - title: Business Objects in UWP
+      url: "/Engine/Data/Business_Objects_in_WinRT"
+    - title: Flash Designer
+      url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/How_it_Work"
+        - title: Editing Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Editing_Report"
+        - title: Creating New Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Save_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Localization"
+        - title: Additional Features of Designer
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Additional_Functionality_of_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Cashing"
+        - title: Designer Events
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Event"
+        - title: Designer Settings
+          url: "/Reports_Web/ASP_NET_Web_Forms/Using_Web_Flash_Designer/Settings"
+    - title: Flash Designer
+      url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/How_It_Work"
+        - title: Editing Reports
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Editting_Report"
+        - title: Creating New Reports
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Saving_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Localization"
+        - title: Additional Features of Designer
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Additional_Features_of_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Cashing"
+        - title: Addtional Methods
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Additional_Methods"
+        - title: Designer Settings
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Designer/Settings"
+    - title: Flash Viewer
+      url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/How_to_Work"
+        - title: Showing Report
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Showing_Report"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Using_Themes"
+        - title: Printing Report
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Printing_Report"
+        - title: Exporting Reports
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Export_Setting"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Work_with_Bookmarks"
+        - title: Dynamic Sorting and Drill-Down
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Interaction"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Cashing"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Export_Report_from_Code"
+        - title: Exporting and Printing Reports from Code
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Export_and_Print"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_MVC/Using_Web_Flash_Viewer/Settings"
+    - title: Flash Designer
+      url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/How_It_Work"
+        - title: Editing Reports
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Editting_Report"
+        - title: Creating New Reports
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Creating_Report"
+        - title: Preview
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Preview"
+        - title: Additional Features of Preview
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Additional_Functionality_of_Preview"
+        - title: Saving Reports
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Saving_Report"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Localization"
+        - title: Additional Features of Designer
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Additional_Features_of_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Cashing"
+        - title: Addtional Methods
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Additional_Methods"
+        - title: Designer Settings
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Designer/Settings"
+    - title: Flash Viewer
+      url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/"
+      children:
+        - title: How this Works
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/How_to_Work"
+        - title: Showing Report
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Showing_Report"
+        - title: Connecting Data
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Connecting_Data"
+        - title: Localization
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Localization"
+        - title: Using Themes
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Using_Themes"
+        - title: Printing Report
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Printing_Report"
+        - title: Exporting Reports
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Export_Setting"
+        - title: Work with Parameters
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Work_with_Parameters"
+        - title: Work with Bookmarks
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Work_with_Bookmarks"
+        - title: Dynamic Sorting and Drill-Down
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Interaction"
+        - title: Sending Report by Email
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Send_Email"
+        - title: Calling Designer from Viewer
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Call_Designer"
+        - title: Caching
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Cashing"
+        - title: Additional Methods
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Export_Report_from_Code"
+        - title: Exporting and Printing Reports from Code
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Export_and_Print"
+        - title: Viewer Settings
+          url: "/Reports_Web/ASP_NET_Core/Using_Web_Flash_Viewer/Settings"
+    - title: Flash Designer
+      url: "/Using_Java_with_Flex_Client/"
+      children:
+        - title: Installation
+          url: "/Using_Java_with_Flex_Client/Installation"
+        - title: Creating Project
+          url: "/Using_Java_with_Flex_Client/Creating_Project"
+        - title: Creating Server
+          url: "/Using_Java_with_Flex_Client/Creating_Server"
+        - title: Creating Sample
+          url: "/Using_Java_with_Flex_Client/Creating_Sample"
+        - title: Creating Sample Page with Report Designer
+          url: "/Using_Java_with_Flex_Client/Creating_Sample_Page_in_Report_Designer"
+        - title: "Loading, Saving and Loading Custom Data"
+          url: "/Using_Java_with_Flex_Client/Loading_Saving_and_Loading_Custom_Data"
+    - title: Reports.Silverlight
+      url: "/Reports_Silverlight/"
+      children:
+        - title: ASP.NET Viewer
+          url: "/Reports_Silverlight/ASP_NET_Viewer/"
+          children:
+            - title: How to Show Report
+              url: "/Reports_Silverlight/ASP_NET_Viewer/How_to_Show_Report"
+            - title: Settings
+              url: "/Reports_Silverlight/ASP_NET_Viewer/Settings"
+            - title: Saving Mode
+              url: "/Reports_Silverlight/ASP_NET_Viewer/Saving_Mode"
+        - title: ASP.NET Designer
+          url: "/Reports_Silverlight/ASP_NET_Designer/"
+          children:
+            - title: How It Works
+              url: "/Reports_Silverlight/ASP_NET_Designer/How_It_Works"
+            - title: Run Designer
+              url: "/Reports_Silverlight/ASP_NET_Designer/Run_Designer"
+            - title: Loading Reports
+              url: "/Reports_Silverlight/ASP_NET_Designer/Loading_Reports"
+            - title: Preview
+              url: "/Reports_Silverlight/ASP_NET_Designer/Preview"
+            - title: Settings
+              url: "/Reports_Silverlight/ASP_NET_Designer/Settings"
+            - title: Changing Properties from Code
+              url: "/Reports_Silverlight/ASP_NET_Designer/Changing_Properties_From_Code"
+            - title: Localization
+              url: "/Reports_Silverlight/ASP_NET_Designer/Localization"
+            - title: WCF Server
+              url: "/Reports_Silverlight/ASP_NET_Designer/WCF_Server"
+    - title: Reports.UWP
+      url: "/Reports_UWP/"
+      children:
+        - title: Viewer
+          url: "/Reports_UWP/Viewer/"
+          children:
+            - title: How to Show Report
+              url: "/Reports_UWP/Viewer/How_to_Show_Report"
+            - title: Saving Report From Code
+              url: "/Reports_UWP/Viewer/Saving_Report_From_Code"
+        - title: Designer
+          url: "/Reports_UWP/Designer/"
+          children:
+            - title: Working with Report Code
+              url: "/Reports_UWP/Designer/Working_with_Report_Code"
+    - title: Reports.Flex
+      url: "/Reports_Flex/"
+      children:
+        - title: Flex Viewer
+          url: "/Reports_Flex/Viewer/"
+          children:
+            - title: How to Show Report
+              url: "/Reports_Flex/Viewer/How_to_Show_Report"
+            - title: Options
+              url: "/Reports_Flex/Viewer/Options"
+            - title: Settings
+              url: "/Reports_Flex/Viewer/Settings"
+- title: PDF Forms
+  url: "/PDF_Forms/"
+  children:
+    - title: Get Started for ASP.NET Core 3.1
+      url: "/PDF_Forms/Embed_for_ASP_NET_Core_3_1"
