@@ -1,4 +1,4 @@
-Labels
+## Labels
 
 Labels are a visual representation of values, arguments, tags, series names, and their combinations on or near the graphical elements of series. Labels are similar to series titles but can be applied to all series in a chart, not just the current one.
 
@@ -7,9 +7,9 @@ Labels are a visual representation of values, arguments, tags, series names, and
 
 
 To configure chart labels, follow these steps:
- In the component editor, go to the Labels tab in the Common group;
- Select the label placement type;
- Use the available properties to customize the labels. Conditional formatting can also be applied to labels.
+* In the component editor, go to the Labels tab in the Common group;
+* Select the label placement type;
+* Use the available properties to customize the labels. Conditional formatting can also be applied to labels.
 
 > **Information**
 >

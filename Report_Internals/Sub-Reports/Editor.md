@@ -1,4 +1,4 @@
-Editor
+## Editor
 
 In the editor, you can specify the resource for the Sub-Report component and configure the settings.
 
@@ -32,22 +32,22 @@ To call the editor, double-click the Sub-Report component on the report page:
 
 Parameters are usually used to filter data or transfer information from the main report to a sub-report. To add a parameter, you should:
 
-Call the editor of the sub-report;
+* Call the editor of the sub-report;
 
-Go to the Parameters tab;
+* Go to the Parameters tab;
 
-Click the Add button;
+* Click the Add button;
 
-Specify the name of the parameter and its expression.
+* Specify the name of the parameter and its expression.
 
 
 In the parameter expression, you can specify:
 
-The data column;
+* The data column;
 
-Variable;
+* Variable;
 
-Any other expression.
+* Any other expression.
 
 
 After that, you should go to the resource of the Sub-Report component (a page or another report) and specify this parameter, for example, in the filter expression.

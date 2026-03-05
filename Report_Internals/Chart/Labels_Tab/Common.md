@@ -1,4 +1,4 @@
-Common
+## Common
 
 On the Common tab, the type of chart labels is defined, and their configuration is performed using various properties.
 

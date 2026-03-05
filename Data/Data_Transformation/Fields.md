@@ -1,11 +1,7 @@
-Structure
+## Structure
 
 When creating a new data transformation, settings and its elements are defined in the window of this tool. Below you can see the description of the New Data Transformation window structure.
-
-
-![](../../images/topics/Data.Data_Transformation.Fields_1.png)
-
-
+![](../../images/topics/Data.Data_Transformation.Fields_2.png)
 ![](../../images/img_1.png) The name of transformation, which will be used in original data (for example in the DataSet) is specified in the Name in Source field.
 
 ![](../../images/img_2.png) The name of transformation used in a report is specified in the Name field.
@@ -15,7 +11,7 @@ When creating a new data transformation, settings and its elements are defined i
 ![](../../images/img_4.png) The list of a new transformation. Data columns added from different sources and created the New Measure and the New Dimension are displayed on this panel. You can add data columns in data transformation using the following ways:
 
 * Dragging a data source or a data column from the dictionary into the list of elements or the preview. If a data source is dragged into, all data columns from this source will be added to the list of data transformation fields.
- Using the New Dimension or the New Measure commands from the context menu (below) in the list of fields.
+* Using the New Dimension or the New Measure commands from the context menu (below) in the list of fields.
 
 
 ![](../../images/img_5.png) The preview of a new data transformation. The values from data columns and fields are displayed on this panel, i.e a new data table.
@@ -44,13 +40,12 @@ When creating a new data transformation, settings and its elements are defined i
 Field context menu
 
 There are controls of the current field in the context menu. To call the context field menu you should:
- Hover the cursor over the field you need on the list panel;
- Click the right button of the input cursor.
-
+* Hover the cursor over the field you need on the list panel;
+* Click the right button of the input cursor.
 After that, the context menu will be called:
 
 
-![](../../images/topics/Data.Data_Transformation.Fields_2.png)
+![](../../images/topics/Data.Data_Transformation.Fields_3.png)
 
 ![](../../images/img_1.png) Field creation command – the New Dimension.
 
@@ -63,7 +58,7 @@ After that, the context menu will be called:
 ![](../../images/img_5.png) The command, which calls the mode of editing the name of a selected field. Also, you can rename an element using the following ways:
 
 * Double click the left button of the input cursor on a field in a list.
- Select a field in a list and click the F2 button.
+* Select a field in a list and click the F2 button.
 
 
 ![](../../images/img_6.png) Selected field deleting command.
@@ -82,7 +77,7 @@ Field menu in the preview
 To call the field menu in the preview, you should click on a header on this panel. This menu contains control commands of the values of the current field.
 
 
-![](../../images/topics/Data.Data_Transformation.Fields_3.png)
+![](../../images/topics/Data.Data_Transformation.Fields_4.png)
 
 
 ![](../../images/img_1.png) Sorting values commands:
@@ -90,15 +85,15 @@ To call the field menu in the preview, you should click on a header on this pane
 * Sorting in ascending order. Depending on value type, sorting commands can be different. For row values the from A to Z, for numerical the from Smallest to Largest, etc.
 
 * Sorting in descending order. Depending on value type, sorting commands can be different. For row values the from Z to A, for numeric from the Largest to Smallest, etc.
- No sorting. In this case, the order of values in the current field will be as well as in the data description.
+* No sorting. In this case, the order of values in the current field will be as well as in the data description.
 
 ![](../../images/img_2.png) Depending on the values of the current field the Actions menu can contain the following commands:
 
 * [Skip and limit rows;](Skip_and_Limit_Rows.md);
- [Running total](Running_Total.md);
- [Show percentage](Show_Percentage.md);
- [Replace value](Replace_Value.md).
- The Remove Actions command. This command is active, if some action is applied to an element. When selecting this command, all actions for the current field will be deleted.
+* [Running total](Running_Total.md);
+* [Show percentage](Show_Percentage.md);
+* [Replace value](Replace_Value.md).
+* The Remove Actions command. This command is active, if some action is applied to an element. When selecting this command, all actions for the current field will be deleted.
 
 ![](../../images/img_3.png) Commands of adding [data filtering](Filtration.md) in the current field:
 

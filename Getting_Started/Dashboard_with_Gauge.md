@@ -1,22 +1,22 @@
-Dashboard with Gauge
+## Dashboard with Gauge
 
 This chapter will cover issues such as:
 
-[Adding a gauge]();
+* [Adding a gauge](#addingagauge);
 
-[Custom range of values]();
+* [Custom range of values](#customrangeofvalues);
 
-[Color Range]().
+* [Color Range](#colorrange).
 
 Adding a gauge
 
 To create an dashboard panel with the [Gauge](../Dashboards/Gauge.md) element, you should do the following steps:
 
 
-Step 1: [Run the report designer](Install_and_First_Run.md);
+Step 1: [Run the report designer](Install_and_First_Run.md#rundesigner);
 
 
-Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md);
+Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md#addingadashboardtothecurrentreport);
 
 
 Step 3: [Connect data](Connecting_Data.md);
@@ -107,7 +107,7 @@ Step 2: Set the Color value for the Range Type parameter;
 Step 3: Choose the option for calculating the color range - Percentage or Value;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Gauge_9.png)
+![](../images/topics/Getting_Started.Dashboard_with_Gauge_10.png)
 
 Step 4: Add the required number of color ranges;
 
@@ -130,4 +130,4 @@ Step 9: Close the Gauge editor;
 Step 10: Go to Preview.
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Gauge_10.png)
+![](../images/topics/Getting_Started.Dashboard_with_Gauge_11.png)

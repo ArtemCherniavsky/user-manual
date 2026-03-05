@@ -16,4 +16,4 @@ Run a report for execution. As you can see, the Child band was printed as many t
 The Child band can be used not only with the Data band. It can be placed after any band on a page. For example, after the Header band or after the Group Header band.
 
 
-The **Child** band can be used in association with any band.
+* The **Child** band can be used in association with any band.

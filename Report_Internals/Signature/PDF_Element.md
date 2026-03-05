@@ -1,4 +1,4 @@
-PDF Element
+## PDF Element
 
 The PDF Element is a component that, when exporting a report to a PDF file, places a standard digital signature for the PDF document at its location. The signature is applied using a certificate, which must be selected in the export settings.
 
@@ -17,14 +17,14 @@ Stimulsoft's export to the PDF format supports signing a document with only one 
 
 Configuration of the PDF Element is performed through:
 
-The component editor, where the type of signature and its parameters can be selected;
+* The component editor, where the type of signature and its parameters can be selected;
 
-The properties list of this component.
+* The properties list of this component.
 
 
 To open the editor:
- Double-click on the PDF Element component;
- Select the PDF Element component and choose the Design command from the context menu.
+* Double-click on the PDF Element component;
+* Select the PDF Element component and choose the Design command from the context menu.
 
 Component Editor
 
@@ -34,14 +34,14 @@ The editor contains the signature type selector Type and a group of Labels param
 ![](../../images/topics/Report_Internals.Signature.PDF_Element_2.png)
 
 
-The Objects field is available only if the signature type is set to Image or Draw.
+* The Objects field is available only if the signature type is set to Image or Draw.
 
 * If the type is Image, the Objects field allows you to upload an image using the Open control or delete it using the Remove command.
 
 * If the type is Draw, the Objects field lets you draw a signature. To draw, press and hold the left mouse button and create the graphical signature.
 
 
-The Labels group contains parameters that determine what information from the certificate will be added to the digital signature. If a parameter checkbox is selected, the corresponding information from the certificate will be added to the digital signature. If no parameters are selected, no textual information will be added to the signature.
+* The Labels group contains parameters that determine what information from the certificate will be added to the digital signature. If a parameter checkbox is selected, the corresponding information from the certificate will be added to the digital signature. If no parameters are selected, no textual information will be added to the signature.
 
 Properties Table
 

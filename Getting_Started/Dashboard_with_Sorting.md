@@ -2,20 +2,19 @@
 
 The following questions will be considered in this chapter:
 
-[Sorting element data in the designer]();
+* [Sorting element data in the designer](#SortinInDesigner);
 
-[Sorting element data when viewing dashboards]();
+* [Sorting element data when viewing dashboards](#SortingInViewer);
 
-[Disable or enable the sort button when viewing]();
+* [Disable or enable the sort button when viewing](#AllowUserSorting);
 
-[Sorting data in a table]();
+* [Sorting data in a table](#SortingInTable);
 
-[Disable or enable sorting in a table]().
+* [Disable or enable sorting in a table](#AllowUserSortingInTable).
 
 Sorting element data in the designer
 
-To set element sorting you should make the following actions: 
-
+To set element sorting you should make the following actions:
 Step 1: Create or open a dashboard with [chart](Dashboard_with_Chart.md), [gauge](Dashboard_with_Gauge.md), [indicator](Dashboard_with_Indicator.md), [progress](Dashboard_with_Progress.md);
 
 
@@ -120,9 +119,8 @@ Step 2: Click the Interaction on the Home tab of the report designer;
 Step 3: Uncheck a box next to the Allow User Sorting parameter if you need to disable the sorting direction commands for the current element, or set a checkbox next to this parameter if you want to enable the element sorting commands;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Sorting_12.png)
-
+![](../images/topics/Getting_Started.Dashboard_with_Sorting_13.png)
 Step 4: Go to the Preview tab.
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Sorting_13.png)
+![](../images/topics/Getting_Started.Dashboard_with_Sorting_14.png)

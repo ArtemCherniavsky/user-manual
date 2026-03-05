@@ -1,24 +1,24 @@
-Dashboard with Images
+## Dashboard with Images
 
 This chapter will cover the following:
 
-[Adding an Image element to the dashboard]();
+* [Adding an Image element to the dashboard](#addingimage);
 
-[Download image from a local storage]();
+* [Download image from a local storage](#loadinganimagefromalocalstorage);
 
-[Using the icon in the Image element]();
+* [Using the icon in the Image element](#aniconintheimageelement);
 
-[Download image via hyperlink]();
+* [Download image via hyperlink](#animagebyahyperlink);
 
-[Disabling aspect ratio]().
+* [Disabling aspect ratio](#aspectratio).
 
 **Adding Image**
 
 
-Step 1: [Run the report designer](Install_and_First_Run.md);
+Step 1: [Run the report designer](Install_and_First_Run.md#rundesigner);
 
 
-Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md);
+Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md#addingadashboardtothecurrentreport);
 
 
 Step 3: Select the Image element in the toolbox of the report designer or on the Insert tab;
@@ -32,7 +32,7 @@ Step 4: Place the item on the dashboard panel;
 Step 5: If the element editor does not open, double-click on the image;
 
 
-Step 6: Download the image from the [local storage](), select the [icon]() or specify a [hyperlink]() to the image.
+Step 6: Download the image from the [local storage](#loadinganimagefromalocalstorage), select the [icon](#aniconintheimageelement) or specify a [hyperlink](#animagebyahyperlink) to the image.
 
 Loading an image from a local storage
 

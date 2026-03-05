@@ -1,4 +1,4 @@
-Totals Associated with Bands
+## Totals Associated with Bands
 
 Important
 
@@ -6,7 +6,6 @@ Important
 Scripts can be a security risk, so they are disabled in the [Interpretation mode](../../Reports_Designer/Template/Calculation_Mode.md). However, if you are confident in the safety of your scripts, you can use them in the [Compilation mode](../../Reports_Designer/Template/Calculation_Mode.md).
 
 To calculate and display the total, you should place a text component in the report, call the editor and go to the Summary tab.
-
 ![](../../images/img1.png) The **Expression** field. This field specifies an expression of calculating totals. The expression can be specified manually, or it will be generated automatically, depending on the type of other parameters.
 
 ![](../../images/img_2.png) The **Summary Function** field. In this field, the function of calculating totals is selected.

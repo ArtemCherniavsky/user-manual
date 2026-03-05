@@ -1,4 +1,4 @@
-TOC Component
+## TOC Component
 
 The Table of Contents component is designed to automatically generate a table of contents in reports. The table of contents can be created by various components and in several levels.
 
@@ -7,16 +7,16 @@ The Table of Contents component is designed to automatically generate a table of
 
 Set up the table of contents using:
 
-The [component editor](), in which you select components to form table of contents levels;
+* The [component editor](#editor), in which you select components to form table of contents levels;
 
-[A list of properties for this component]().
+* [A list of properties for this component](#tableofproperties).
 
 
 To call the editor:
 
-Double-click on the Table of Contents element;
+* Double-click on the Table of Contents element;
 
-Select the Table of Contents element and select the Design command in the context menu;
+* Select the Table of Contents element and select the Design command in the context menu;
 
 
 Component Editor
@@ -27,16 +27,14 @@ In the table of contents editor, the hierarchy of the arrangement of report comp
 ![](../../images/topics/Report_Internals.Table_of_Contents.TOC_2.png)
 
 
-The report tree field represents the hierarchy of the components' locations in the report;
+* The report tree field represents the hierarchy of the components' locations in the report;
 
-The Expression field specifies a data column or other expression, the results of which will be the values for the table of contents in the report.
+* The Expression field specifies a data column or other expression, the results of which will be the values for the table of contents in the report.
 
 Creating a table of contents
 
 Here is an example of creating a table of contents for a Master-Detail report. First, decide whether the table of contents will be at the beginning, the end, or any other place in the report. Accordingly, the Table of Contents component should be placed in the template before or after the report components that form the report. In this example, the table of contents will be at the beginning of the report. The Table of Contents component can be added to the same template page where the main components are located. However, it is preferable to add a separate page in the template and place the Table of Contents component on it.
-
 The Master-Detail list is created using the DataBand1 and DataBand2 bands, where DataBand1 is the master and DataBand2 is the detail. In terms of the location of components in the report, these bands are on the same level. However, in the logical hierarchy of reporting, DataBand2 is subordinate to DataBand1. Accordingly, when creating a table of contents, entries from DataBand1 will be at the first level, and entries from DataBand2 will be at the second level.
-
 Thus, if you select DataBand1 and DataBand2 in the Table of Contents component editor, a two-level table of contents will be generated in the rendered report
 
 

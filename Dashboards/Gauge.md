@@ -1,4 +1,4 @@
-Gauge
+## Gauge
 
 **Gauge** is an element of the dashboard panel using which you can display the processed value from the data field.
 
@@ -6,24 +6,24 @@ Gauge
 
 This chapter will cover the following:
 
-[Gauge Editor]();
+* [Gauge Editor](#GaugeEditor);
 
-[Gauge Values]();
+* [Gauge Values](#GaugeValues);
 
-[Gauge Series]();
- [Gauge Types]();
- [Range of Values]();
- [Colored Ranges]();
- [Table of Properties]().
+* [Gauge Series](#GaugeSeries);
+* [Gauge Types](#GaugeTypes);
+* [Range of Values](#GaugeRange);
+* [Colored Ranges](#ColorRange);
+* [Table of Properties](#TableOfProperties).
 
 
 You may adjust the **Gauge** element in its editor. To call the editor, you should:
 
-Double-click the mouse left button on the item;
+* Double-click the mouse left button on the item;
 
-Select the **Gauge** element, and select the **Design** command in the context menu;
+* Select the **Gauge** element, and select the **Design** command in the context menu;
 
-Select the **Gauge** element, and, on the property panel, click the **Browse** button of the **Value** or **Series** properties.
+* Select the **Gauge** element, and, on the property panel, click the **Browse** button of the **Value** or **Series** properties.
 
 Gauge Editor
 
@@ -34,28 +34,28 @@ In the this editor adjusts the gauge.
 
 In the Gauge editor you can:
 
-Specify a data field with values for the gauge;
+* Specify a data field with values for the gauge;
 
-Specify the series of the gauge;
+* Specify the series of the gauge;
 
-Specify a data field with target values for the gauge;
+* Specify a data field with target values for the gauge;
 
-Select **Type** of the gauge;
+* Select **Type** of the gauge;
 
-Modify **Expression** of the selected element;
+* Modify **Expression** of the selected element;
 
-Select and adjust the range of the gauge;
+* Select and adjust the range of the gauge;
 
-Set the color palette of the gauge scale.
+* Set the color palette of the gauge scale.
 
 
 **Gauge values**
 
 To create a gauge on the dashboard panel, you need a data field in the **Value** field. To do this:
 
-Drag and drop the data column from the dictionary to the **Value** field, and for newly added items, drag it into the editor or the gauge area.
+* Drag and drop the data column from the dictionary to the **Value** field, and for newly added items, drag it into the editor or the gauge area.
 
-Create **New Field**. Set the expression for this element, the processing result of which will be the value for the gauge.
+* Create **New Field**. Set the expression for this element, the processing result of which will be the value for the gauge.
 
 
 ![](../images/topics/Dashboards.Gauge_3.png)
@@ -78,37 +78,37 @@ If you specify a data field with a list of product categories in series, then a 
 
 To specify the series of the gauge, you should do the following:
 
-Double-click the mouse left button on the gauge;
+* Double-click the mouse left button on the gauge;
 
-In the element editor, drag and drop the data column from the dictionary to the **Series** field.
+* In the element editor, drag and drop the data column from the dictionary to the **Series** field.
 
-Create **New Field** in the **Series** field. Set the expression for this element, the processing of which will be series for the gauge.
+* Create **New Field** in the **Series** field. Set the expression for this element, the processing of which will be series for the gauge.
 
 **Gauge types**
 
 The gauge can be of the following types:
 
-Full Circular;
+* Full Circular;
 
-Half-Circular;
+* Half-Circular;
 
-Vertical Linear;
+* Vertical Linear;
 
-Horizontal Linear;
+* Horizontal Linear;
 
-Bullet.
+* Bullet.
 
 
 ![](../images/topics/Dashboards.Gauge_7.png)
 
 To change the type of a gauge, you should:
 
-Double-click the mouse left button on the gauge;
+* Double-click the mouse left button on the gauge;
 
-Using the control buttons, select one of the types of a gauge.
+* Using the control buttons, select one of the types of a gauge.
 
 
-![](../images/topics/Dashboards.Gauge_8.png)
+![](../images/topics/Dashboards.Gauge_9.png)
 
 > **Information**
 >
@@ -118,20 +118,20 @@ Using the control buttons, select one of the types of a gauge.
 
 Regardless of the gauge type, its values and series, you can define a range of values. By default, the **AutoRange** mode is used. In this case, the initial and final value of the gauge scale is calculated automatically. However, if you need to specify a specific range of values, you should do the following:
 
-Double-click the mouse left button on the gauge;
+* Double-click the mouse left button on the gauge;
 
-In the **Mode** field, left-click on the menu.
+* In the **Mode** field, left-click on the menu.
 
-Select **Custom** in the drop-down list.
+* Select **Custom** in the drop-down list.
 
-
-![](../images/topics/Dashboards.Gauge_9.png)
-
-In the **Minimum** field you should set the initial value of the gauge scale;
-
-In the **Maximum** field you should set the maximum value of the gauge scale;
 
 ![](../images/topics/Dashboards.Gauge_10.png)
+
+* In the **Minimum** field you should set the initial value of the gauge scale;
+
+* In the **Maximum** field you should set the maximum value of the gauge scale;
+
+![](../images/topics/Dashboards.Gauge_11.png)
 
 Select the **Auto** value in the **Mode** field to enable the automatic mode for calculating the range of values of the gauge scale.
 
@@ -139,23 +139,23 @@ Select the **Auto** value in the **Mode** field to enable the automatic mode for
 
 By default, the gauge scale is monochromatic. However, you can adjust the color for a specific range of the scale. To do this:
 
-Double-click the mouse left button on the gauge;
+* Double-click the mouse left button on the gauge;
 
-Left-click in the **Range Type** field.
+* Left-click in the **Range Type** field.
 
-Select **Color** in the drop-down list.
+* Select **Color** in the drop-down list.
 
 
-![](../images/topics/Dashboards.Gauge_11.png)
+![](../images/topics/Dashboards.Gauge_13.png)
 
 
 Then you should:
 
-Determine the type of values for the scale range - **Percentage** or **Value**;
+* Determine the type of values for the scale range - **Percentage** or **Value**;
 
-Customize the list of ranges;
+* Customize the list of ranges;
 
-Customize every range by specifying the start - end values of the range and its color.
+* Customize every range by specifying the start - end values of the range and its color.
 
 **List of properties**
 

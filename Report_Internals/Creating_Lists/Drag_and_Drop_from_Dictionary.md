@@ -1,4 +1,4 @@
-Drag and Drop From Dictionary
+## Drag and Drop From Dictionary
 
 
 The report designer supports a way of dragging components, including the data dictionary. You can drag and drop data sources, columns, variables, functions, and more. You can create a list simply by dragging the data source from the dictionary in the report template. The picture below shows an example of dragging the data source Order Details from the Dictionary on the report page.

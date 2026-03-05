@@ -5,11 +5,11 @@ SVG (Scalable Vector Graphics) is an XML-based file format for describing two-di
 
 SVG allows three types of graphic objects:
 
-Vector graphics;
+* Vector graphics;
 
-Raster graphics;
+* Raster graphics;
 
-Text.
+* Text.
 
 
 The Images below shows the difference between exporting Bitmap format and SVG (vector) format.

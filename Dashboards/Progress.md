@@ -1,56 +1,56 @@
-Progress
+## Progress
 
 **Progress** is an element of the dashboard panel that represents the ability to display the growth rate (relative share) of a value relative to the target value.
 
-![](../images/topics/Dashboards.Progress_1.png)
+![](../images/topics/Dashboards.Progress_2.png)
 
 
 This chapter will cover the following:
 
-[Progress Editor]();
+* [Progress Editor](#ProgressEditor);
 
-[Progress Value]();
+* [Progress Value](#ProgressValue);
 
-[Progress Target Value]();
- [Progress Series]();
- [Progress Types]();
- [Table of Properties]().
+* [Progress Target Value](#ProgressTargetValue);
+* [Progress Series](#ProgressSeries);
+* [Progress Types](#ProgressTypes);
+* [Table of Properties](#TableOfProperties).
 
 
 To display **Progress**, you need to add a data field to the **Value** and **Target** fields. In this case, using the graphical element, the growth rate of the value in relation to the target will be displayed. You can setup the **Progress** element in the editor. To call the editor, you should:
 
-Double-click on the **Progress** element in the dashboard panel;
+* Double-click on the **Progress** element in the dashboard panel;
 
-Select the **Progress** element and select the Design command in the context menu;
+* Select the **Progress** element and select the Design command in the context menu;
 
-Select the **Progress** element, and, on the property panel, click the **Browse** button of the **Value**, **Target**, and **Rows** properties.
+* Select the **Progress** element, and, on the property panel, click the **Browse** button of the **Value**, **Target**, and **Rows** properties.
 
 > **Information**
 >
-> [Text formatting](Appearance.md) can be applied to the values of the current element.
+> [Text formatting](Appearance.md#TextFormat) can be applied to the values of the current element.
 
 **Progress editor**
 
 In the **Progress** editor, you can add elements with data, edit the expressions of these elements, select the type of a graphic element to display the calculated value.
 
-![](../images/topics/Dashboards.Progress_2.png)
+![](../images/topics/Dashboards.Progress_4.png)
 
 
 In the **Progress** editor you can:
 
-Specify the data field for the Progress value;
+* Specify the data field for the Progress value;
 
-Specify the data field for the target Progress value;
+* Specify the data field for the target Progress value;
 
-Specify the data field for the Progress series;
+* Specify the data field for the Progress series;
 
-Select the type of the graphic element.
+* Select the type of the graphic element.
 
 **Progress values**
 
 In the **Value** field, you can specify only one data field. All values of this field will be aggregated, i.e. a function will be applied to them. By default, this is a summation function for numeric values. If a data field with non-numeric values is added, then, by default, the function of the number of rows in this data field is applied to them.
 
-![](../images/topics/Dashboards.Progress_3.png)
+![](../images/topics/Dashboards.Progress_6.png)
 
 > **Information**
 >
@@ -59,9 +59,7 @@ In the **Value** field, you can specify only one data field. All values of this 
 **Target value of progress**
 
 To display the growth rate with the help of progress, besides the value in the progress it is necessary to indicate the **target** value. The target value is the aggregated value of the data field specified in the **Target** field of progress. Only one data field can be specified in this field. By default, the summation function for numeric values is applied to the data field in the **Target** field. If a field with non-numeric values is added, then by default the function of counting the number of rows in this data field is applied to it.
-
-
-![](../images/topics/Dashboards.Progress_4.png)
+![](../images/topics/Dashboards.Progress_8.png)
 
 > **Information**
 >
@@ -73,40 +71,38 @@ A series of progress is a separate progress for a specific segment of values sel
 
 For example, in the **Progress** value field, a field with the number of orders issued is set, and the planned number of orders is set to **Target** field. One progress will be displayed without specifying a series. The value of progress will be the growth rate (the value relative to the target value).
 
-![](../images/topics/Dashboards.Progress_5.png)
+![](../images/topics/Dashboards.Progress_9.png)
 
 If you specify a data field with a list of products in series, then the progress will be displayed for every product, i.e. the growth rate will be displayed for every product.
 
-![](../images/topics/Dashboards.Progress_6.png)
+![](../images/topics/Dashboards.Progress_10.png)
 
 If you specify a data field in the rows with a list of product categories, then progress will be displayed for every category, i.e. growth rate will be calculated by aggregating the growth rate of all products included into this category. In other words, the growth rate of every product will be grouped into the categories to which they relate.
 
-![](../images/topics/Dashboards.Progress_7.png)
+![](../images/topics/Dashboards.Progress_11.png)
 
 To set the series of progress, you should:
 
-Double-click the left mouse button on the **Progress** element;
+* Double-click the left mouse button on the **Progress** element;
 
-Drag and drop the data column from the dictionary to the **Series** field in the editor.
+* Drag and drop the data column from the dictionary to the **Series** field in the editor.
 
-Create **New Field** in the **Series** field. Set the expression for this data field, the processing result of which will be the values of the progress series.
+* Create **New Field** in the **Series** field. Set the expression for this data field, the processing result of which will be the values of the progress series.
 
 
 **Progress types**
 
 When creating the progress, you can select the type of graphic element with which the growth rate value will be displayed. To do this:
 
-Call the editor of the **Progress** element;
+* Call the editor of the **Progress** element;
 
-Use the buttons to select the mode of the graphic element - Circle, Pie, Data Bars.
+* Use the buttons to select the mode of the graphic element - Circle, Pie, Data Bars.
 
-![](../images/topics/Dashboards.Progress_8.png)
+![](../images/topics/Dashboards.Progress_13.png)
 
 
 Below are the three elements of progress with different modes.
-
-
-![](../images/topics/Dashboards.Progress_9.png)
+![](../images/topics/Dashboards.Progress_15.png)
 
 > **Information**
 >

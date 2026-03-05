@@ -1,4 +1,4 @@
-Common
+## Common
 
 The Common sub-tab includes settings related to the Chart component.
 
@@ -6,8 +6,8 @@ The Common sub-tab includes settings related to the Chart component.
 ![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Common_1.png)
 
 All settings for the Chart component are represented as properties. These properties are also duplicated in the Properties Panel in the report designer. You can adjust the chart's general settings either:
- In the component editor, under the Chart tab on the Common sub-tab;
- Select the Chart component in the report template and changing property values in the Properties Panel of the report designer.
+* In the component editor, under the Chart tab on the Common sub-tab;
+* Select the Chart component in the report template and changing property values in the Properties Panel of the report designer.
 
 
 Below is a table of properties used to configure the Chart component:

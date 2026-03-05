@@ -1,12 +1,12 @@
-Chart Style
+## Chart Style
 
 The Chart Style type is applied to the [Chart component](../../../Reports_Internals/Charts/Editor/index.md) in the report and to the [Chart element](../../../Dashboards/Chart.md) on the dashboard. To create a chart style, follow these steps:
 
-In the style designer, click the Add Style button and select the Chart style.
+* In the style designer, click the Add Style button and select the Chart style.
 
-Use the style properties to customize the formatting.
+* Use the style properties to customize the formatting.
 
-Apply the style to the [report components](index.md) or [dashboard elements](../../../Dashboards/Appearance.md)..
+* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle)..
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Chart_Style_1.png)
@@ -18,7 +18,7 @@ Apply the style to the [report components](index.md) or [dashboard elements](../
 >
 > Assign the preset style to the Chart component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md) button.
+> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > Adjust the obtained style using its properties.
 >
@@ -166,7 +166,7 @@ Enables or disables the display of series shadows. If the property is set to Tru
 
 Style Colors
 
-Creates a [collection of style colors](Style_Designer.md). These colors are applied sequentially to the graphics objects in the series.
+Creates a [collection of style colors](Style_Designer.md#StyleColors). These colors are applied sequentially to the graphics objects in the series.
 
 
 If the Color Each parameter is enabled for rows, then colors from the collection will be applied to graphic elements first. Then, shades for other graphic elements will be obtained by lightening these colors.

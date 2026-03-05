@@ -1,7 +1,6 @@
-Dot-Matrix
+## Dot-Matrix
 
 The Dot-Matrix viewer is designed to preview the report before printing it on a dot matrix printer. The Dot matrix printer is used to print only the text and characters of pseudographics. Accordingly, the viewer displays only the text and borders of objects as pseudographics characters.
-
 Toolbar
 
 The picture below shows the toolbar of the Dot-matrix viewer:
@@ -54,13 +53,13 @@ By default, Zoom X = 100%, Zoom Y = 100%. With these values of the parameter, th
 
 This corresponds to using the Pica font of the printer (80 characters per line) and the line spacing 1,0. The following values are frequently used:
 
-Zoom X = 100% corresponds to using the Pica font of the printer (80 characters per line);
+* Zoom X = 100% corresponds to using the Pica font of the printer (80 characters per line);
 
-Zoom X = 120% corresponds to using the Elite font of the printer (96 characters per line);
+* Zoom X = 120% corresponds to using the Elite font of the printer (96 characters per line);
 
-Zoom X = 170% corresponds to using the condensed font of the printer (136 characters per line);
+* Zoom X = 170% corresponds to using the condensed font of the printer (136 characters per line);
 
-Zoom Y = 100% corresponds to the using the line spacing 1,0.
+* Zoom Y = 100% corresponds to the using the line spacing 1,0.
 
 
 ![](../../images/img_9.png) Scale by the X-axis (Zoom X:), by page width.

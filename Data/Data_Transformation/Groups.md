@@ -1,11 +1,10 @@
-Grouping Data
+## Grouping Data
 
 Grouping data is their joining by some criterion or condition. The same data can be combined by various conditions. For example, data of product sale can be grouped by sales region or categories. In addition, data can be grouped by several conditions, i.e. into several levels. For example, data about product sales will be grouped firstly by regions and after by categories.
-
 You can group data when transforming data:
 
-Within one data table;
- Grouping data from one data table by a condition from another data table.
+* Within one data table;
+* Grouping data from one data table by a condition from another data table.
 
 
 > **Information**
@@ -24,8 +23,7 @@ Grouping data from one table
 
 For example, there are fields with category number, the set of products and sales of each product in the Products table. You should get data with sales by each category. To do it you should:
 
-Step 1: Drag a data source or a column from this source into the field list of a new data transformation. The Category ID, Product Name, Sales columns will be added in this example. 
-
+Step 1: Drag a data source or a column from this source into the field list of a new data transformation. The Category ID, Product Name, Sales columns will be added in this example.
 Step 2: For all fields except the field where the grouping is carried out, you should switch from the Dimension mode to the Measure. In this example, the field mode is changed for the column with the set of products and sales. The mode is not changed for the field with category number so as data will be grouped by the values of this field.
 
 
@@ -47,10 +45,8 @@ Step 2: For all fields except the field where the grouping is carried out you sh
 
 ![](../../images/topics/Data.Data_Transformation.Groups_4.png)
 
-Step 3: For all fields except the field where the grouping is carried out you should switch from the Dimension to the Measure mode. Since products are already grouped you should change the mode for the field with a list of products. 
-
-
-![](../../images/topics/Data.Data_Transformation.Groups_5.png)
+Step 3: For all fields except the field where the grouping is carried out you should switch from the Dimension to the Measure mode. Since products are already grouped you should change the mode for the field with a list of products.
+![](../../images/topics/Data.Data_Transformation.Groups_6.png)
 
 
 > **Information**

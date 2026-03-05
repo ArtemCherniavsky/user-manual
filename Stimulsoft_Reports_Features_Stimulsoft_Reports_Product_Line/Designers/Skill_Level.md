@@ -2,36 +2,36 @@
 
 > **Information**
 >
-> Please see [how to change the Skill level in the report designer](../../Getting_Started/Install_and_First_Run.md).
+> Please see [how to change the Skill level in the report designer](../../Getting_Started/Install_and_First_Run.md#chooseyourskilllevel).
 
 The Skill level in our reporting system is a set of report components, elements and their settings, additional tools and commands in the report designer. Below is a list with the names of options, components, and properties that will be available, depending on the skill level selected in the report designer.
 
 
 This chapter will cover the following:
 
-[Tools Table]();
+* [Tools Table](#toolstable);
 
-[Table of the components and their groups]();
+* [Table of the components and their groups](#reportcomponentstable);
 
-[Table of Components Common Properties]();
+* [Table of Components Common Properties](#commonpropertiesofreportcomponents);
 
-[Table of Bands Properties]();
+* [Table of Bands Properties](#bandspropertiestable);
 
-[Table of Cross Bands Properties]();
+* [Table of Cross Bands Properties](#crossbandspropertiestable);
 
-[Table of report items properties in the Components group]();
+* [Table of report items properties in the Components group](#componentspropertiestable);
 
-[Table of Barcode Properties]();
+* [Table of Barcode Properties](#barcodespropertiestable);
 
-[Table of Shapes Properties]();
+* [Table of Shapes Properties](#shapepropertiestable);
 
-[Table of Chart Properties]();
+* [Table of Chart Properties](#chartpropertiestable);
 
-[Table of Gauge Properties]();
+* [Table of Gauge Properties](#gaugepropertiestable);
 
-[Table of Map Properties]();
+* [Table of Map Properties](#mappropertiestable);
 
-[Table of dashboard elements Properties]().
+* [Table of dashboard elements Properties](#dashboardelementspropertiestable).
 
 Tools Table.
 

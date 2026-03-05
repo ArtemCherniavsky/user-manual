@@ -1,28 +1,28 @@
-Brush
+## Brush
 
 To fill background and text drawing you can use various brushes. Each **Brush** is a separate facture, which can be filled both with one color and several.
 
 
 To change a brush you should:
- Select a component in a report or a style in the designer of styles;
- Click the Browse button of the Brush property in the property panel;
+* Select a component in a report or a style in the designer of styles;
+* Click the Browse button of the Brush property in the property panel;
 
-Select a definite brush in the drop-down menu.
+* Select a definite brush in the drop-down menu.
 
 
 When setting design of components, the following brushes are available:
 
-Empty;
+* Empty;
 
-Solid;
+* Solid;
 
-Hatch;
+* Hatch;
 
-Gradient;
+* Gradient;
 
-Glare;
+* Glare;
 
-Glass.
+* Glass.
 
 
 Below you can see examples of the Brush.

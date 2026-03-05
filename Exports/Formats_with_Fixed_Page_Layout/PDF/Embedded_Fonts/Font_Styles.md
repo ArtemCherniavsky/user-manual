@@ -6,13 +6,13 @@ There is one peculiarity of the export: all fonts for embedding to PDF files sho
 
 For example, for the Arial font 4 files should be installed:
 
-"arial.ttf" - the regular style,
+* "arial.ttf" - the regular style,
 
-"ariali.ttf" - the italic style,
+* "ariali.ttf" - the italic style,
 
-"arialb.ttf" - the bold style,
+* "arialb.ttf" - the bold style,
 
-"arialbi.ttf" - the bold-italic style;
+* "arialbi.ttf" - the bold-italic style;
 
 This font is embedded correctly and all styles of this font can be output.
 

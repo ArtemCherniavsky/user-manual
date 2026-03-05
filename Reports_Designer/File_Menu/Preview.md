@@ -6,9 +6,7 @@ Stimulsoft Designer allows previewing a report before printing, exporting, sendi
 
 
 You can also preview the report in the separate window by using the F5 shortcut key or selecting Preview from the File menu.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Preview_2.png)
+![](../../images/topics/Reports_Designer.File_Menu.Preview_3.png)
 
 
 > **Information**

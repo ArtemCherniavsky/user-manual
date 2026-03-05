@@ -4,7 +4,7 @@
 The Group Footer band is commonly used to generate a group footer which is placed after the Data band bound to the group and typically contains components that output summary information relating to the group content. Every Group Footer band belongs to the Group Header band associated with it, and will not be output if there is no associated Group Header band.
 
 
-**Note:** The **Group Footer** band is always output before the Footer band regardless of where bands may be positioned on a page.
+* **Note:** The **Group Footer** band is always output before the Footer band regardless of where bands may be positioned on a page.
 
 
 ![](../../images/img_GroupFooter.png)

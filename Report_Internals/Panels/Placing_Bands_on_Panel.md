@@ -1,4 +1,4 @@
-Placing Bands on Panel
+## Placing Bands on Panel
 
 
 A panel can be placed on  a page, on a band, and on another panel. Almost all components of a report can be paced on a panel. But not all bands can be placed on a panel. A table below shows which bands can placed.

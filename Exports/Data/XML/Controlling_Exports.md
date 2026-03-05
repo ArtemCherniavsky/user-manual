@@ -3,11 +3,11 @@
 
 The following elements can be specified in the Tag property to control export to XML:
 
-DataType
+* DataType
 
-ExportType : "FieldName"
+* ExportType : "FieldName"
 
-Column: "FieldName" "DataRow"
+* Column: "FieldName" "DataRow"
 
 Several elements should be separated with the semicolon. The “DataType" element should be only one and should be placed first, other elements – if necessary.
 

@@ -1,4 +1,4 @@
-Margins
+## Margins
 
 
 When you print a report, it is common to encounter situations where the printer is unable to print to the edges of the paper, resulting in a loss of information. In other words, the page may have maximum text content, but due to the technical limitations of the printer, some information at the edges will not be printed. To avoid such issues, you should set report margins. Margins help divide the printable area and the remaining empty space around the edges of the page, known as fields.

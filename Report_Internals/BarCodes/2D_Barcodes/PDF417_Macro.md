@@ -1,4 +1,4 @@
-PDF417 Macro
+## PDF417 Macro
 
 PDF417 Macro is an extension of the standard PDF417 format that allows encoding very large data sets by splitting them into multiple symbol segments. Each segment is represented by a separate PDF417 barcode, and together they form one logical message.
 
@@ -9,12 +9,12 @@ This mechanism makes PDF417 Macro especially useful for encoding documents, long
 Key Features of PDF417 Macro
 
 
-Segmentation of large data
+* Segmentation of large data
 
 Data is divided into chunks (segments), each encoded into a separate PDF417 symbol.
 
 
-Message identification
+* Message identification
 
 Each barcode contains metadata identifying the sequence of the message:
 
@@ -28,7 +28,7 @@ Segment Count — the total number of segments.
 Checksum — optional, for data integrity validation.
 
 
-Automatic reconstruction
+* Automatic reconstruction
 
 Scanners and decoding software that support PDF417 Macro automatically recognize multiple barcodes with the same File ID, arrange them in the correct order using segment indices, and reconstruct the original full data set.
 

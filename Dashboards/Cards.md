@@ -1,42 +1,40 @@
-Cards
+## Cards
 
 Cards is a data analytics element, which allows you to display grouped values of data fields as a card.
-
-
-![](../images/topics/Dashboards.Cards_1.png)
+![](../images/topics/Dashboards.Cards_2.png)
 
 In this chapter the following questions will be considered:
 
-[Element editor]();
+* [Element editor](#editor);
 
-[Card Layout]();
+* [Card Layout](#ordertocreatecards);
 
-[The order of displaying values in cards]();
+* [The order of displaying values in cards](#ordertooutputvalues);
 
-[The order of displaying cards in an element]();
+* [The order of displaying cards in an element](#ordertooutputincards);
 
-[The color of cards background]();
+* [The color of cards background](#backcolor);
 
-[Table of Properties]().
+* [Table of Properties](#propertiestable).
 
 
 You can display on cards:
 
-Values from data fields and a graphic analysis applied to them; 
- Manually specified value;
+* Values from data fields and a graphic analysis applied to them;
+* Manually specified value;
 
-Images from data fields.
+* Images from data fields.
 
 
 Values display of the Cards element is customized in its editor and using properties. To call the editor, you should:
- Double click on the Cards element;
- Select the Cards element, and choose the Design command in the context menu.
+* Double click on the Cards element;
+* Select the Cards element, and choose the Design command in the context menu.
 
 
 Element Editor
 In the editor of the Cards element, you can add fields with data, the order of their display in each card, deletion and enable of different types of graphic data analysis.
 
-![](../images/topics/Dashboards.Cards_2.png)
+![](../images/topics/Dashboards.Cards_4.png)
 
 ![](../images/img_1.png) The list of data fields of the **Cards** element.
 
@@ -47,10 +45,10 @@ In the editor of the Cards element, you can add fields with data, the order of t
 * The Dimension is the type at which the value of the data field will be displayed in its initial state.
 
 * The Measure indicator is the type in which various functions can be applied to the values of the data field.
- The Data Bars is the type in which various functions can be applied to the values of a data field, and a Data Bars will be added for each value of this field.
- The Color Scale is the type in which various functions can be applied to the values of a data field, and a color scale will be added for each value of this field.
- The Indicator is the type in which various functions can be applied to the values of a data field, and an indicator will be added for each value of this field. 
- The Sparklines is the type in which a value of a data field will be presented as a graphic. By the way, in this case, the sparkline has several views – graphic, area, data bars, win/lose. In addition, you can define the mode of starting points for sparkline, graphic or area.
+* The Data Bars is the type in which various functions can be applied to the values of a data field, and a Data Bars will be added for each value of this field.
+* The Color Scale is the type in which various functions can be applied to the values of a data field, and a color scale will be added for each value of this field.
+* The Indicator is the type in which various functions can be applied to the values of a data field, and an indicator will be added for each value of this field.
+* The Sparklines is the type in which a value of a data field will be presented as a graphic. By the way, in this case, the sparkline has several views – graphic, area, data bars, win/lose. In addition, you can define the mode of starting points for sparkline, graphic or area.
 
 * The Bubble is the type in which various functions can be applied to the values of a data field, and each value will be presented as a bubble.
 
@@ -64,7 +62,7 @@ Card Layout
 When adding the first data field to the Cards element, for each value from a data column will be formed its own card. Next, if another data column will be added from the same source, its values will be added to existing cards as well as these data is compared in the source.
 
 
-![](../images/topics/Dashboards.Cards_3.png)
+![](../images/topics/Dashboards.Cards_5.png)
 
 If a data column will be added from another data source, its values will be added to existing cards if there is a connection between data sources. Otherwise, if there is no connection between data sources, for values from the second column data column will be formed their own cards.
 
@@ -74,7 +72,7 @@ The order of displaying values in the cards
 Each value from a data column, by default, it is displayed in a new row. The order of displaying values in rows of a card is defined by the location of fields in the Cards element editor. This way, the higher a data column, the higher a value from it in the card.
 
 
-![](../images/topics/Dashboards.Cards_4.png)
+![](../images/topics/Dashboards.Cards_6.png)
 
 
 If you need to display a value from the following data column in the same row as the previous one, you should use the Wrap Line property and set to the False value. After that, the values from the data column which is located in the element editor below will be displayed in the card of the same row.
@@ -85,24 +83,24 @@ The order of displaying cards in the element
 The order of displaying cards in the element is defined by the following element properties: Column Count and Orientation. By default, the Column Count property is set to 0 value, i.e. the number of columns in the element to display cards is calculated automatically. However, you can change it, having specified the necessary number of columns as a value of this property.
 
 
-![](../images/topics/Dashboards.Cards_5.png)
+![](../images/topics/Dashboards.Cards_7.png)
 
 The direction of cards columns filling depends on a value of the Orientation property and by default is defined as Horizontal, i.e. cards are displayed from left to right line by line.
 
 
-![](../images/topics/Dashboards.Cards_6.png)
+![](../images/topics/Dashboards.Cards_8.png)
 
 However, the Orientation property can be defined as the Vertical, i.e. firstly cards will be filled with from top to bottom, after in the next right column.
 
 
-![](../images/topics/Dashboards.Cards_7.png)
+![](../images/topics/Dashboards.Cards_9.png)
 
 
 Cards Back Color
 By default, cards back color in the element and the element back color are defined from the Back Color property. The value for this property can be received from the element style or defined from the Back Color property. However, each card can have its own shade. It depends on the value of the Color Each property. If the Color Each property is set to the True value, each card will have a unique shade.
 
 
-![](../images/topics/Dashboards.Cards_8.png)
+![](../images/topics/Dashboards.Cards_10.png)
 
 Color sets for creating shades depend on a value of the Series Colors property and can be received from a style of the element or defined from preset color collections in the list of values of this property.
 

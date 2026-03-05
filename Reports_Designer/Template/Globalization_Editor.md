@@ -1,4 +1,4 @@
-Globalization Editor
+## Globalization Editor
 
 When designing reports, there can be situations when users who view rendered reports have different language cultures. In this case, they can make the required number of copies of the report, each of which is localized in a specific language. However, when editing one report template, you will have to do changes in all of its copies. Thus, every change in the report template will increase the time spent on preparing the report and significantly increases the likelihood of errors in copies of this report.
 
@@ -6,27 +6,27 @@ When designing reports, there can be situations when users who view rendered rep
 Our report generator provides the ability to localize the report depending on the selected report culture. The **Globalization Strings** tool is used for this. You can define a list of cultures with which the elements of the report will be translated. The items for which you can configure localization include:
 
 
-Report properties: Report Alias, Report Author, Report Description;
+* Report properties: Report Alias, Report Author, Report Description;
 
-Text component, text in cells, Rich text;
+* Text component, text in cells, Rich text;
 
-Each cell of the Table and the Cross-tab components;
+* Each cell of the Table and the Cross-tab components;
 
-Variables in the report;
+* Variables in the report;
 
-The text fields of the Chart component (labels, legends, rows, charts, and also you can override the values of the text properties before and the text after these chart items).
+* The text fields of the Chart component (labels, legends, rows, charts, and also you can override the values of the text properties before and the text after these chart items).
 
 
 You should know that for each text component, as well as for each cell in the **Table** and **Cross-tab**, you can override several properties of this component. For example, if the report uses the text component **Text1**, then:
 
 
-In the **Text1.Hyperlink** property, you can specify a hyperlink (or expression) when you select a specific culture. For example, you can specify a hyperlink (or expression) on a localized page of your website.
+* In the **Text1.Hyperlink** property, you can specify a hyperlink (or expression) when you select a specific culture. For example, you can specify a hyperlink (or expression) on a localized page of your website.
 
-In the **Text1.Tag** property, you can specify a tag (or expression) for this text component when you select a specific culture. The tags in the report are used to refer to a particular report component.
+* In the **Text1.Tag** property, you can specify a tag (or expression) for this text component when you select a specific culture. The tags in the report are used to refer to a particular report component.
 
-In the **Text1.Text** property, you can specify the text (or expression) of the text component that will be processed when the report is rendered and displayed to the user when a particular culture is selected.
+* In the **Text1.Text** property, you can specify the text (or expression) of the text component that will be processed when the report is rendered and displayed to the user when a particular culture is selected.
 
-In the **Text1.Tooltip** property, you can specify the tooltip (or expression) of this text component when you select a specific culture.
+* In the **Text1.Tooltip** property, you can specify the tooltip (or expression) of this text component when you select a specific culture.
 
 
 If a property is not filled, then when you select a specific culture, the result will be empty. For example, if you do not specify anything for a particular culture in the **Text1**. Text property, then when you select this culture, the text component will be printed without any content.

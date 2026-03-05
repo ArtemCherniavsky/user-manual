@@ -1,4 +1,4 @@
-Shrink Font To Fit Property
+## Shrink Font To Fit Property
 
 
 The **Shrink Font To Fit** property of a text component is used when it is necessary to adjust the height of the text to the size of the text component. This property can be found on the Properties Panel.
@@ -28,7 +28,7 @@ When the **Shrink Font To Fit** property is set to **true**, the text in the vie
 ![](../../images/topics/Report_Internals.Output_Text_Parameters.Shrink_Font_To_Fit_Property_4.png)
 
 
-**Notice:** The Shrink Font To Fit is a post-processing property and this should be taken into account when adjusting the text component. If you enabled CanBreak and CanShrink properties, then, when rendering a report, the text component will take a size corresponding to the height of the text on the basis of preset font size.
+* **Notice:** The Shrink Font To Fit is a post-processing property and this should be taken into account when adjusting the text component. If you enabled CanBreak and CanShrink properties, then, when rendering a report, the text component will take a size corresponding to the height of the text on the basis of preset font size.
 
 
 **CanBreak** and **CanShrink** properties are disabled, but **Shrink Font To Fit** is set to **true**

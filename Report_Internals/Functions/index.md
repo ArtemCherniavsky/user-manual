@@ -1,4 +1,4 @@
-Functions
+## Functions
 
 The data dictionary has the **Functions** category. This category contains the elements using which you can calculate a specific total or return the desired value. All elements of the Function category are divided into groups. The table below shows a list of functions and their brief description and examples.
 

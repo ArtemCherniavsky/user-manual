@@ -1,4 +1,4 @@
-Product Comparison
+## Product Comparison
 
 See the table below to find which components are part of Stimulsoft products.
 

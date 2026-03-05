@@ -1,39 +1,35 @@
-Web content
+## Web content
 
 Web Content is an element through which you can display various types of content from the Internet, including videos, web pages, animated images, and more, on the indicator panel within the viewer. To exhibit content in Stimulsoft Designer, the WebView2 environment is utilized. Consequently, the dashboard can showcase everything that a web browser can display.
-
-
-![](../images/topics/Dashboards.webcontent_1.png)
+![](../images/topics/Dashboards.webcontent_2.png)
 
 This chapter will cover the following questions:
 
-[Web Content editor]();
+* [Web Content editor](#webcontenteditor);
 
-[List of properties]().
+* [List of properties](#propertiestable).
 
 The Web Content can be positioned anywhere on the dashboard. Setting the content source is accomplished in the element editor. To access the editor:
 
-Double-click the Web Content element.
+* Double-click the Web Content element.
 
-Select the Web Content element and choose the Design command from the context menu.
+* Select the Web Content element and choose the Design command from the context menu.
 
-Choose the Web Content element and click the Design button.
+* Choose the Web Content element and click the Design button.
 
 To resize the Web Content element:
 
-Select it on the indicator panel.
+* Select it on the indicator panel.
 
-Adjust the size vertically, horizontally, or diagonally as needed.
-
-
+* Adjust the size vertically, horizontally, or diagonally as needed.
 Web Content editor
 The editor specifies the source URL for the content to be displayed or the embed code. Within one element, you can display content from only one source - either via a link or by using an embed code.
 
-![](../images/topics/Dashboards.webcontent_2.png)
+![](../images/topics/Dashboards.webcontent_4.png)
 
-In the URL field, you can specify a link to web content.
+* In the URL field, you can specify a link to web content.
 
-In the Embed Code field, you can specify a code to embed the content.
+* In the Embed Code field, you can specify a code to embed the content.
 
 
 **List of properties**

@@ -1,4 +1,4 @@
-Processing Duplicates
+## Processing Duplicates
 
 
 In many reports there is a necessity to join a few Text components in one which contain duplicated values. The ProcessingDuplicates property is used for this. It should be set to true.

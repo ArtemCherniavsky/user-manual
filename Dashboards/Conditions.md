@@ -1,4 +1,4 @@
-Conditions
+## Conditions
 
 Conditional formatting is used to highlight information in a certain color.
 
@@ -6,36 +6,36 @@ Conditional formatting is used to highlight information in a certain color.
 ![](../images/topics/Dashboards.Conditions_1.png)
 
 This chapter will cover the following:
- [Condition editor]();
+* [Condition editor](#conditioneditor);
 
-[Condition parameters of Table]();
+* [Condition parameters of Table](#conditionparametersoftable);
 
-[Condition parameters of Chart]();
+* [Condition parameters of Chart](#conditionparametersofchart);
 
-[Condition parameters of Pivot Table]()
+* [Condition parameters of Pivot Table](#conditionparametersofpivottable)
 
-[Condition parameters of Indicator]();
+* [Condition parameters of Indicator](#conditionparametersofindicator);
 
-[Condition parameters of Progress]();
+* [Condition parameters of Progress](#conditionparametersofprogress);
 
-[Terms of using conditions]();
- [Table of condition operations]().
+* [Terms of using conditions](#termsofusingconditions);
+* [Table of condition operations](#tableofoperations).
 
 
 Conditional formatting can be applied to the following elements of the dashboards:
 
-[Chart](Chart.md);
+* [Chart](Chart.md);
 
-[Pivot](Pivot_Table.md);
+* [Pivot](Pivot_Table.md);
 
-[Indicator](Indicator.md).
+* [Indicator](Indicator.md).
 
 
 Conditional formatting is configured in the condition editor. To call this editor, you should:
 
-Select an element on the dashboard panel;
+* Select an element on the dashboard panel;
 
-Click the Condition button on the Home tab in the report designer.
+* Click the Condition button on the Home tab in the report designer.
 
 Condition editor
 
@@ -54,7 +54,7 @@ In the editor, conditions can be added, configured, moved and deleted.
 
 > **Information**
 >
-> All conditions are processed sequentially in the direction from top to bottom - the higher is the condition in the list, the earlier it is processed and applied. To move a condition above or below the others, you should place the cursor, hold down the left cursor button and drag the cursor up or down. See the details [how to apply the conditions]().
+> All conditions are processed sequentially in the direction from top to bottom - the higher is the condition in the list, the earlier it is processed and applied. To move a condition above or below the others, you should place the cursor, hold down the left cursor button and drag the cursor up or down. See the details [how to apply the conditions](#termsofusingconditions).
 
 Condition parameters of Table
 
@@ -71,7 +71,7 @@ For each new condition, you should specify the parameters of its applying. The c
  The Data Type parameter is used to specify the type of condition values.
 
 ![](../images/topics/Dashboards.Conditions_6.png)
- The Condition parameter is used to specify the [condition operation](), which means the operation of logical comparison of the initial value of the series and the value of the condition.
+ The Condition parameter is used to specify the [condition operation](#tableofoperations), which means the operation of logical comparison of the initial value of the series and the value of the condition.
 
 ![](../images/topics/Dashboards.Conditions_7.png)
  The Value parameter is used to specify a condition value.
@@ -103,7 +103,7 @@ For each new condition, you should specify the parameters of its applying. The c
  The Data Type parameter is used to specify the type of condition values.
 
 ![](../images/topics/Dashboards.Conditions_11.png)
- The Condition parameter is used to specify the [condition operation](), which means the operation of logical comparison of the initial value of the series and the value of the condition.
+ The Condition parameter is used to specify the [condition operation](#tableofoperations), which means the operation of logical comparison of the initial value of the series and the value of the condition.
 
 ![](../images/topics/Dashboards.Conditions_12.png)
  The Value parameter is used to specify a condition value.
@@ -134,7 +134,7 @@ For each new condition, you should specify the parameters of its application and
 
 ![](../images/img_2.png) The Data Type parameter. It is used to specify the type of condition values. This parameter affects how the report engine handles the condition. Also, the list of condition operations depends on this parameter.
 
-![](../images/img_3.png) The Condition parameter. It is used to specify the [condition operation](), the operation of a logical comparison of the initial value from the data field, and the value from the condition.
+![](../images/img_3.png) The Condition parameter. It is used to specify the [condition operation](#tableofoperations), the operation of a logical comparison of the initial value from the data field, and the value from the condition.
 
 ![](../images/img_4.png) The Value parameter. It is used to specify a condition value.
 
@@ -170,7 +170,7 @@ For each new condition, you should specify the parameters of its application and
 
 ![](../images/img_1.png) The Field Is parameter is used to specify the field from which the initial values will be taken: from the value field, target, series etc.
 
-![](../images/img_2.png) The Condition parameter is used to specify the [condition operation](). This is the operation of logical comparison of the initial value from the data field and the value from the condition.
+![](../images/img_2.png) The Condition parameter is used to specify the [condition operation](#tableofoperations). This is the operation of logical comparison of the initial value from the data field and the value from the condition.
 
 ![](../images/img_3.png) The Value parameter is used to specify a condition value.
 
@@ -191,7 +191,7 @@ For each new condition, you should specify the parameters of its application and
 ![](../images/img_11.png) The Target Icon group of parameters is used to change the appearance of the relative value icon, its position and color. You should know that the color of the target icon will also be applied to the deviation value.
 
 
-Also, when using the indicator conditions, the procedure for [applying the conditions]() should be considered. Below is a [step-by-step example of using conditional formatting for an indicator]().
+Also, when using the indicator conditions, the procedure for [applying the conditions](#termsofusingconditions) should be considered. Below is a [step-by-step example of using conditional formatting for an indicator](#conditionparametersofindicator).
 
 Condition parameters of Progress
 
@@ -203,7 +203,7 @@ For each new condition, you should specify the parameters of its application and
 
 ![](../images/img_1.png) The Field Is parameter is used to specify the field from which the initial values will be taken: from the value field, target, series etc.
 
-![](../images/img_2.png) The Condition parameter is used to specify the [condition operation](). This is the operation of logical comparison of the initial value from the data field and the value from the condition.
+![](../images/img_2.png) The Condition parameter is used to specify the [condition operation](#tableofoperations). This is the operation of logical comparison of the initial value from the data field and the value from the condition.
 
 ![](../images/img_3.png) The Value parameter is used to specify a condition value.
 
@@ -222,10 +222,10 @@ Terms of using conditions
 All conditions are processed sequentially, in the "from top to down" direction in the list of conditions. When creating multiple conditions for a single element, logical operations should be considered.
 
 
-Considering the [logical operation]() of the condition and the value of the condition, a range of element values is formed to which formatting will be applied. For example, a condition operation is less than, a condition value is 3. Therefore, formatting will be applied to all element values that are less than 3.
+Considering the [logical operation](#tableofoperations) of the condition and the value of the condition, a range of element values is formed to which formatting will be applied. For example, a condition operation is less than, a condition value is 3. Therefore, formatting will be applied to all element values that are less than 3.
 
 
-For the [example discussed bottom](), change the order of the conditions - move the condition of maximum values ​​(green color) above the average values ​​(yellow color).
+For the [example discussed bottom](#conditionparametersofchart), change the order of the conditions - move the condition of maximum values ​​(green color) above the average values ​​(yellow color).
 
 
 ![](../images/topics/Dashboards.Conditions_17.png)

@@ -1,4 +1,4 @@
-Barcode Editor
+## Barcode Editor
 
 When you add the Barcode component in the report template, the bar code editor is called.
 
@@ -24,7 +24,7 @@ The Barcode editor consists of two tabs:
 
 Consider the barcode parameters in detail:
 
-![](../../images/topics/Report_Internals.BarCodes.Editor_2.png)
+![](../../images/topics/Report_Internals.BarCodes.Editor_3.png)
 
 
 ![](../../images/img1.png) The **Code** field. Specifies a value that bar code will have. For example, you can determine a custom value. For the QR Code, it may be some text and numeric value. Also in this field, you can specify an expression. Then, the result of this expression will be the value of the barcode.
@@ -41,12 +41,12 @@ Consider the barcode parameters in detail:
 
 ![](../../images/img_7.png) The Show Label Text parameter allows showing/hiding the label text of the barcode. This is applicable not for all barcodes but only for those who have a labels. The label shows the value of the barcode. For example, the picture below shows two Code128 barcodes - one with a label, the other without it.
 
-![](../../images/topics/Report_Internals.BarCodes.Editor_3.png)
+![](../../images/topics/Report_Internals.BarCodes.Editor_5.png)
 
 ![](../../images/img_8.png) The Quiet zone parameter. It provides the ability to display or hide a quiet zone of a barcode. The Quiet zone is an empty space on the left and right side of the barcode. It is a conditional border of the beginning and end of the barcode for barcode readers. One example of the use of the Quiet zone is the case when there are several barcodes. If the Quiet zone is disabled, then the barcodes can be misread. Below is an example of two barcodes with enabled and disabled Quiet zones.
 
 
-![](../../images/topics/Report_Internals.BarCodes.Editor_4.png)
+![](../../images/topics/Report_Internals.BarCodes.Editor_6.png)
 
 
 ![](../../images/img_9.png) The preview panel.

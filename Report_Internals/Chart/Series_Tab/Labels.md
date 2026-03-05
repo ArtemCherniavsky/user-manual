@@ -6,14 +6,13 @@ Series Labels are a visual representation of values, arguments, tags, series nam
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Labels_1.png)
 
 Series label settings can be obtained from:
- Chart label settings.
- Settings for the current series.
-
+* Chart label settings.
+* Settings for the current series.
 To configure the labels for the current series:
- In the component editor, go to the Series tab and find the Series Labels group;
- Set the Show Series Labels parameter to From Series;
- Select the placement type for the labels;
- Adjust the label settings using the available properties.
+* In the component editor, go to the Series tab and find the Series Labels group;
+* Set the Show Series Labels parameter to From Series;
+* Select the placement type for the labels;
+* Adjust the label settings using the available properties.
 
 > **Information**
 >

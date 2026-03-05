@@ -21,4 +21,4 @@ Customers.CustomerName == "MyCustomer"
 If the expression cannot return a boolean value then the report generator will not be able to render the conditional formatting.
 
 
-**Important:** The expression MUST return a boolean value or the conditional formatting will fail.
+* **Important:** The expression MUST return a boolean value or the conditional formatting will fail.

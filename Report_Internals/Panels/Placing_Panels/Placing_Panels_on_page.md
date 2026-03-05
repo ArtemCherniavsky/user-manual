@@ -7,4 +7,4 @@ It is the first way. Basically it is used as organization some independent strea
 ![](../../../images/topics/Report_Internals.Panels.Placing_Panels.Placing_Panels_on_page_1.png)
 
 
-**Notice:** Number of panels on one page is unlimited.
+* **Notice:** Number of panels on one page is unlimited.

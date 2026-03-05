@@ -13,25 +13,25 @@ Suppose that you want the calculated value in the RTF text to be a specific colo
 ![](../../images/img_RTF_Expressions1.png)
 
 
-Formatting is fully applied to the expression. This expression will work correctly.
+* Formatting is fully applied to the expression. This expression will work correctly.
 
 
 ![](../../images/img_RTF_Expressions2.png)
 
 
-Formatting is applied to only part of the expression. This expression will not work.
+* Formatting is applied to only part of the expression. This expression will not work.
 
 
 ![](../../images/img_RTF_Expressions3.png)
 
 
-Formatting is fully applied to the expression, but the braces are not included. This expression will not work.
+* Formatting is fully applied to the expression, but the braces are not included. This expression will not work.
 
 
 ![](../../images/topics/Report_Internals.Rich_Text_Output.Expressions_In_Rich_Text_1.png)
 
 
-Formatting does not include the opening brace. This expression will not work.
+* Formatting does not include the opening brace. This expression will not work.
 
 
 You should know that in the expressions of the RichText component only plain text can be inserted this way (without formatting commands). So it is not possible to insert the RTF text. You can only assign all of its properties with help of the DataColumn.

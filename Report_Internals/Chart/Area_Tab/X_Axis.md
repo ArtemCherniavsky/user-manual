@@ -1,13 +1,11 @@
 ## X Axis
 
 The X Axis tab contains settings for the argument axis and its labels.
+![](../../../images/topics/Report_Internals.Chart.Area_Tab.X_Axis_2.png)
 
-
-![](../../../images/topics/Report_Internals.Chart.Area_Tab.X_Axis_1.png)
-
-To configure the X Axis of the chart, you need:  
- Open the component editor and go to the Area tab, then select the X Axis tab;
- Set the desired property values.
+To configure the X Axis of the chart, you need:
+* Open the component editor and go to the Area tab, then select the X Axis tab;
+* Set the desired property values.
 
 Below is a table of properties used to configure the X Axis.
 

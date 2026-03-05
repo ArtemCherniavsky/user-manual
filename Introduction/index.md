@@ -1,4 +1,4 @@
-Introduction
+## Introduction
 
 Welcome to the online version of the documentation Stimulsoft Reports. This part of documentation describes basic approaches in work with GUI. Here you can find the answers on all your questions, find out about main abilities, master the skills of working with the report designer, viewer and other utilities. Also you will learn how to use the components for designing reports, formatting, filtering, and creating styles for reports.
 
@@ -91,7 +91,7 @@ Work with Data:
 
 Reports:
 
-[Import](../Reports_Designer/File_Menu/Open.md)
+[Import](../Reports_Designer/File_Menu/Open.md#Import)
 
 [Publish](../Reports_Designer/File_Menu/Publish.md)
 

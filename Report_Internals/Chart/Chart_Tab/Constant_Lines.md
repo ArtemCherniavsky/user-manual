@@ -1,4 +1,4 @@
-Constant Lines
+## Constant Lines
 
 Constant Lines are horizontal or vertical lines on a chart that represent a specific value on the axis.
 
@@ -7,9 +7,9 @@ Constant Lines are horizontal or vertical lines on a chart that represent a spec
 
 To add a constant line:
 
-In the component editor, go to the Chart tab and select the Constant Lines sub-tab;
- Click the Add Constant Line button;
- Configure the line using the available properties.
+* In the component editor, go to the Chart tab and select the Constant Lines sub-tab;
+* Click the Add Constant Line button;
+* Configure the line using the available properties.
 
 
 > **Information**

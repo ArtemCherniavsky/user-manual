@@ -1,15 +1,15 @@
-Editing
+## Editing
 
 
 In our reporting we have the ability to edit some of the components of a rendered report in the viewer, or in the preview tab. As a rule, it must be made before printing or exporting. The components that can be changed are:
 
-Text;
+* Text;
 
-Text in Cells;
+* Text in Cells;
 
-Rich text;
+* Rich text;
 
-Checkbox.
+* Checkbox.
 
 
 To make it possible to edit the report components, you should set the Editable property of these components to Yes. Then, you can modify these components in the viewer using the tool Editor. In text components editing means changing the text, and in the checkbox editing means changing the value (true or false).

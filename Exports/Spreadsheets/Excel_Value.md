@@ -1,14 +1,13 @@
-Excel value
+## Excel value
 
 When exporting a report to spreadsheets, each value of data will be located in a specific cell in the Excel spreadsheet. For example, if there are four columns of data and ten rows in a rendered report, when exporting to the Excel spreadsheet 40 cells will be filled up.
 
 
-However, sometimes we need to apply Excel formulas to these cells. It can be done in a finished document, when opening it for editing or defining a formula in the Excel value for a text component in the report designer when designing a report. 
-
+However, sometimes we need to apply Excel formulas to these cells. It can be done in a finished document, when opening it for editing or defining a formula in the Excel value for a text component in the report designer when designing a report.
 To set a formula for the Excel text component you should:
- Highlight this text component in a report template;
- Click on the Browse on the Properties panel for the Excel value property;
- Set an Excel formula in an opened editor.
+* Highlight this text component in a report template;
+* Click on the Browse on the Properties panel for the Excel value property;
+* Set an Excel formula in an opened editor.
 
 
 > **Information**
@@ -21,22 +20,19 @@ To set a formula for the Excel text component you should:
 
 
 Let`s look at several examples of using Excel formulas in a report template. For example, there is a report with the list of products, their prices, the number of orders and products in the warehouse.
-
 Sample 1
 Apart from data this report doesn`t have other components. All 4 columns and each of them has 77 values. It means that when exporting to Excel the cells will be filled up:
- The names of the products will be in the cells A1 through A77;
- Prices of the products will be in the cells B1 through B77;
+* The names of the products will be in the cells A1 through A77;
+* Prices of the products will be in the cells B1 through B77;
 
-The number of the products orders will be in the cells C1 through C77.
+* The number of the products orders will be in the cells C1 through C77.
 
-The number of the products in the warehouse will be in the cells D1 through D77.
+* The number of the products in the warehouse will be in the cells D1 through D77.
 
 For example, you need in the column D shows not the number of products in the warehouse, but the volume of products sales (price multiplied by the number of orders). In this case, you should:
 
-**Step 1**: Highlight the text component, where the result of the Excel formula calculating must be shown; 
-
+**Step 1**: Highlight the text component, where the result of the Excel formula calculating must be shown;
 **Step 2**: On the Properties panel, click on the Browse for the Excel value property;
-
 **Step 3**: Set an Excel formula in an opened editor. In this case the **=B{Line}*C{Line}** formula.
 
 
@@ -87,7 +83,7 @@ Step 4: Define the export settings, click on **OK**;
 **Step 6**: Open this saved document and memorize the range of cells with data.
 
 
-![](../../images/topics/Exports.Spreadsheets.Excel_Value_4.png)
+![](../../images/topics/Exports.Spreadsheets.Excel_Value_5.png)
 
 Step 7: Go back to the report designer with this template;
 
@@ -118,7 +114,7 @@ Step 15: Select a place to save the Excel document, change name, and click on th
 
 After that, open this Excel document, a formula will be calculated for each cell in the E column, and due to this, the value will display in the cell. In this case, the volume of sales for each product will be calculated.
 
-![](../../images/topics/Exports.Spreadsheets.Excel_Value_5.png)
+![](../../images/topics/Exports.Spreadsheets.Excel_Value_6.png)
 
 
 > **Information**

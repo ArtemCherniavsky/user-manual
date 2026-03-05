@@ -5,9 +5,9 @@ The DataMatrix barcode was created by the CiMatrix company to accommodate large 
 
 For compatibility of the DataMatrix barcode with GS1, you should to do the following:
 
-Set the Process Tilde property to true;
+* Set the Process Tilde property to true;
 
-Add the prefix ~FNC1 in the Code field. For example, the expression will be like this: ~FNC1{your_datasource.field_name}.
+* Add the prefix ~FNC1 in the Code field. For example, the expression will be like this: ~FNC1{your_datasource.field_name}.
 
 
 Data Matrix symbols are rectangular in shape and usually square, they are made of cells: little elements that represent individual bits.

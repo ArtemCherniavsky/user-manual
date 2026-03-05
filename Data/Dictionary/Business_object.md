@@ -1,4 +1,4 @@
-Business Object
+## Business Object
 
 A **Business object** is an object of the data class that can be used to represent data in various structures: tables, lists, arrays, etc. To create a description of the business object in the data dictionary, you need to select **New Business Object...** in the context menu of the data dictionary or in the menu **New Item**. After selecting this command the first dialog box of New Business Object will be opened. The picture below shows the first dialog box New Business Object:
 

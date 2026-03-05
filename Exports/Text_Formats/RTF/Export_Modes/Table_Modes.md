@@ -6,20 +6,20 @@ In this mode the whole report is converted into a single table. When exporting t
 
 Depending on the value of the Use Page Headers and Footers property the report is exported as follow:
 
-value is set to false - the report is exported "as is" and will look the same as in preview;
+* value is set to false - the report is exported "as is" and will look the same as in preview;
 
-value is set to true - the report is additionally processed, all changes are described in the text below.
+* value is set to true - the report is additionally processed, all changes are described in the text below.
 
 
 The list of document changes:
 
-PageHeaders and PageFooters are exported as MS-Word objects. So they are cut from the table and other bands are converted into a single page. It is very convenient because it is easy to correct the document, for example, to put or edit text in cells, change the cell size; all data are moved, and headers and footers of a page stay on their place. (Notice: the header and the footer are exported from the first page of a report, others are ignored; in addition the improvement was done: now the header is searched on the second page; if the property PrintOn of this header is set to ExceptFirstPage, then everything is exported correctly (using the RTF tags) - the header will not be output on the first page.
+* PageHeaders and PageFooters are exported as MS-Word objects. So they are cut from the table and other bands are converted into a single page. It is very convenient because it is easy to correct the document, for example, to put or edit text in cells, change the cell size; all data are moved, and headers and footers of a page stay on their place. (Notice: the header and the footer are exported from the first page of a report, others are ignored; in addition the improvement was done: now the header is searched on the second page; if the property PrintOn of this header is set to ExceptFirstPage, then everything is exported correctly (using the RTF tags) - the header will not be output on the first page.
 
-If the Header of the PrintOnAllPages property is enabled, then it is exported as the table header, and is correctly output on each page.
+* If the Header of the PrintOnAllPages property is enabled, then it is exported as the table header, and is correctly output on each page.
 
-The height or rows in not exported (the "not set" mode; by default the "precise" mode is set).
+* The height or rows in not exported (the "not set" mode; by default the "precise" mode is set).
 
-If the Tag field is not empty, then the content of the Tag field is exported. The Text field is not exported. The following expression can be used to change MS-Word commands:
+* If the Tag field is not empty, then the content of the Tag field is exported. The Text field is not exported. The following expression can be used to change MS-Word commands:
 
 
 Name

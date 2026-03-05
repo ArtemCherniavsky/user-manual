@@ -2,24 +2,24 @@
 
 This component is used to graphically sign a report. The following can be used as an electronic signature:
 
-Drawing initials and full name with different styles;
+* Drawing initials and full name with different styles;
 
-Signature style, text, image, or their combinations.
+* Signature style, text, image, or their combinations.
 
 
-Electronic signature settings can be found in the component editor and using the [component properties](). To call the editor:
+Electronic signature settings can be found in the component editor and using the [component properties](#tableofproperties). To call the editor:
 
-Double click on the Electronic Signature component;
+* Double click on the Electronic Signature component;
 
-Select the Signature component and select the Design command from the context menu.
+* Select the Signature component and select the Design command from the context menu.
 
 The general algorithm for adding a signature is as follows:
 
-Call the editor;
+* Call the editor;
 
-Define the signature parameters in the [Type]() or [Draw]() tab;
+* Define the signature parameters in the [Type](#type) or [Draw](#draw) tab;
 
-Click the Save button in the component editor. The Sign command will be instead of the Save command if the report will be signing in the viewer.
+* Click the Save button in the component editor. The Sign command will be instead of the Save command if the report will be signing in the viewer.
 
 **Sign of the report**
 
@@ -31,8 +31,6 @@ When adding the Electronic Signature component to a report, you can change the s
 > Please note that if the Sign command is not displayed on the viewer toolbar, then it should be enabled in the report template [preview settings](../../Reports_Designer/Template/Preview_Settings.md).
 
 The Sign command will become unavailable on the toolbar after a report has be signed in the viewer. The report can only be verified once.
-
-
 Report re-sign in the viewer
 
 You can set the Allow Clear Signature property of the component to True in the report designer if you would to have the ability for removing report signature in the viewer. After that, you can remove report signature in the viewer using Clear Signature command from the context menu.
@@ -58,7 +56,7 @@ Electronic signature parameters of the Type mode
 In this mode, you can specify the full spelling of the name and initials, and then determine the writing style.
 
 
-![](../../images/topics/Report_Internals.Signature.Electronic_Signature_2.png)
+![](../../images/topics/Report_Internals.Signature.Electronic_Signature_3.png)
 
 ![](../../images/img_1.png) A field in which you can specify the full name.
 
@@ -71,20 +69,18 @@ In this mode, you can specify the full spelling of the name and initials, and th
 
 In order to draw a signature, you should do the following in the component editor in the Type tab:
 
-Enter a value in the Full Name and/or Initials fields;
+* Enter a value in the Full Name and/or Initials fields;
 
-Click the Change style;
+* Click the Change style;
 
-Select a font for drawing the signature.
+* Select a font for drawing the signature.
 
 Electronic signature parameters in the Draw mode
 
 In this mode, you can draw a signature, specify its text, image, or combine these methods.
 
 
-![](../../images/topics/Report_Internals.Signature.Electronic_Signature_3.png)
-
-
+![](../../images/topics/Report_Internals.Signature.Electronic_Signature_5.png)
 ![](../../images/img_1.png) The Use Brush command provides the ability to select a brush to draw the signature.
 
 ![](../../images/img_2.png) The Insert Text command provides the ability to insert formatted text into a signature.
@@ -104,15 +100,15 @@ Adding a signature in the Draw mode
 
 Do the next steps to draw a signature, in the component editor, in the Draw tab:
 
-Select a brush color by clicking the down arrow control next to Use Brush;
+* Select a brush color by clicking the down arrow control next to Use Brush;
 
-Click on Use Brush;
+* Click on Use Brush;
 
-In the area of the signature thumbnail, hold down the left button of the mouse;
+* In the area of the signature thumbnail, hold down the left button of the mouse;
 
-Draw a signature keeping the button pressed.
+* Draw a signature keeping the button pressed.
 
-After that, if necessary, add an image and text to the signature.
+* After that, if necessary, add an image and text to the signature.
 
 **Table of properties**
 

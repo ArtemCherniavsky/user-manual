@@ -16,4 +16,4 @@ Then it is necessary to select relations for three bands for the report generato
 Then this report will be ready for rendering. One Master band may have more than one Detail band. In other words two, three or four Detail bands may refer to it. And each of them may have their own Detail bands. There are no limitations on number of nesting levels in the Master-Detail reports.
 
 
-**Notice:** Number of nesting levels in the Master-Detail reports is unlimited.
+* **Notice:** Number of nesting levels in the Master-Detail reports is unlimited.

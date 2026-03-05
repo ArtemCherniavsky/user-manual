@@ -5,13 +5,13 @@ When creating reports you can apply the TopN filter to the following elements: [
 
 The following questions will be considered in this chapter:
 
-[The TopN in the Chart]();
+* [The TopN in the Chart](#Chart);
 
-[The TopN in the Indicator]();
+* [The TopN in the Indicator](#Indicator);
 
-[The TopN in the Progress]();
+* [The TopN in the Progress](#Progress);
 
-[The TopN in the Pivot table]().
+* [The TopN in the Pivot table](#Pivot).
 
 Chart
 

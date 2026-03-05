@@ -1,4 +1,4 @@
-Dialog Report Setup
+## Dialog Report Setup
 
 
 If to select the **Options** item in the submenu of the **Report** group, then the **Report Setup** window is invoked that allows you to identify the basic information and report parameters. The picture below shows the **Report Setup** dialog:

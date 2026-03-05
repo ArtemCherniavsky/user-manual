@@ -1,18 +1,17 @@
-Styles
+## Styles
 
 The Style is a named combination of various design settings. You can create styles and their collections in the designer of styles. A created style can be applied to any component in a report or to an element of a dashboard. If after you create a report it`s needed to change design settings of some components or elements, you should change design settings of an assigned style.
 
 
-![](../../../images/topics/Report_Internals.Appearance.Styles_1.png)
-
+![](../../../images/topics/Report_Internals.Appearance.Styles_2.png)
 To assign a style to report component or dashboard element, you should:
- Select a component or an element in the report designer;
- Click the Select Style button on the Home Ribbon tab of the report designer panel and select the style you need in the drop down menu.
- Otherwise, click the Browse button for the Style property for elements or the Component Style property for components.
+* Select a component or an element in the report designer;
+* Click the Select Style button on the Home Ribbon tab of the report designer panel and select the style you need in the drop down menu.
+* Otherwise, click the Browse button for the Style property for elements or the Component Style property for components.
 
-Drag and drop style from Style Designer to report or dashboard components.
+* Drag and drop style from Style Designer to report or dashboard components.
 
-Watermark Style is applied using **Watermark Style** property of report pages, dashboards and Panel components on the dashboards.
+* Watermark Style is applied using **Watermark Style** property of report pages, dashboards and Panel components on the dashboards.
 
 Also, it`s worth noting, that if styles joined into style collection, when applying style collection, styles by conditions will be applied to report components.
 
@@ -26,11 +25,11 @@ Odd Style and Even Style
 You can apply separate styles for even and odd rows for the Data band component.
 
 
-![](../../../images/topics/Report_Internals.Appearance.Styles_2.png)
+![](../../../images/topics/Report_Internals.Appearance.Styles_3.png)
 
 To do that you should:
- Select the Data band in the report designer;
- Define a style for the Odd Style and Even Style properties in the property panel.
+* Select the Data band in the report designer;
+* Define a style for the Odd Style and Even Style properties in the property panel.
 
 
 By default, these properties are not used. But if you specify appropriate styles in them, when creating a report, the report generator will use specified styles for even and odd rows.

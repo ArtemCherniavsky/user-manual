@@ -15,9 +15,9 @@ Specify the connection name, alias, and the connection string. Also you can find
 
 Next, the following ways to create a new data source are possible:
 
-Obtaining data by schema;
+* Obtaining data by schema;
 
-Creating a request for retrieving data.
+* Creating a request for retrieving data.
 
 It specifies how to create a data source, such parameter as Skip Schema Wizard. If it is checked, then after creating a connection, the user will see a the query form. If the check box is not checked, the data schema will be retrieved.
 

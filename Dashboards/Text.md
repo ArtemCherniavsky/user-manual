@@ -1,4 +1,4 @@
-Text
+## Text
 
 Text is an element that allows you to display any text or the result of a specified expression on the dashboard. An expression can be a reference to a system variable or a data column.
 
@@ -6,9 +6,9 @@ Text is an element that allows you to display any text or the result of a specif
 
 This chapter will cover the following:
 
-[Text editor]();
+* [Text editor](#TextEditor);
 
-[Table of properties]().
+* [Table of properties](#TableOfProperties).
 
 
 > **Information**
@@ -22,17 +22,17 @@ This chapter will cover the following:
 
 The **Text** element can be placed anywhere on the dashboard. The text element is configured in its editor. To invoke the **Text** element editor, you should:
 
-Double-click on this item;
+* Double-click on this item;
 
-Select the **Text** element and select the **Edit** command in the context menu;
+* Select the **Text** element and select the **Edit** command in the context menu;
 
-Select the **Text** element, and,  on the property panel, click the **Browse** button of the **Text** property.
+* Select the **Text** element, and,  on the property panel, click the **Browse** button of the **Text** property.
 
 To resize the text element you should:
 
-Select it on the dashboard;
+* Select it on the dashboard;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 **Text editor**
 

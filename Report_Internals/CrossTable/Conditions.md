@@ -1,4 +1,4 @@
-Conditions
+## Conditions
 
 
 Often, when rendering a cross table, it is necessary that, according to certain conditions, the appearance of a cell will be changed. To achieve this, you can use the Conditions property of columns, rows and, summary cells.

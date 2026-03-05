@@ -1,4 +1,4 @@
-Relation Property
+## Relation Property
 
 
 Besides filling the MasterComponent property it is necessary to fill the DataRelation property of the Detail table. The relation is used for selecting the detailed data only for the specific row of the Master table. If the relation will not be specified then all records of the Detail data source of the Detail table will be output for each row of the Master data source of the Master table.

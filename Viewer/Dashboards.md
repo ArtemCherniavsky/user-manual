@@ -1,4 +1,4 @@
-Dashboards
+## Dashboards
 
 The report viewer in the view mode for dashboard panels differs from the report viewer in the report view mode. The dashboard panel and its elements are stretched to the entire area of the viewer. Elements of the dashboard panel - [Combo Box](../Dashboards/Data_Filtering/Combo_Box.md), [Date Picker](../Dashboards/Data_Filtering/Date_Picker.md), [Tree View Box](../Dashboards/Data_Filtering/Tree_View_Box.md) are stretched only in width. Besides, the dashboard and its elements contain various control buttons.
 
@@ -7,9 +7,7 @@ Control buttons of the dashboard
 
 Controls of the dashboard are located in the upper right corner above the dashboard panel.
 
-![](../images/topics/Viewer.Dashboards_1.png)
-
-
+![](../images/topics/Viewer.Dashboards_2.png)
 ![](../images/img_1.png) The Refresh button is used to update the dashboard.
 
 ![](../images/img_2.png) The Open button is used to open a previously saved report file.
@@ -38,7 +36,7 @@ Element controls
 The control buttons of the dashboard elements are located in the upper right corner of the area of this element and are displayed when you hover over or select this element.
 
 
-![](../images/topics/Viewer.Dashboards_2.png)
+![](../images/topics/Viewer.Dashboards_3.png)
 
 
 ![](../images/img_1.png) The Sort button calls a menu to define the data column and the sorting direction for the values of the current element of the dashboard panel.

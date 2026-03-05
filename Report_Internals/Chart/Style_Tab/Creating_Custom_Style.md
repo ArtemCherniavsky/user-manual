@@ -1,4 +1,4 @@
-Creating Custom Style
+## Creating Custom Style
 
 A custom chart style is created in the Style Designer.
 
@@ -6,11 +6,11 @@ A custom chart style is created in the Style Designer.
 ![](../../../images/topics/Report_Internals.Chart.Style_Tab.Creating_Custom_Style_1.png)
 
 To create a chart style, you need:
- Open the Style Designer by clicking the corresponding button in the Styles tab of the Chart component editor or on the Home tab of the report designer’s Ribbon panel;
+* Open the Style Designer by clicking the corresponding button in the Styles tab of the Chart component editor or on the Home tab of the report designer’s Ribbon panel;
 
-Create a new Chart style by clicking Add Style in the Style Designer and selecting Chart;
+* Create a new Chart style by clicking Add Style in the Style Designer and selecting Chart;
 
-Configure the formatting using the style properties.
+* Configure the formatting using the style properties.
 
 
 > **Information**

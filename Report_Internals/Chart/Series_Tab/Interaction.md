@@ -3,17 +3,15 @@
 Interaction refers to specific actions performed on a series’ graphical elements when viewing a report.
 
 
-![](../../../images/topics/Report_Internals.Chart.Series_Tab.Interaction_1.png)
-
+![](../../../images/topics/Report_Internals.Chart.Series_Tab.Interaction_2.png)
 To set up interaction for a chart series, you need:
- In the component editor, go to the Series tab and open the Interaction section;
- Configure the interaction settings using the available properties.
-
+* In the component editor, go to the Series tab and open the Interaction section;
+* Configure the interaction settings using the available properties.
 Interactions that can be customized:
- Drill-down on series elements or entire series;
- Hyperlinks for series values;
- Tags for series values;
- Tooltips for series values.
+* Drill-down on series elements or entire series;
+* Hyperlinks for series values;
+* Tags for series values;
+* Tooltips for series values.
 
 Below is a table with a list of properties that are used to customize the interaction.
 

@@ -1,4 +1,4 @@
-Special Viewing Options in Web
+## Special Viewing Options in Web
 
 Recommendations on Placing Components on Page
 
@@ -16,17 +16,17 @@ Using Graphic Objects in Report
 
 Stimulsoft Reports offers a full set of graphic objects. The following graphic objects are used in web:
 
-Images;
+* Images;
 
-Charts;
+* Charts;
 
-Graphic primitives (the Shape component);
+* Graphic primitives (the Shape component);
 
-Bar-codes;
+* Bar-codes;
 
-RTF text;
+* RTF text;
 
-CheckBox.
+* CheckBox.
 
 
 The Vertical Line, Horizontal Line, Rectangle components are not graphic objects.  Also, it is important to consider that vector images (WMF, EMF, EMF+) are not supported by the HTML format. So they will be converted to images in the pixel format.
@@ -51,11 +51,11 @@ Printing Reports
 
 It is difficult to print a report from the browser. Stimulsoft Reports has three methods of printing:
 
-Converting a report to the PDF file and passing it to the end-user for printing.
+* Converting a report to the PDF file and passing it to the end-user for printing.
 
-Printing a report with preview in the pop-up window.
+* Printing a report with preview in the pop-up window.
 
-Printing without preview.
+* Printing without preview.
 
 
 The first method is the best way. It allows printing a report more precisely. But it is required to have installed Adobe Acrobat to print a report to the PDF format. Often this requirement is a big disadvantage. When printing reports with preview the report generator creates a new pop-up window. A report in the HTML format is output in this window. The end-user may format this report and print it. In printing reports without preview the report generator prints a report without preview. When choosing the method of printing characteristics of each method should be considered.

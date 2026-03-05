@@ -1,4 +1,4 @@
-Reports
+## Reports
 
 See the list of standard reports you can create with the reporting tools and dashboards. No doubts, you may generate a report of any complexity according to your needs.
 

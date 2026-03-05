@@ -1,4 +1,4 @@
-Maps
+## Maps
 
 
 > **Information**
@@ -12,10 +12,10 @@ The Map component represents a tool to visualize data with reference to geograph
 ![](../../images/topics/Report_Internals.Maps_1.png)
 
 
-[Map Editor](Editor.md);
+* [Map Editor](Editor.md);
 
-[Map Types](Map_Type.md);
+* [Map Types](Map_Type.md);
 
-[Map Keys](Keys.md);
+* [Map Keys](Keys.md);
 
-[Data for Maps](Data.md).
+* [Data for Maps](Data.md).

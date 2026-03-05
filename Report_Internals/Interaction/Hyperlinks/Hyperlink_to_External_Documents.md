@@ -17,4 +17,4 @@ For Email hyperlink:
 mailto: mail@domain.com
 
 
-**Notice:** When Web reports rendering, bookmarks can be put only on visible fields. For example, on a text, on an image. Otherwise this hyperlink will be ignored. This principle is to be considered when exporting reports to other formats
+* **Notice:** When Web reports rendering, bookmarks can be put only on visible fields. For example, on a text, on an image. Otherwise this hyperlink will be ignored. This principle is to be considered when exporting reports to other formats

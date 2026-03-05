@@ -1,40 +1,38 @@
-Pivot
+## Pivot
 
-**Pivot** is an element of the dashboard, which is used to process, group and summarize data values by rows and columns of this table. 
-
-
-![](../images/topics/Dashboards.Pivot_Table_1.png)
+**Pivot** is an element of the dashboard, which is used to process, group and summarize data values by rows and columns of this table.
+![](../images/topics/Dashboards.Pivot_Table_2.png)
 
 This chapter will cover the following:
 
-[Pivot Editor]();
+* [Pivot Editor](#PivotEditor);
 
-[Totals]();
+* [Totals](#PivotTotals);
 
-[Rows]();
+* [Rows](#PivotRows);
 
-[Columns]();
+* [Columns](#PivotColumns);
 
-[Table of Properties]().
+* [Table of Properties](#TableOfProperties).
 
 
 To display the pivot element you should to add at least one data field in the **Totals** field. Element settings of the **Pivot** table is implemented in the element editor. To call the editor, you should:
 
-Double-click the Pivot item;
+* Double-click the Pivot item;
 
-Select the Pivot item, and select the **Design** command in the context menu;
+* Select the Pivot item, and select the **Design** command in the context menu;
 
-Select the Pivot item, and, on the property bar, click the **Browse** button of the **Columns** property.
+* Select the Pivot item, and, on the property bar, click the **Browse** button of the **Columns** property.
 
 > **Information**
 >
-> [Text formatting](Appearance.md) can be applied to the values of the current element.
+> [Text formatting](Appearance.md#TextFormat) can be applied to the values of the current element.
 
 **Editor of the Pivot table**
 
 In the editor of the Pivot table, you can add elements with data and edit expressions for these elements, as well as adjust the top values of the element.
 
-![](../images/topics/Dashboards.Pivot_Table_2.png)
+![](../images/topics/Dashboards.Pivot_Table_4.png)
 
 ![](../images/img_1.png) The **Columns** field indicates the data fields for the rows of this table;
 
@@ -54,28 +52,26 @@ In the editor of the Pivot table, you can add elements with data and edit expres
 
 At the intersection of the columns and rows of the pivot table you can see cells. A value from the corresponding cell of the data source will be added to this cell, i.e. the value from the data source cell formed at the intersection of the corresponding column and rows in the data source. Then, all values ​​of each row and each column will be summed up and displayed in the resulting cells of the pivot table. Also, in the **Totals** field you can specify several data fields. In this case, cells will be added to the pivot table both for the first data field and for the second one.
 
-![](../images/topics/Dashboards.Pivot_Table_3.png)
+![](../images/topics/Dashboards.Pivot_Table_5.png)
 
 **Rows**
 
 This field of the pivot table indicates the data fields which values will form the rows of the pivot table. Also in this field you can specify multiple items. In this case, the data fields must be related with each other, because the values of the top data field in this field are "predecessor" for the values of the lower data field. For example, if the top data field contains a list of categories, and the bottom contains a list of products.
 
-![](../images/topics/Dashboards.Pivot_Table_4.png)
+![](../images/topics/Dashboards.Pivot_Table_6.png)
 
 In this case, in the pivot table, each category will be a separate line in the pivot table. However, each category will contain its own list of products that will form the rows of the pivot table within that category.
 
-![](../images/topics/Dashboards.Pivot_Table_5.png)
+![](../images/topics/Dashboards.Pivot_Table_7.png)
 
 **Columns**
 
 This field of the pivot table indicates the data fields which values will form the rows of the pivot table. Also in this field you can specify multiple data fields. In this case, the data fields must be related to each other, because the values of the top data field in this field are "predecessor" for the values of the lower data field. For example, if the top data field contains a list of categories, and the bottom contains a list of products.
 
-![](../images/topics/Dashboards.Pivot_Table_6.png)
+![](../images/topics/Dashboards.Pivot_Table_8.png)
 
 In this case, in the pivot table, each category will be a separate column in the pivot table. However, each category will contain its own list of products that will form the columns of the pivot table within that category.
-
-
-![](../images/topics/Dashboards.Pivot_Table_7.png)
+![](../images/topics/Dashboards.Pivot_Table_10.png)
 
 **List of properties**
 

@@ -1,4 +1,4 @@
-User Interface
+## User Interface
 
 The table shows which user interface and their themes are supported.
 

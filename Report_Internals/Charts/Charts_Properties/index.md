@@ -800,7 +800,7 @@ Visible
 Gets or sets visibility
 
 
-**Clustered Column, Clustered Bar, Stacked Column,** 
+**Clustered Column, Clustered Bar, Stacked Column,**
 **Full-Stacked Column, Stacked Bar Series Properties**
 
 

@@ -16,4 +16,4 @@ As a result of report rendering with the Footer band, the report generator will 
 The Data band may have unlimited number of bands. Bands of totals will be output in the same order as they are placed on a page.
 
 
-**Notice:** For one Data band unlimited number of Footer bands can be created.
+* **Notice:** For one Data band unlimited number of Footer bands can be created.

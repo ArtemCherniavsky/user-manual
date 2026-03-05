@@ -6,16 +6,16 @@ Each component has borders. Since all components in a report are a rectangular a
 ![](../../images/topics/Report_Internals.Appearance.Borders_1.png)
 
 Component borders are set:
- Using component properties from the Borders group in the property panel;
+* Using component properties from the Borders group in the property panel;
 
-Using commands on the Home tab of the Ribbon panel in the report designer;
- In the border editor and component shadows.
+* Using commands on the Home tab of the Ribbon panel in the report designer;
+* In the border editor and component shadows.
 
 
 Component shadow is set:
- Using component properties from the Borders group in the property panel;
+* Using component properties from the Borders group in the property panel;
 
-In the Border editor and component shadow.
+* In the Border editor and component shadow.
 
 
 > **Information**
@@ -23,18 +23,18 @@ In the Border editor and component shadow.
 > If the Style is assigned for a component, border settings and component shadows can be taken from this style.
 
 To call the border editor and component shadows, you should:
- Select a component in a report template;
- Click the Browse button on the Home Ribbon tab of the report designer panel in the Borders settings group.
+* Select a component in a report template;
+* Click the Browse button on the Home Ribbon tab of the report designer panel in the Borders settings group.
 
-Or click the Browse button for the header of the Borders group in the property panel.
+* Or click the Browse button for the header of the Borders group in the property panel.
 
 Borders and component shadow editor
 
 This editor contains the parameters, which allow you to set borders and component shadows of a report. Also, the border and shadow editor contains two tabs:
 
-The **Simple**, i.e. settings of style, color, and size will be the same for all enabled component borders;
+* The **Simple**, i.e. settings of style, color, and size will be the same for all enabled component borders;
 
-The **Advanced,** i.e. you can define style, color and size for each component border.
+* The **Advanced,** i.e. you can define style, color and size for each component border.
 
 
 You can define a uniform style, color, size for all component borders on the **Simple** tab.

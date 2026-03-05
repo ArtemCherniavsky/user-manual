@@ -1,14 +1,14 @@
-Dashboard with Custom Region Map
+## Dashboard with Custom Region Map
 
 In this chapter, you will find the following:
 
-[Adding a custom map]();
+* [Adding a custom map](#addingacustommap);
 
-[Custom map customization]().
+* [Custom map customization](#custommapsetup).
 
 **Adding a custom map**
 
-When you create a dashboard, you can use [custom maps in the Region Map](../Dashboards/Maps/Region_Map.md) element. Consider the example of adding a Haiti map to the list of regional maps. To achieve this, you should do the next steps:
+When you create a dashboard, you can use [custom maps in the Region Map](../Dashboards/Maps/Region_Map.md#AddingCustomMap) element. Consider the example of adding a Haiti map to the list of regional maps. To achieve this, you should do the next steps:
 
 
 Step 1: You should find the source of the map, which you need to integrate into the list of maps. For example, Haiti.svg.
@@ -65,15 +65,15 @@ Step 12: Rename Haiti.txt to Haiti.map;
 Step 13: Run the report designer and drag the Haiti.map file into the data dictionary;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_2.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_3.png)
 
-Step 14: [Add the Region map element to the dashboard panel](Dashboard_with_Region_Map.md);
+Step 14: [Add the Region map element to the dashboard panel](Dashboard_with_Region_Map.md#creatingaregionmap);
 
 
 Step 15: Click the Custom category in the map editor, select Haiti and click OK;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_3.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_5.png)
 
 Step 16: Set the values of geographic objects and [set the parameters of the Region Map element](Dashboard_with_Region_Map.md);
 
@@ -83,7 +83,7 @@ Step 17: Close the Region Map editor.
 Now, you can create dashboards using this map.
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_4.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_6.png)
 
 Custom map setup
 
@@ -93,12 +93,12 @@ Also, you can customize the map you added. Follow the steps below to achieve thi
 Step 1: Select the Haiti resource in the data dictionary and click the Edit button in the data dictionary;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_5.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_7.png)
 
 Step 2: Click the Edit button in the Edit resource dialog;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_6.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_9.png)
 
 Step 3: The Map editor will be called;
 
@@ -106,7 +106,7 @@ Step 3: The Map editor will be called;
 Step 4: Uncheck the check boxes of geographic objects if you want to disable displaying them when working in the current editor;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_7.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_11.png)
 
 Step 5: Select a geographic object in the list and change the location of the title area using the cursor keys (left, right, top, bottom);
 
@@ -115,7 +115,6 @@ Step 6: Hold down the Shift key and use the keys (left, right, top, bottom) to r
 
 
 Step 7: Using the alignment commands (horizontal, vertical), set the location of the title text in its area;
-
 Step 8: Enable text wrapping if you need to wrap the title text to the next line;
 
 
@@ -125,7 +124,7 @@ Step 9: Select the Hide Text checkbox if you do not want to display the title te
 Step 10: Click on the Icon parameter, if you want to load a custom icon for the current map;
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_8.png)
+![](../images/topics/Getting_Started.Dashboard_with_Custom_Region_Map_13.png)
 
 Step 11: Click the OK button in the Map editor;
 

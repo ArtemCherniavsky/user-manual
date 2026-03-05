@@ -1,22 +1,22 @@
-Reports
+## Reports
 
 This chapter will cover the following:
 
-[Viewer Structure]();
+* [Viewer Structure](#viewerstructure);
 
-[Viewer Toolbar]();
+* [Viewer Toolbar](#toolbar);
 
-[Viewer Status Bar]();
+* [Viewer Status Bar](#statusbar);
 
-[Displaying Mode]();
+* [Displaying Mode](#displayingmode);
 
-[Search Panel]();
+* [Search Panel](#searchpanel);
 
-[Resources Panel]();
+* [Resources Panel](#resourcespanel);
 
-[Sending Report via E-Mail]();
- [Exporting Report]();
- [Shortcuts]().
+* [Sending Report via E-Mail](#sendingreportviaemail);
+* [Exporting Report](#exportingreport);
+* [Shortcuts](#shortcuts).
 
 
 Viewer Structure
@@ -59,19 +59,19 @@ The main toolbar locates commands to control the report. Below is the structure 
 >
 > If the report file contains both the report and the dashboard, then the report viewer will switch to the view mode of the dashboard, with the display of this panel. To view the report, go to the tab with the name of the report page.
 
-![](../../images/img_3.png) [Save the rendered report]() to other file formats.
+![](../../images/img_3.png) [Save the rendered report](#exportingreport) to other file formats.
 
-![](../../images/img_4.png) [Send the render report]() via Email. The report will be converted to one of the file formats.
+![](../../images/img_4.png) [Send the render report](#sendingreportviaemail) via Email. The report will be converted to one of the file formats.
 
 ![](../../images/img_5.png) Show/hide the tree of bookmarks. If there are no bookmarks in the rendered report then the viewer will automatically hide the tree of bookmarks. If there are bookmarks in a report, then the viewer will automatically show the tree of bookmarks.
 
 ![](../../images/img_6.png) Opens the dialog for changing the basic parameters of the rendered report.
 
-![](../../images/img_7.png) The Resources button. With this button, you can enable or disable the [resource panel]() in the viewer. If the report does not contain resources that can be displayed in the viewer, this button will be disabled.
+![](../../images/img_7.png) The Resources button. With this button, you can enable or disable the [resource panel](#resourcespanel) in the viewer. If the report does not contain resources that can be displayed in the viewer, this button will be disabled.
 
 ![](../../images/img_8.png) Show/hide the thumbnails of reports.
 
-![](../../images/img_9.png) Enable the [search panel]().
+![](../../images/img_9.png) Enable the [search panel](#searchpanel).
 
 ![](../../images/img_10.png) Run the full-screen mode of report showing. To exit this mode, you can use the Esc or Alt+F4 hot keys.
 
@@ -129,13 +129,13 @@ Displaying Mode
 
 The viewer for WinForms supports three modes of viewing pages:
 
-![](../../images/topics/Viewer.Reports_5.png)
+* ![](../../images/topics/Viewer.Reports_5.png)
  Single page. In this mode, the current page of a report is shown in the window of the viewer. The picture below shows how this mode works.
 
-![](../../images/topics/Viewer.Reports_6.png)
+* ![](../../images/topics/Viewer.Reports_6.png)
  Continuous. In this mode, all pages are placed into one vertical line. The picture below shows how this mode works.
 
-![](../../images/topics/Viewer.Reports_7.png)
+* ![](../../images/topics/Viewer.Reports_7.png)
  Multiple Pages.  In this mode as many pages in the selected zoom as they can fill the window of the viewer are shown. The picture below shows how this mode works.
 
 Search Panel
@@ -163,7 +163,7 @@ Resources Panel
 You can display some resources which were added to the report in a separate panel in the viewer. To do this, when adding a resource in the report designer, select Available in the Viewer option. Then, click the Resources button in the viewer to display a panel with these resources.
 
 
-![](../../images/topics/Viewer.Reports_9.png)
+![](../../images/topics/Viewer.Reports_10.png)
 
 Each resource in this panel can be viewed or saved.
 
@@ -171,27 +171,22 @@ Sending Report via E-Mail
 
 Any rendered report can be sent via Email. Send a report via Email following the instruction below.
 
-The report is exported as a file. The file format is defined by the user in the menu Send Email;
+* The report is exported as a file. The file format is defined by the user in the menu Send Email;
 
-Then create a new message and attach a file to the Email;
+* Then create a new message and attach a file to the Email;
 
-A dialog of the Email client is open by default, i.e. the wizard for sending Emails is invoked.
-
-
+* A dialog of the Email client is open by default, i.e. the wizard for sending Emails is invoked.
 Exporting Report
 Any rendered report can be converted to various formats, for example, to PDF, Excel, Word, etc. Report export has several stages.
 
-Click the Save button in the viewer;
+* Click the Save button in the viewer;
 
-Select the type of file you want to convert the report into;
+* Select the type of file you want to convert the report into;
 
-Set export settings;
+* Set export settings;
 
-Save the converted file.
-
+* Save the converted file.
 See the chapter [Exports](../../Exports/index.md) to get more information about converting a report to other types of files.
-
-
 Shortcuts
 The list of keyboard shortcuts in the report viewer is as follows:
 

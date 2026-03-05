@@ -23,19 +23,19 @@ Groups can be sorted by:
 
 Sorting can be performed in the following directions:
 
-None - the data will be displayed in the order they appear in the data source.
+* None - the data will be displayed in the order they appear in the data source.
 
 
 > **Information**
 >
 > If the data is already grouped and sorted before being transferred to the report, then there is no need to further group and sort it based on the [grouping condition](Grouping_Conditions.md). Setting the sort direction to None, in this case, can reduce the time it takes to generate the report when dealing with large amounts of data.
 
-Ascending - the data is displayed in ascending order, from smallest to largest for numeric values and in alphabetical order from A to Z for text values.
+* Ascending - the data is displayed in ascending order, from smallest to largest for numeric values and in alphabetical order from A to Z for text values.
 
 
 ![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_1.png)
 
-Descending - the data is displayed in descending order, from largest to smallest for numeric values and in reverse alphabetical order from Z to A for text values.
+* Descending - the data is displayed in descending order, from largest to smallest for numeric values and in reverse alphabetical order from Z to A for text values.
 
 
 ![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_2.png)
@@ -64,30 +64,28 @@ Very often, in a report with groups, it calculates the total for each of these g
 > If sorting by the values of the total expression is enabled, then sorting by the values of the grouping condition expression will not be performed.
 
 
-Select the calculation function for the Summary Type parameter. For example, you can choose the sum or average calculation function.
+* Select the calculation function for the Summary Type parameter. For example, you can choose the sum or average calculation function.
 
-Select the sort direction for the Summary Sort Direction parameter. For example, you can choose ascending order, which means groups will be sorted from the lowest to highest revenue.
-
-
-![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_4.png)
+* Select the sort direction for the Summary Sort Direction parameter. For example, you can choose ascending order, which means groups will be sorted from the lowest to highest revenue.
+![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_5.png)
 
 Additionally, you can configure the sorting settings by the total expression values using similar properties on the properties panel.
 
 
 To do this, follow these steps:
 
-Select the Data Header band;
+* Select the Data Header band;
 
-Set the total calculation expression as the value of the Summary Expression property;
+* Set the total calculation expression as the value of the Summary Expression property;
 
-Select the total calculation function as the value of the Summary Type property;
+* Select the total calculation function as the value of the Summary Type property;
 
-Select the sort direction as the value of the Summary Sort Direction property.
+* Select the sort direction as the value of the Summary Sort Direction property.
 
 
 The following is an example of a report where the groups are sorted by the total expression values in ascending order.
 
 
-![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_5.png)
-
 ![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_6.png)
+
+![](../../images/topics/Report_Internals.Groups.Data_Sorting_in_Group_7.png)

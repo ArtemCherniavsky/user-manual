@@ -1,4 +1,4 @@
-Sparkline
+## Sparkline
 
 The Sparkline component is a visual tool to display data. Unlike charts, a sparkline does not contain data values, axis labels, legend, and other elements.
 
@@ -7,9 +7,9 @@ The Sparkline component is a visual tool to display data. Unlike charts, a spark
 
 To add a sparkline to the report, you should do the following:
 
-Select the Sparkline component on the Toolbox or the Insert tab in the Components group;
+* Select the Sparkline component on the Toolbox or the Insert tab in the Components group;
 
-Place this component on the report page or the Data band.
+* Place this component on the report page or the Data band.
 
 
 > **Information**
@@ -18,20 +18,20 @@ Place this component on the report page or the Data band.
 
 A sparkline in reports can be of the following type:
 
-Line - the values of the specified data column will be displayed as a line graph;
+* Line - the values of the specified data column will be displayed as a line graph;
 
-Area - the values of the specified data column will be displayed as an area;
+* Area - the values of the specified data column will be displayed as an area;
 
-Column - the values of the specified data column will be displayed as a column chart;
+* Column - the values of the specified data column will be displayed as a column chart;
 
-Win/Loss - the values of the specified data column will be displayed as positive and negative blocks.
+* Win/Loss - the values of the specified data column will be displayed as positive and negative blocks.
 
 
 You may configure the Sparkline component the following way:
 
-[In the component editor]() (double-click on the current component in the report).
+* [In the component editor](#editor) (double-click on the current component in the report).
 
-Using the [properties of the component](). Select the component in the report and change the required values on the Property panel.
+* Using the [properties of the component](#tableofproperties). Select the component in the report and change the required values on the Property panel.
 
 The Sparkline editor
 

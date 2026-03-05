@@ -22,4 +22,4 @@ If you want a text component, which is located in the Hierarchical band, do not 
 As can be seen on the picture above, the Locked property of the Employee text component is set to false, so the entries were shifted. And for the City and Region text components, this property is set to true, so the entries were not shifted.
 
 
-**Important:** The parent entry is not shifted. Only subordinate entries are shifted: the lower the priority is, the further is shifting, relative to the parent entry.
+* **Important:** The parent entry is not shifted. Only subordinate entries are shifted: the lower the priority is, the further is shifting, relative to the parent entry.

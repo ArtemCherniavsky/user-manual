@@ -3,9 +3,9 @@
 
 When exporting reports to the HTML format, it is necessary to take the following features of this format into consideration:
 
-if a text does not fit a table cell horizontally, then a browser automatically carries a text to the next page;
+* if a text does not fit a table cell horizontally, then a browser automatically carries a text to the next page;
 
-if a text does not fit a table cell vertically, then a browser automatically increases height of a table cell.
+* if a text does not fit a table cell vertically, then a browser automatically increases height of a table cell.
 
 
 Such a behavior of a text can be obtained in the Net and WPF viewers (Win-viewers) by setting WordWrap and CanGrow properties of a text component to true. In the HTML format (and in the Web viewer correspondingly), no matter what is the value of these two properties, the text component will be shown the same way. For example, put 2 text components on a report template. Insert long text to the first component and a short one to the second. Set WordWrap and CanGrow properties to false. The picture below shows a report template:

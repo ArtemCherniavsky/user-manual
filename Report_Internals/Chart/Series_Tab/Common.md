@@ -1,9 +1,7 @@
 ## Common
 
 Common series settings are properties available in the Chart component editor under the Series tab, in the Main section.
-
-
-![](../../../images/topics/Report_Internals.Chart.Series_Tab.Common_1.png)
+![](../../../images/topics/Report_Internals.Chart.Series_Tab.Common_2.png)
 
 
 > **Information**

@@ -1,4 +1,4 @@
-Variables
+## Variables
 
 Variables are used to pass a value to the elements of the dashboard panel, while filtering the data of these elements.
 
@@ -7,18 +7,18 @@ Variables are used to pass a value to the elements of the dashboard panel, while
 
 Variables can be:
 
-With user-selectable value, the user selects or enters a value, and the data of the elements of the dashboard panel will be filtered based on this value;
+* With user-selectable value, the user selects or enters a value, and the data of the elements of the dashboard panel will be filtered based on this value;
 
-Without user selection, the user does not select a value, but the elements of the dashboard panel are filtered by the value of the variable.
+* Without user selection, the user does not select a value, but the elements of the dashboard panel are filtered by the value of the variable.
 
 
 To create an dashboard with variables, you should:
 
-Create a variable in the data dictionary;
+* Create a variable in the data dictionary;
 
-Open or create a dashboard;
+* Open or create a dashboard;
 
-Set filters for this item using a variable.
+* Set filters for this item using a variable.
 
 An example of a dashboard with a variable
 

@@ -1,4 +1,4 @@
-Installation and first run
+## Installation and first run
 
 Important
 
@@ -7,27 +7,26 @@ Scripts can be a security risk, so they are disabled in the [Interpretation mode
 
 To start creating reports and dashboards, you need to install the Stimulsoft report designer:
 
-[Installing the report designer from our website]();
+* [Installing the report designer from our website](#installingfromstimulsoftwebsite);
 
-[Register a new account]();
+* [Register a new account](#signupfromdesigner);
 
-[Log In with Google]();
+* [Log In with Google](#loginwithgoogle);
 
-[Sign Up with Google]();
+* [Sign Up with Google](#signupwithgoogle);
 
-[Downloading packages for developers from our website]();
+* [Downloading packages for developers from our website](#loadingdeveloperpackagesfromstimulsoft);
 
-[Skill Level]();
+* [Skill Level](#chooseyourskilllevel);
 
-[Overview of the report designer]();
+* [Overview of the report designer](#reportdesigneroverview);
 
-[Installing other applications and packages from the report designer]().
+* [Installing other applications and packages from the report designer](#downloadotherapplicationsandpackagesfromreportdesigner).
 
-[Account registration and activation](../Introduction/Activation.md).
+* [Account registration and activation](../Introduction/Activation.md).
 
 
 Installing from Stimulsoft website
-
 Step 1: Go to the download page at [https://www.stimulsoft.com/en/downloads](<%LINK_CAPTION%>);
 
 
@@ -47,9 +46,7 @@ Step 2: Click the Download for Windows button on the site page;
 
 
 Step 3: Run the installer.
-
-
-![](../images/topics/Getting_Started.Install_and_First_Run_1.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_2.png)
 
 Step 4: Click the Install button after you read and accept the terms of the license agreement.
 
@@ -59,39 +56,32 @@ Step 4: Click the Install button after you read and accept the terms of the lice
 > Installing a report designer, like any other product, means that you have read and accepted the terms of the license agreement.
 
 Step 5: The installation process of the report designer will be completed. At the end of the installation, a window will be displayed.
-
-
-![](../images/topics/Getting_Started.Install_and_First_Run_2.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_4.png)
 
 Step 7: Click the Run button to start the report designer, or the Finish button to close the installer window if you wish to run the designer later.
 
 
-Step 8: You must log in to the user account after the first run of the report designer. Enter Email in the User Name field, the password for the account in the Password field, and click the Log In button in the login window. You must [register a new account](), if the account is missing. Also, you can [log in]() or [sign up]() with your Google account.
+Step 8: You must log in to the user account after the first run of the report designer. Enter Email in the User Name field, the password for the account in the Password field, and click the Log In button in the login window. You must [register a new account](#signupfromdesigner), if the account is missing. Also, you can [log in](#loginwithgoogle) or [sign up](#signupwithgoogle) with your Google account.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_3.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_5.png)
 
 
 After installation:
 
-The report designer will be installed by the following path: c:\Program Files (x86)\Stimulsoft Designer% version%\. To run the report designer, you need to open this local storage and double-click on the Designer.exe file.
+* The report designer will be installed by the following path: c:\Program Files (x86)\Stimulsoft Designer% version%\. To run the report designer, you need to open this local storage and double-click on the Designer.exe file.
 
-All installed data adapters are located in the following path: c:\Users\% username%\AppData\Local\Stimulsoft\DataAdapters\
+* All installed data adapters are located in the following path: c:\Users\% username%\AppData\Local\Stimulsoft\DataAdapters\
 
 Sign Up from designer
-
 **Step 1**: Click the Sign Up button in the Log In window of the report designer;
-
-
-![](../images/topics/Getting_Started.Install_and_First_Run_4.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_7.png)
 
 **Step 2**: Fill in the required fields - First Name, Last Name, User Name (Email) and Password;
-
 **Step 3**: Acquainted with [Privacy Policy](https://www.stimulsoft.com/en/privacy-policy) and [Terms of Use](https://www.stimulsoft.com/en/terms-of-use);
-
 **Step 4**: By clicking the **Sign UP** button, you agree to the [Privacy Policy](https://www.stimulsoft.com/en/privacy-policy) and [Terms of Use](https://www.stimulsoft.com/en/terms-of-use).
 
-![](../images/topics/Getting_Started.Install_and_First_Run_5.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_8.png)
 
 After successful registration of the user account, you will be log into the report designer.
 
@@ -99,9 +89,7 @@ After successful registration of the user account, you will be log into the repo
 For authorization in the report design, you can use a Google account.
 
 **Step 1**: Click the **Log In with Google** button in Log In window of the report designer;
-
-
-![](../images/topics/Getting_Started.Install_and_First_Run_6.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_10.png)
 
 **Step 2**: After that, the default browser will be called up with the Google page of authorization.
 
@@ -109,21 +97,18 @@ For authorization in the report design, you can use a Google account.
 **Step 3**: You should choose the account that will be used for authorization in the report designer if you accept the [privacy policy](https://www.stimulsoft.com/en/privacy-policy) and [terms of use](https://www.stimulsoft.com/en/terms-of-use). You will need to sign in to your Google Account if you are not signed in to Google Accounts.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_7.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_11.png)
 
 **Step 4**: You must return to the report designer, after successfully logging in to your Google account. The authorization will happen automatically in the report designer.
 
-**Sign Up with Google** 
-
+**Sign Up with Google**
 **Step 1**: Click the Sign Up button in Log In window of the report designer;
-
-
-![](../images/topics/Getting_Started.Install_and_First_Run_8.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_13.png)
 
 **Step 2**: Click the **Sign Up with Google** button in the Sign Up window of the report designer;
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_9.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_14.png)
 
 **Step 3**: After that, the default browser will be called up with the Google page of authorization.
 
@@ -131,7 +116,7 @@ For authorization in the report design, you can use a Google account.
 **Step 4**: You should choose the account that will be used for authorization in the report designer if you accept the [privacy policy](https://www.stimulsoft.com/en/privacy-policy) and [terms of use](https://www.stimulsoft.com/en/terms-of-use). You will need to sign in to your Google Account if you are not signed in to Google Accounts.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_10.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_15.png)
 
 **Step 5**: You must return to the report designer, after successfully logging in to your Google account. The authorization will happen automatically in the report designer.
 
@@ -145,7 +130,7 @@ After logging into the report designer, you will be prompted to select the repor
 > [Please see with list of report designer tools, components and their properties that are available depending on the selected skill level.](../Stimulsoft_Reports_Features_Stimulsoft_Reports_Product_Line/Designers/Skill_Level.md)
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_11.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_16.png)
 
 While creating reports in the report designer, you may change the skill level. To do this, you should:
 
@@ -162,12 +147,12 @@ Step 3: Open the account menu in the upper right corner by left click on the acc
 Step 4: Select Profile;
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_12.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_17.png)
 
 Step 5: In the profile menu, click on the value of the Skill Level parameter;
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_13.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_18.png)
 
 
 Step 6: Select the appropriate value.
@@ -175,14 +160,14 @@ Step 6: Select the appropriate value.
 You can also change the skill level in the properties panel settings or select it from the context menu of this panel.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_14.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_19.png)
 
 Report Designer Overview
 
 The report designer is a tool for creating and editing reports and dashboards.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_15.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_20.png)
 
 
 ![](../images/img_1.png) The Ribbon panel consists of several tabs on which you can find commands for creating report elements and dashboards, File, notification, localizations and account menus.
@@ -221,17 +206,17 @@ Download other applications and packages from Report Designer
 
 When starting the report designer, the Get Started window will be displayed. From this window you can:
 
-Install the demo application and the js report designer;
+* Install the demo application and the js report designer;
 
-Download developer packages;
+* Download developer packages;
 
-Go to help resources or contact technical support.
+* Go to help resources or contact technical support.
 
 
 Depending on the required action, click the Show more button under the corresponding item.
 
 
-![](../images/topics/Getting_Started.Install_and_First_Run_16.png)
+![](../images/topics/Getting_Started.Install_and_First_Run_21.png)
 
 
 > **Information**

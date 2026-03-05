@@ -1,4 +1,4 @@
-Map Types
+## Map Types
 
 
 Maps can be with a group, heatmap and heatmap with group. You can change the type of a map in the map editor on the Data tab selecting the Map Type parameter:

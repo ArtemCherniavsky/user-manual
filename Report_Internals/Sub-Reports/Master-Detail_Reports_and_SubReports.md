@@ -2,9 +2,9 @@
 
 You can build a Master-Detail report using the Sub-Report component in several ways:
 
-[Pass parameters](Creating_Report_with_SubReport_and_Parameters.md) from Master entries to Detail by filtering data;
+* [Pass parameters](Creating_Report_with_SubReport_and_Parameters.md) from Master entries to Detail by filtering data;
 
-Using the Master Component property in the Data band.
+* Using the Master Component property in the Data band.
 
 It is possible to design the Master-Detail report using the Sub-Report component. Put DataBand1 on a page of a report template. Insert Sub-Report component into this band. Put DataBand2 on the sub-report page. The picture below shows the report template:
 

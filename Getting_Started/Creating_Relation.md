@@ -1,12 +1,12 @@
-Creating Relation
+## Creating Relation
 
 Connection between data sources is arranged for the correct comparison of values from various data sources. You should follow these steps to create a relation:
 
 
-Step 1: [Run the report designer](Install_and_First_Run.md);
+Step 1: [Run the report designer](Install_and_First_Run.md#rundesigner);
 
 
-Step 2: [Go to the data dictionary](Install_and_First_Run.md);
+Step 2: [Go to the data dictionary](Install_and_First_Run.md#reportdesigneroverview);
 
 
 Step 3: [Connect data](Connecting_Data.md);
@@ -15,7 +15,7 @@ Step 3: [Connect data](Connecting_Data.md);
 Step 4: Click the New Item button and select the New Relation command;
 
 
-![](../images/topics/Getting_Started.Creating_Relation_1.png)
+![](../images/topics/Getting_Started.Creating_Relation_2.png)
 
 Step 5: Using the drop-down lists, identify the master and detail data sources;
 
@@ -28,7 +28,7 @@ Step 5: Using the drop-down lists, identify the master and detail data sources;
 Step 6: Select the data columns using which the relation between the sources will be arranged. Hold down the Ctrl button to select multiple columns.
 
 
-![](../images/topics/Getting_Started.Creating_Relation_2.png)
+![](../images/topics/Getting_Started.Creating_Relation_3.png)
 
 
 > **Information**
@@ -44,7 +44,7 @@ Step 6: Select the data columns using which the relation between the sources wil
 Step 7: Select the Active Relation. If the data source has several relations with other sources, then an active relation will be used to map the data.
 
 
-![](../images/topics/Getting_Started.Creating_Relation_3.png)
+![](../images/topics/Getting_Started.Creating_Relation_4.png)
 
 Step 8: Click OK in the link editor.
 
@@ -57,7 +57,7 @@ Step 1: Select the relation in the data dictionary;
 Step 2: Click the Edit button on the toolbar of the data dictionary;
 
 
-![](../images/topics/Getting_Started.Creating_Relation_4.png)
+![](../images/topics/Getting_Started.Creating_Relation_5.png)
 
 Step 3: Change the relation settings;
 

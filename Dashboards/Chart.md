@@ -1,69 +1,67 @@
-Chart
+## Chart
 
 **Chart** is a graphical element of data analysis, using which the data can be processed and the result is displayed as graphs.
-
-
-![](../images/topics/Dashboards.Chart_1.png)
+![](../images/topics/Dashboards.Chart_2.png)
 
 
 > **Information**
 >
-> [Text formatting](Appearance.md) and [Interaction](Interaction.md) can be applied to the values of the current element.
+> [Text formatting](Appearance.md#TextFormat) and [Interaction](Interaction.md) can be applied to the values of the current element.
 
 This chapter will cover the following:
- [Chart Editor]();
+* [Chart Editor](#ChartEditor);
 
-[Chart Values]();
+* [Chart Values](#ChartValues);
 
-[Chart Types]();
- [Chart Arguments]();
+* [Chart Types](#ChartTypes);
+* [Chart Arguments](#ChartArguments);
 
-[Chart Series]();
+* [Chart Series](#ChartSeries);
 
-[The Color Each Property]();
- [Chart Legend]();
+* [The Color Each Property](#ColorEach);
+* [Chart Legend](#ChartLegend);
 
-[Constant Lines]();
+* [Constant Lines](#ConstantLines);
 
-[More Options]();
+* [More Options](#moreoptions);
 
-[Icons]();
+* [Icons](#charticons);
 
-[Round Values]();
+* [Round Values](#roundvalue);
 
-[Show Zero and Show nulls]();
+* [Show Zero and Show nulls](#showzeroshownull);
 
-[Width and Style of Line]();
+* [Width and Style of Line](#linewidthlinestyle);
 
-[Y axis]();
+* [Y axis](#yaxis);
 
-[Views]();
- [Table of Properties]().
+* [Views](#viewchart);
+* [Table of Properties](#TableOfProperties).
 
 Chart Editor
 
 You can configure the **Chart** element in the special editor. To call the chart editor, you should:
 
-Double-click the left mouse button;
+* Double-click the left mouse button;
 
-Select the **Chart** item and select the **Design** command in the context menu;
+* Select the **Chart** item and select the **Design** command in the context menu;
 
-Select the **Chart** item, and, on the property panel, click the **Browse** button for the Values, Arguments or Series properties.
+* Select the **Chart** item, and, on the property panel, click the **Browse** button for the Values, Arguments or Series properties.
 
-![](../images/topics/Dashboards.Chart_2.png)
+![](../images/topics/Dashboards.Chart_3.png)
 
 
 In the chart editor, you can do the following:
 
-Specify data fields with values for the chart;
+* Specify data fields with values for the chart;
 
-Specify chart arguments;
+* Specify chart arguments;
 
-Specify the rows of the chart;
+* Specify the rows of the chart;
 
-Choose a chart type;
+* Choose a chart type;
 
-Modify the expression of the selected item.
+* Modify the expression of the selected item.
 
 > **Information**
 >
@@ -73,14 +71,14 @@ Modify the expression of the selected item.
 
 To create a chart in the dashboard, at least one data field specified in the **Value** field is required:
 
-Drag and drop the data column from the dictionary into the **Value** field, and for newly added items - into the editor or chart area.
+* Drag and drop the data column from the dictionary into the **Value** field, and for newly added items - into the editor or chart area.
 
-Create **New Field**. Set the expression for this element, the processing result of which will be the values for the chart.
+* Create **New Field**. Set the expression for this element, the processing result of which will be the values for the chart.
 
 Also, the chart can specify the arguments and series. If the arguments and series are not specified, then all element values will be processed and displayed using one graphic element. For example, if three data fields are created in the **Value** field, then three graphical elements will be displayed in the Chart.
 
 
-![](../images/topics/Dashboards.Chart_3.png)
+![](../images/topics/Dashboards.Chart_4.png)
 
 
 > **Information**
@@ -99,14 +97,14 @@ Depending on the type of a chart chosen, the data will be displayed using one or
 
 To change the type of a chart, you should do the following:
 
-Double-click the left mouse button on the Chart item;
+* Double-click the left mouse button on the Chart item;
 
-Click the chart type button in the editor;
+* Click the chart type button in the editor;
 
-Select the chart type you need.
+* Select the chart type you need.
 
 
-![](../images/topics/Dashboards.Chart_4.png)
+![](../images/topics/Dashboards.Chart_6.png)
 
 
 **Arguments**
@@ -115,15 +113,15 @@ The argument refers to data that is associated with the values of the chart. In 
 
 Also, for product prices, an argument may be a category of products. In this case, for each category of products, a graphic element will be presented. The value of this graphic element will be the sum of the prices of products which are included into this category.
 
-![](../images/topics/Dashboards.Chart_5.png)
+![](../images/topics/Dashboards.Chart_7.png)
 
 For charts with an area of X - Y, the arguments are the values along the X axis (except for bar charts). In the case of other chart types, the arguments are separate chart segments.
 
 To set chart arguments, you should to the following:
 
-Double-click the mouse left button on the Chart element;
+* Double-click the mouse left button on the Chart element;
 
-In the element editor, drag ad drop the data column from the dictionary to the **Arguments** field.
+* In the element editor, drag ad drop the data column from the dictionary to the **Arguments** field.
 
 Create **New Field** in the **Arguments** field. Set the expression for this element, the processing result of which will be the arguments for the chart.
 
@@ -138,15 +136,15 @@ Series of charts are graphical elements with or without arguments and grouped by
 For example, you have a chart with product prices (chart values) and a list of products (chart arguments). If you add an element to the series of the chart with the category data for these products, then a list of products will be displayed for every category. Below is a chart with prices for every product category and one argument.
 
 
-![](../images/topics/Dashboards.Chart_6.png)
+![](../images/topics/Dashboards.Chart_8.png)
 
 To set the series of a chart, you should do the following:
 
-Double-click the mouse left button on the Chart item;
+* Double-click the mouse left button on the Chart item;
 
-In the element editor, drag and drop the data column from the dictionary to the **Series** field.
+* In the element editor, drag and drop the data column from the dictionary to the **Series** field.
 
-Create **New Item** in the **Series** field. Set an expression for this element, the processing result of which will be series for the chart.
+* Create **New Item** in the **Series** field. Set an expression for this element, the processing result of which will be series for the chart.
 
 
 > **Information**
@@ -157,25 +155,23 @@ Create **New Item** in the **Series** field. Set an expression for this element,
 
 By default, the graphical elements of a diagram within one series have one color. However, if you need to display each graphic element in a separate color, you should:
 
-Select the Chart element;
+* Select the Chart element;
 
-set the Color Each property to **true** on the property panel.
-
-
-![](../images/topics/Dashboards.Chart_7.png)
+* set the Color Each property to **true** on the property panel.
+![](../images/topics/Dashboards.Chart_10.png)
 
 **Chart Legend**
 
 The chart legend is a description for the graphic elements. If the chart has series, the legend will automatically be enabled. The legend shows:
 
-**Marker** is a special graphic icon with the color of the graphic element to which it belongs.
+* **Marker** is a special graphic icon with the color of the graphic element to which it belongs.
 
-The value of the series for a specific graphic element of the chart;
+* The value of the series for a specific graphic element of the chart;
 
-If the arguments are set for the chart, it shows the value of the argument for a specific graphic element of the chart.
+* If the arguments are set for the chart, it shows the value of the argument for a specific graphic element of the chart.
 
 
-![](../images/topics/Dashboards.Chart_8.png)
+![](../images/topics/Dashboards.Chart_11.png)
 
 
 > **Information**
@@ -187,13 +183,13 @@ Constant lines
 Constant lines are used to display value lines in the chart area.
 
 
-![](../images/topics/Dashboards.Chart_9.png)
+![](../images/topics/Dashboards.Chart_12.png)
 
 You should do the following to add constant lines in the chart:
 
-Select a chart in the dashboard;
+* Select a chart in the dashboard;
 
-On the property panel, click the Browse button of the Constant Lines property.
+* On the property panel, click the Browse button of the Constant Lines property.
 
 
 After that, the editor will open. Configure constant lines for the current chart in the editor.
@@ -203,18 +199,18 @@ After that, the editor will open. Configure constant lines for the current chart
 In the current editor, you can add, setup and remove constant lines for the current chart.
 
 
-![](../images/topics/Dashboards.Chart_10.png)
+![](../images/topics/Dashboards.Chart_13.png)
 
-click the Add Constant Line button to create a new constant line. After that, you can use the properties on the properties panel to set this constant line. For each constant line, you can specify value, color, style, width, text and it position.
- You can move constant lines in the list of lines by dragging.
- You can remove constant line from the list hovering over and click Delete button.
+* click the Add Constant Line button to create a new constant line. After that, you can use the properties on the properties panel to set this constant line. For each constant line, you can specify value, color, style, width, text and it position.
+* You can move constant lines in the list of lines by dragging.
+* You can remove constant line from the list hovering over and click Delete button.
 
 More Options
 
 There are additional parameters on the More Options panel. However, a list of additional parameters depends on the type of a chart. Some of them can be available only for Line charts, other only for Clustered Columns, the third, such as the bind to the right Y-axis, depend on the values of the element properties. To open the additional parameters panel you should click the More Options button in the element editor. To hide the additional parameters panel you should click the Less Options button.
 
 
-![](../images/topics/Dashboards.Chart_11.png)
+![](../images/topics/Dashboards.Chart_14.png)
 
 Below we will consider each parameter separately.
 
@@ -223,7 +219,7 @@ Below we will consider each parameter separately.
 You can display a graphic value as a selected icon. It`s worth noting, that if the Color Each parameter is set, the icons of each graphic value will be of different colors. This parameter is available not only for all chart types. For example, you can`t display values by an icon for lines.
 
 
-![](../images/topics/Dashboards.Chart_12.png)
+![](../images/topics/Dashboards.Chart_15.png)
 
 The menu of icon selection is placed on the additional panel of parameters in the element editor. To display a value using an icon, you should select an icon. If you select the None value, an icon will not be applied to draw graphic chart values.
 
@@ -232,50 +228,50 @@ Round Values
 The Round Values parameter allows you to display all or part of the icons for Clustered Columns. Accordingly, whether or not this parameter is present depends on whether or not the current chart type supports icons. If the property is set to True value, then only the entire icons will be displayed in Clustered Columns. If the property is set to False value, then the icons can be partially displayed.
 
 
-![](../images/topics/Dashboards.Chart_13.png)
+![](../images/topics/Dashboards.Chart_16.png)
 
 Show Zero and Show nulls
 
 The Show Zeros and Show nulls parameters allow you to display zeros and nulls in a chart as chart zero values, a gap, a line connection points using a line. These parameters can be present individually for a specific chart type or together. These parameters are not available for some chart types.
 
 
-![](../images/topics/Dashboards.Chart_14.png)
+![](../images/topics/Dashboards.Chart_17.png)
 
 Width and Style of Line
 
 You can change line width and line style for the charts that use lines when drawing values. It can be made using the Line Width and the Line Style parameters.
 
 
-![](../images/topics/Dashboards.Chart_15.png)
+![](../images/topics/Dashboards.Chart_18.png)
 
 Bind to various axis of values
 
 Sometimes there are situations when several data fields need to be displayed in one chart. In addition, the values of these fields may differ by several orders. For example, sales volumes (millions and billions) and average bill (hundreds and thousands), or number of visitors (hundreds, thousands, millions) and bounce rate (relative index from 0 to 100). Since the range of Y-axis values is calculated automatically during data processing, displaying values of different orders in a chart, especially the lowest ones, may not be comprehensible.
 
 
-![](../images/topics/Dashboards.Chart_16.png)
+![](../images/topics/Dashboards.Chart_19.png)
 
 Pay your attention to the values of the red line. It was impossible to perceive values, tendencies of their behavior. To do that you should enable the display of the right Y axis. It can be done having set the Area - Y Right Axis – Visible property of chart element in the True value. Next in the chart editor, you should select data field and define an Y axis to which it will be assigned. The bind is carried out using the Y axis parameter in the additional parameter panel and by default, it is set to Left Y value, i.e. all data fields are bound to the left Y axis.
 
 
-![](../images/topics/Dashboards.Chart_17.png)
+![](../images/topics/Dashboards.Chart_20.png)
 
 For the example above, we will set the right Y-axis to the red line. In this case, the range of the left Y-axis values will be calculated from the values of the blue line, and the range of the right Y-axis values will be calculated from the values of the red line. Now, you can analyze the graph of the red line, its values, and tendencies.
 
 
-![](../images/topics/Dashboards.Chart_18.png)
+![](../images/topics/Dashboards.Chart_21.png)
 
 **Views**
 
 You can create several chart views in one element and then use controls to switch chart view when viewing a dashboard in the viewer. To add an alternative view to the current chart, you should select the New command in the additional parameters panel, from the drop-down menu of the Views parameter. Each view should be set, i.e. you should specify data, define chart type, and change some properties. A maximum of 5 views the Chart element can have, i.e. the main kind element and 4 views. The Duplicate command allows you to create a copy of the current view. It is comfortable if you need to display the same data in a new view, but with another chart type.
 
 
-![](../images/topics/Dashboards.Chart_19.png)
+![](../images/topics/Dashboards.Chart_22.png)
 
 The views are controlled using controls (buttons) in a chart when editing or viewing a dashboard. Each button includes a certain view. This way, views within one chart are switched using buttons.
 
 
-![](../images/topics/Dashboards.Chart_20.png)
+![](../images/topics/Dashboards.Chart_23.png)
 
 **List of properties**
 
@@ -396,7 +392,7 @@ A group of properties that allows you to customize the borders of a table - colo
 
 Conditions
 
-Customizes the [conditions element of the chart](Conditions.md).
+Customizes the [conditions element of the chart](Conditions.md#conditionparametersofchart).
 
 Corner Radius
 

@@ -20,9 +20,7 @@ Step 5: Select the **Tree View** Box element;
 ![](../images/topics/Getting_Started.Dashboard_with_Tree_View_Box_1.png)
 
 Step 6: Place the element on the dashboard;
-
-Step 7: If the element editor is not displayed, you should double click on the element; 
-
+Step 7: If the element editor is not displayed, you should double click on the element;
 Step 8: Drag data columns from data dictionary into the Key field. The values from these data columns will form the hierarchy of the current element. The values from the upper column will be the values of the upper hierarchy level, the values from the second data column upper will be the values of the second level.
 
 
@@ -50,7 +48,6 @@ Step 11: If you need the list of values of the current element to be depended on
 
 
 Step 12: Close the element editor;
-
 Step 13: Go to the Preview tab.
 
 

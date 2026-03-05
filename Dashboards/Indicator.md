@@ -1,59 +1,57 @@
-Indicator
+## Indicator
 
 **Indicator** is an element of the dashboard that represents the ability to display the aggregated value of the data field, as well as the rate of increase of this value to the target. In addition, the growth rate and the aggregated value of the indicator can be grouped by a condition.
-
-
-![](../images/topics/Dashboards.Indicator_1.png)
+![](../images/topics/Dashboards.Indicator_2.png)
 
 
 This chapter will cover the following:
 
-[Indicator Editor]();
+* [Indicator Editor](#IndicatorEditor);
 
-[Indicator Value]();
+* [Indicator Value](#IndicatorValue);
 
-[Indicator Target Value]();
- [Indicator Series]();
- [Indicator Icon]();
+* [Indicator Target Value](#IndicatorTarget);
+* [Indicator Series](#IndicatorSeries);
+* [Indicator Icon](#IndicatorIcon);
 
-[Glyph Color]();
- [Table of Properties]().
+* [Glyph Color](#glyphcolor);
+* [Table of Properties](#TableOfProperties).
 
 To display the **Indicator**, you should add a data item in the **Value** field. In this case, the value will be displayed with a specific graphic element. Also to display the growth rate, it is necessary to set the data element in the **Target** field. The settings of the **Indicator** element can be done in the element editor. To call the editor, you should:
 
-Double-click on the **Indicator** element;
+* Double-click on the **Indicator** element;
 
-Select the **Indicator** element and select the **Design** command in the context menu;
+* Select the **Indicator** element and select the **Design** command in the context menu;
 
-Select the **Indicator** element, and, on the property panel, click the **Browse** button of the Value, Target, and Series properties.
+* Select the **Indicator** element, and, on the property panel, click the **Browse** button of the Value, Target, and Series properties.
 
 
 > **Information**
 >
-> [Text formatting](Appearance.md) can be applied to the values of the current element.
+> [Text formatting](Appearance.md#TextFormat) can be applied to the values of the current element.
 
 **Indicator editor**
 
 In the **Indicator** editor, you can add elements with data, edit the expressions of these elements, select a graphic element to indicate the value.
 
-![](../images/topics/Dashboards.Indicator_2.png)
+![](../images/topics/Dashboards.Indicator_4.png)
 
 
 In the **Indicator** editor you can:
 
-Specify the data field for the Indicator value;
+* Specify the data field for the Indicator value;
 
-Specify the data field for the target value of the Indicator;
+* Specify the data field for the target value of the Indicator;
 
-Specify the data field for the series of the Indicator;
+* Specify the data field for the series of the Indicator;
 
-Select a graphic element to display the value.
+* Select a graphic element to display the value.
 
 **Indicator value**
 
 In the value field, you can specify only one data field. All values of this field will be aggregated, i.e. a function will be applied to them. By default, this is a summation function for numeric values. If a field with non-numeric values is added, then by default the function of the number of rows in this data field is applied to them.
 
-![](../images/topics/Dashboards.Indicator_3.png)
+![](../images/topics/Dashboards.Indicator_5.png)
 
 
 > **Information**
@@ -63,9 +61,7 @@ In the value field, you can specify only one data field. All values of this fiel
 **Target value**
 
 To use the indicator to display the growth rate, besides the value in the indicator, it is necessary to indicate the target value. The target value is the aggregated value of the data field specified in the Target field of the indicator. In the Target field, you can specify only one data field. By default, the summation function for numeric values is applied to the data field in the Target field. If a data field with non-numeric values is added, then, by default, the function of counting the number of rows in this data field is applied to it.
-
-
-![](../images/topics/Dashboards.Indicator_4.png)
+![](../images/topics/Dashboards.Indicator_7.png)
 
 > **Information**
 >
@@ -79,35 +75,33 @@ The indicator series is a separate indicator for a specific segment of values se
 
 For example, in the Value field on the indicator, a data field with the number of orders issued is set, and in the Target field you set the planned number of orders. Without a series, only one indicator will be displayed. The indicator value will be the aggregated value of the data field specified in the Value field. All data field values form the Target field will also be aggregated. Based on the value and the target value, the indicator will be displayed with the growth rate.
 
-![](../images/topics/Dashboards.Indicator_5.png)
+![](../images/topics/Dashboards.Indicator_8.png)
 
 If you specify a data field with a list of products in series, then the indicator will be displayed for every product, i.e. for each product, the number of orders issued and the rate of growth of orders for each product will be displayed.
 
-![](../images/topics/Dashboards.Indicator_6.png)
+![](../images/topics/Dashboards.Indicator_9.png)
 
 If you specify a data field with a list of product categories in series, then an indicator will be displayed for each category, i.e. the indicator value and growth rate will be calculated by processing the values and growth rate of all products included into this category. In other words, the values and growth rate of each product will be grouped into categories to which they relate.
 
-![](../images/topics/Dashboards.Indicator_7.png)
+![](../images/topics/Dashboards.Indicator_10.png)
 
 To set the series of the indicator, you should:
 
-Double-click the left mouse button on **Indicator**;
+* Double-click the left mouse button on **Indicator**;
 
-Drag and drop the data column from the dictionary to the **Series** field.
+* Drag and drop the data column from the dictionary to the **Series** field.
 
-Create **New Field** in the **Series** field. Set the expression for this element, the processing of which will be the values of the series of the indicator.
+* Create **New Field** in the **Series** field. Set the expression for this element, the processing of which will be the values of the series of the indicator.
 
 
 **Graphic element of value**
 
 When creating an indicator for a value, you can select a graphic element. To do this:
 
-Call the editor of the element;
+* Call the editor of the element;
 
-Click the **Browse** button in the **Icon** field, and select the icon in the drop-down list.
-
-
-![](../images/topics/Dashboards.Indicator_8.png)
+* Click the **Browse** button in the **Icon** field, and select the icon in the drop-down list.
+![](../images/topics/Dashboards.Indicator_12.png)
 
 If rows and target value are specified in an indicator, you can`t specify an icon for the indicator. However, if values and rows are specified in an indicator, you can specify a set of icons for indicators or ranges of values for each icon. Let's have a look at the example.
 
@@ -115,7 +109,7 @@ If rows and target value are specified in an indicator, you can`t specify an ico
 Let`s specify rows for an indicator. In this case, you can select a set of icons for the indicator. The minimum value of the indicator will be assigned to the first icon from the set, the maximum - to the last one. The value range will be divided into the number of icons in the set, and depending on which part of the value range the value of the row belongs to, one or another icon from the set will be assigned. By default, the Mode property is set to the Auto value, i.e. the calculation of the range of values by parts is performed automatically.
 
 
-![](../images/topics/Dashboards.Indicator_9.png)
+![](../images/topics/Dashboards.Indicator_13.png)
 
 Also, you can divide the range of values manually, and for each part of the range, you can assign a different icon. To do this, you should set the Mode property to the Custom value. This will display additional controls that can be used to customize each part of the indicator values range. You should click the Add Range button, define its numerical boundaries, select an icon for each part of the range. It is worth considering that parts of the range can be defined as absolute or relative. This depends on the range type parameter - Percentage or Value.
 
@@ -124,7 +118,7 @@ If you select a type as Percentage, the boundaries of the value range part is th
 
 **Glyph Color**
 
-By default, icon color is assigned from the element style. You can change it using the Glyph Color property of the indicator. When using a set of icons for indicator series, the color of these icons will be the same. However, you can change the color of the icon depending on the value using [Conditional Formatting](Conditions.md).
+By default, icon color is assigned from the element style. You can change it using the Glyph Color property of the indicator. When using a set of icons for indicator series, the color of these icons will be the same. However, you can change the color of the icon depending on the value using [Conditional Formatting](Conditions.md#conditionparametersofindicator).
 
 **List of properties**
 
@@ -161,7 +155,7 @@ A group of properties that allows you to customize the borders of the element - 
 
 Conditions
 
-Customizes the [conditions element of the indicator](Conditions.md).
+Customizes the [conditions element of the indicator](Conditions.md#conditionparametersofindicator).
 
 Corner Radius
 

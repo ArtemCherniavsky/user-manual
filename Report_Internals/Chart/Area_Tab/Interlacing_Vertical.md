@@ -1,13 +1,13 @@
-Interlacing Vertical
+## Interlacing Vertical
 
 Interlacing Vertical is the process of filling every second vertical gap between the X-axis values across the entire chart area. Vertical filling can alternate with horizontal filling.
 
 
 ![](../../../images/topics/Report_Internals.Chart.Area_Tab.Interlacing_Vertical_1.png)
 
-To configure interlacing vertical in the chart area, you need:  
- In the component editor, navigate to the Area tab and select the Interlacing Vertical section;
- Set the required property values.
+To configure interlacing vertical in the chart area, you need:
+* In the component editor, navigate to the Area tab and select the Interlacing Vertical section;
+* Set the required property values.
 
 
 Below is a table of properties used to configure interlacing vertical.

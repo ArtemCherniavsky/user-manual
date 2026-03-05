@@ -1,14 +1,14 @@
-Preview settings
+## Preview settings
 
 When designing a report and dashboard, or before exporting, printing, sending by email, you can preview them. Viewing a report or dashboard is done on a separate tab in the report designer. The preview tab for reports and dashboards contains toolbars with buttons and menus.
 
 In the report designer, you can customize toolbars to preview a report or dashboard. You can do this in the Preview Settings editor. To call this editor, you should do the following:
 
-Left-click in the report template area (outside the page and dashboard).
+* Left-click in the report template area (outside the page and dashboard).
 
-Click the Browse button of the Preview Settings property.
+* Click the Browse button of the Preview Settings property.
 
-Since reports and dashboards use different viewing modes, their toolbars differ. On the [Report tab]() of the editor, the toolbar is configured when viewing the current report, and on the [Dashboard tab](), the current toolbar is configured.
+* Since reports and dashboards use different viewing modes, their toolbars differ. On the [Report tab](#report) of the editor, the toolbar is configured when viewing the current report, and on the [Dashboard tab](#dashboard), the current toolbar is configured.
 
 
 > **Information**
@@ -225,4 +225,4 @@ This parameter is used to define order of the the viewer controls in direct orde
 
 > **Information**
 >
-> You should know that you can enable or disable the display of buttons on the dashboard elements in the viewer or on the preview tab. Select the element in the report designer, click the Interaction button on the Home tab of the Ribbon panel, and [check/uncheck the box for the parameters](../../Dashboards/Interaction.md) if you want to display/hide the buttons of elements.
+> You should know that you can enable or disable the display of buttons on the dashboard elements in the viewer or on the preview tab. Select the element in the report designer, click the Interaction button on the Home tab of the Ribbon panel, and [check/uncheck the box for the parameters](../../Dashboards/Interaction.md#InteractionEditor) if you want to display/hide the buttons of elements.

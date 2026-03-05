@@ -7,15 +7,15 @@ One of the options for data analysis and forecasting is the ability to overlay a
 
 
 To add a trend line to a chart, you need:
- In the component editor, go to the Series tab and select the Trend Line section;
- Choose the type of trend line and configure its settings using the available properties.
+* In the component editor, go to the Series tab and select the Trend Line section;
+* Choose the type of trend line and configure its settings using the available properties.
 
 
 The type of trend line defines the relationship between values and arguments. The following types of trend lines are available:
- Linear.
+* Linear.
 
-Exponential.
- Logarithmic.
+* Exponential.
+* Logarithmic.
 
 Below is a table of properties that configure the selected trendline type.  Below is a table of properties that configure the selected trendline type.
 

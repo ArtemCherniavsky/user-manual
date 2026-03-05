@@ -1,4 +1,4 @@
-Tools
+## Tools
 
 Tools are used to improve and do faster work with the reporting tool. See the list of them.
 

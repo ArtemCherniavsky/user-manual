@@ -6,8 +6,8 @@ One of the options for filtering, analyzing, and grouping data series is the abi
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Top_N_1.png)
 
 To configure the top values of a series, follow these steps:
- In the component editor, go to the Series tab and select the Top N tab;
- Use the available properties to configure the display of top values.
+* In the component editor, go to the Series tab and select the Top N tab;
+* Use the available properties to configure the display of top values.
 
 Below is a table of properties and their descriptions used to configure the top values.
 

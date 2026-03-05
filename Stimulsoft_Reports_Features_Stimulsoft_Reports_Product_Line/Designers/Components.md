@@ -1,4 +1,4 @@
-Components
+## Components
 
 Components in Stimulsoft Reports are divided into 3 groups. See the table below with the components supported.
 

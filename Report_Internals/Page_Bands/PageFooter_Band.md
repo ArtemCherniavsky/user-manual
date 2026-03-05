@@ -4,7 +4,7 @@
 The Page Footer band is used to output information such as page numbers, dates, and company information at the bottom of a page. The Page Footer band is output at the bottom of every page of the report.  An unlimited number of Page Footer bands can be placed on a page.
 
 
-**Note:** The number of Page Footer bands that can be placed on a page is effectively unlimited other than by available space.
+* **Note:** The number of Page Footer bands that can be placed on a page is effectively unlimited other than by available space.
 
 
 **Example**
@@ -15,7 +15,7 @@ Create a new report and drop three bands on a page: a Page Footer band for the c
 {PageNofM}
 
 
-**Note:** If you prefer instead of typing the expression it is possible to select it from the System Variables in the Expression Editor.
+* **Note:** If you prefer instead of typing the expression it is possible to select it from the System Variables in the Expression Editor.
 
 
 The result should look something like this:

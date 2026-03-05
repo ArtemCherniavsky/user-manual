@@ -1,4 +1,4 @@
-Tab Series
+## Tab Series
 
 
 Series of the chart component are the main element of the diagram. Series are important to visualize data. It should be understood that construction is not possible without series of the diagram.
@@ -10,7 +10,7 @@ Series of the chart component are the main element of the diagram. Series are im
 ![](../../images/img_1.png) The toolbar contains the basic commands to control the chart series: adding series, deleting the selected one, moving the selected series in the list.
 
 
-**NOTICE**: If the chart type is defined on the **Chart** tab, in the menu of adding rows, only series of this type will only be available, and those that can interact with the type of a chart. If the chart type is not specified, the type of a chart will depend on the selected series.
+* **NOTICE**: If the chart type is defined on the **Chart** tab, in the menu of adding rows, only series of this type will only be available, and those that can interact with the type of a chart. If the chart type is not specified, the type of a chart will depend on the selected series.
 
 
 ![](../../images/img_2.png) The list of chart series. As can be seen from the picture, this chart contains three rows.

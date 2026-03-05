@@ -1,4 +1,4 @@
-Text Rotation
+## Text Rotation
 
 
 Set the angle of the text rotation using the Angle property of the Text component. The angle of the text is given in degrees anticlockwise.

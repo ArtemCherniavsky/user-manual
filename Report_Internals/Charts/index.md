@@ -1,4 +1,4 @@
-Charts
+## Charts
 
 > **YouTube** [video tutorials on creating reports with charts](https://www.youtube.com/watch?v=HBg6nqKizrI&list=PL6BCD8C9EBB9CB79E&index=2)
 
@@ -6,7 +6,6 @@ Chart is a data visualization tool used in a report. With this tool, data is pro
 
 
 The type of chart depends on the type of chart series. A single series represents the values of one data column, except in cases where multiple values are required to display graphical elements. For example, financial charts require four values to render a single graphical element.
-
 Thus, a single Chart component can display multiple chart series. In this case, the series types are the same, but the data differs. However, some series types are compatible with others. For instance, a Histogram and a Line can be displayed within the same Chart component.
 
 
@@ -20,36 +19,36 @@ Thus, a single Chart component can display multiple chart series. In this case, 
 > Normalized Histogram, Normalized Line, Normalized Spline, Normalized Area, Normalized Spline Area.
 
 Chart series data can be:
- Obtained from data sources;
- Entered manually.
+* Obtained from data sources;
+* Entered manually.
 
 
 To add a Chart component to a report, follow these steps:
- In the Infographics menu on the toolbox or the Insert tab of the designer’s Ribbon panel, select a chart type.
- Click the desired location in the report with the left mouse button.
+* In the Infographics menu on the toolbox or the Insert tab of the designer’s Ribbon panel, select a chart type.
+* Click the desired location in the report with the left mouse button.
 
 
 Next, resize the Chart component and configure it in the component editor. To open the Chart component editor:
 
-Double-click the Chart component in the report;
- Open the context menu of the Chart component and select the Design command.
+* Double-click the Chart component in the report;
+* Open the context menu of the Chart component and select the Design command.
 
 
 Chart Editor
 The chart and its elements are configured in the editor using properties. All properties are grouped on specific tabs based on the chart element they belong to. Additionally, properties within each tab are grouped by purpose, with each group represented as a separate section.
 
 Each tab in the editor includes:
- A chart preview panel with property groups;
- A properties panel;
- Additionally, some tabs may display extra panels when selected.
+* A chart preview panel with property groups;
+* A properties panel;
+* Additionally, some tabs may display extra panels when selected.
 
 All tabs and their property groups will be covered in the following sections:
- Chart;
- Series;
+* Chart;
+* Series;
 
-Area;
- Labels;
- Styles.
+* Area;
+* Labels;
+* Styles.
 
 
 The table below lists chart series types with brief descriptions.

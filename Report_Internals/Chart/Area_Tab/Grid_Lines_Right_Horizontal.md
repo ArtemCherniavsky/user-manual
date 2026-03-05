@@ -1,13 +1,10 @@
-Grid Lines Right Horizontal
+## Grid Lines Right Horizontal
 
 Grid Lines Horizontal Right are lines in the chart area corresponding to each value of the right Y-axis, running parallel to the X-axis. In other words, a line of a specific style and color will extend from each value of the right Y-axis to the opposite edge of the chart area, parallel to the X-axis.
-
-
-![](../../../images/topics/Report_Internals.Chart.Area_Tab.Grid_Lines_Right_Horizontal_1.png)
-
+![](../../../images/topics/Report_Internals.Chart.Area_Tab.Grid_Lines_Right_Horizontal_2.png)
 To set up right horizontal grid lines in the chart area, you need:
- In the component editor, navigate to the Area tab and select the Grid Lines Horizontal Right section;
- Set the required property values.
+* In the component editor, navigate to the Area tab and select the Grid Lines Horizontal Right section;
+* Set the required property values.
 
 > **Information**
 >

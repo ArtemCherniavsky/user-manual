@@ -1,16 +1,14 @@
-Panel
+## Panel
 
 The **Panel** is an element of the dashboard on which other elements can be placed, including other panels and dashboards.
-
-
-![](../images/topics/Dashboards.Panel_1.png)
+![](../images/topics/Dashboards.Panel_2.png)
 
 
 The **Panel** element is stretched along with the dashboard by height and width. To resize the Panel element you should:
 
-Select a dashboard element;
+* Select a dashboard element;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 **List of properties**
 

@@ -1,4 +1,4 @@
-Table
+## Table
 
 A Table on the chart is a list of values of graphical elements in a series in relation to their arguments.
 
@@ -7,9 +7,9 @@ A Table on the chart is a list of values of graphical elements in a series in re
 
 To enable the chart’s value table:
 
-In the component editor, go to the Chart tab and select the Table sub-tab;
- Set the Visible property to True;
- Configure the table using the available properties.
+* In the component editor, go to the Chart tab and select the Table sub-tab;
+* Set the Visible property to True;
+* Configure the table using the available properties.
 
 > **Information**
 >

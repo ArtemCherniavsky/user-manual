@@ -1,4 +1,4 @@
-Table
+## Table
 
 **Table** is an element of data analysis, which provides the ability to display data field values in Measure and Dimension modes, as well as apply Data Bars, Color Scale, Indicator, Sparklines to data field values. In addition, the table element has settings for data aggregation — filtering, sorting, replacing values, calculating a cumulative total, etc.
 
@@ -6,42 +6,42 @@ Table
 >
 > When dragging a data source to the dashboard, a table element will be created with all the data columns of this source.
 
-![](../images/topics/Dashboards.Table_1.png)
+![](../images/topics/Dashboards.Table_2.png)
 
 This chapter will cover the following:
 
-[Table Editor]();
+* [Table Editor](#TableEditor);
 
-[The Order of Elements]();
+* [The Order of Elements](#OrderOfElements);
 
-[Size Mode]();
+* [Size Mode](#SizeMode);
 
-[Grouping data]();
+* [Grouping data](#GroupingData);
 
-[Images in Table]();
- [Header Menu]();
- [Table of Properties]().
+* [Images in Table](#ImagesInTable);
+* [Header Menu](#HeaderMenu);
+* [Table of Properties](#TableofProperties).
 
 
 The options for displaying the values of the Table element are made in its editor. To call the editor, you should:
 
-Double-click on the Table element;
+* Double-click on the Table element;
 
-Select the **Table** element, and select the **Design** command in the context menu;
+* Select the **Table** element, and select the **Design** command in the context menu;
 
-Select the **Table** element, and click the **Browse** button of to the **Columns** property on the property panel.
+* Select the **Table** element, and click the **Browse** button of to the **Columns** property on the property panel.
 
 > **Information**
 >
-> [Text formatting](Appearance.md) and [Interaction](Interaction.md) can be applied to the values of the current element.
+> [Text formatting](Appearance.md#TextFormat) and [Interaction](Interaction.md) can be applied to the values of the current element.
 
 **Table element editor**
 
 In the editor of the Table element, you may add data fields, the order in which they are displayed in the table, the deletion, and the insertion of graphical indicators of data analysis are determined.
 
-![](../images/topics/Dashboards.Table_2.png)
+![](../images/topics/Dashboards.Table_5.png)
 
-![](../images/topics/Dashboards.Table_3.png)
+![](../images/topics/Dashboards.Table_6.png)
 
 ![](../images/img_1.png) The list of data fields of the Table element.
 
@@ -59,8 +59,8 @@ In the editor of the Table element, you may add data fields, the order in which 
 
 * **Indicator**, the type in which different functions can be applied to the values ​​of the data field, and an indicator will be added for each value of this field.
 
-* Sparklines, a type in which different functions can be applied to the values ​​of a data field, and a sparkline will be added to each value of this field. By the way, in this case, sparkline also has several types - a graph, area, data bar, a win/loss. Also for a sparkline graph or area, you can define a starting point mode. 
- Bubble. It`s the type where various functions can be applied to to the values of data fields and each value will be presented as Bubble.
+* Sparklines, a type in which different functions can be applied to the values ​​of a data field, and a sparkline will be added to each value of this field. By the way, in this case, sparkline also has several types - a graph, area, data bar, a win/loss. Also for a sparkline graph or area, you can define a starting point mode.
+* Bubble. It`s the type where various functions can be applied to to the values of data fields and each value will be presented as Bubble.
 
 
 ![](../images/img_4.png) The **Visible** parameter provides the ability to enable or disable the display of the selected column in the dashboard table. Also enabling and disabling of the column can depend on the result of a logic expression. If the result of the expression calculation is the true value, the column will be enabled. If the result of the expression calculation is the false value, the column will be disabled.
@@ -81,29 +81,29 @@ In the editor of the Table element, you may add data fields, the order in which 
 
 The order of the fields in the editor from top to bottom, displays the sequence of their output in the Table element, from left to right. To change the order of the output fields in the table you should change their order in the editor. To do this:
 
-Move the cursor to the required field;
+* Move the cursor to the required field;
 
-Press the left button of the mouse and, without releasing it, drag the field to a specific place.
+* Press the left button of the mouse and, without releasing it, drag the field to a specific place.
 
 
 **Size mode**
 
 By default, the table has a fixed width of columns both in the report designer and in the report viewer. However, you can enable stretching the table. You may do this the following way:
 
-Select the Table element in the dashboard.
+* Select the Table element in the dashboard.
 
-Set the Fit value to the Size Mode property on the property panel. In this case, the table will stretch across the width of the element. However, in the viewer the width of the columns cannot be less than the preset width. To prevent the table from stretching by the width of the element, set the **Resizing Method** property to **AutoSize**.
+* Set the Fit value to the Size Mode property on the property panel. In this case, the table will stretch across the width of the element. However, in the viewer the width of the columns cannot be less than the preset width. To prevent the table from stretching by the width of the element, set the **Resizing Method** property to **AutoSize**.
 
 **Grouping data in a table**
 
 To group the data in the **Table** element, it is necessary for the data fields which values are to be grouped, to switch the mode from **Dimension** to **Measure**. For example, if there are three data fields in the table - a list of categories, products, the number of orders for each product from different states, then to group by product, follow the fields with the number of orders for different states to switch the item type from **Dimension** to **Measure**.
 
-![](../images/topics/Dashboards.Table_4.png)
+![](../images/topics/Dashboards.Table_7.png)
 
 In the case of grouping data into categories, it is also necessary for the data field with the list of products to change the element type from **Dimension** to **Measure**.
 
 
-![](../images/topics/Dashboards.Table_5.png)
+![](../images/topics/Dashboards.Table_9.png)
 
 
 Images in Table
@@ -113,18 +113,18 @@ In the table, you can display images obtained from data sources, as well as imag
 
 If the data field contains image URLs, then by default, these URLs will be displayed as text in the table. To get images by URL and display them in a table, you should:
 
-Select the data field with the image URL in the Table editor;
+* Select the data field with the image URL in the Table editor;
 
-Apply the Image() function to the expression of this field. For example, Image(DataSource.DataColumn1).
+* Apply the Image() function to the expression of this field. For example, Image(DataSource.DataColumn1).
 
-Specify the height and width of the image in the function arguments, if the URL redirects to an SVG image - Image(DataSource.DataColumn, height, width).
+* Specify the height and width of the image in the function arguments, if the URL redirects to an SVG image - Image(DataSource.DataColumn, height, width).
 
 **Menu of a header of value ​​columns**
 
 Each data field added to the editor is a column of values ​​in the **Table** element. In this case, for each column a column header values will be created. The text of this header is the name of the data field in the **Table** element editor. Each header of the value column contains a drop-down menu, in which the commands for sorting and filtering by the values ​​of the current column can be found. To call the drop-down menu of the header, you should click the left button of the mouse.
 
 
-![](../images/topics/Dashboards.Table_6.png)
+![](../images/topics/Dashboards.Table_10.png)
 
 
 ![](../images/img_1.png) Commands to sort the table data by the values of the current column. In this case, the data is sorted according to the same principle as in data conversion.
@@ -134,7 +134,7 @@ Each data field added to the editor is a column of values ​​in the **Table**
 
 > **Information**
 >
-> You can disable the sorting and filtering commands in the value column header menu using [the interaction parameters of the Table element](Interaction.md).
+> You can disable the sorting and filtering commands in the value column header menu using [the interaction parameters of the Table element](Interaction.md#TableInteraction).
 
 **List of Table properties**
 

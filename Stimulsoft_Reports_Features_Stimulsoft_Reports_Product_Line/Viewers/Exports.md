@@ -1,6 +1,6 @@
-Exports
+## Exports
 
-The list contains export options supported for the [dashboards]() and [reports]() in Stimulsoft viewers.
+The list contains export options supported for the [dashboards](#DashboardExports) and [reports](#ReportExports) in Stimulsoft viewers.
 
 Table of Dashboard Exports
 
@@ -15,22 +15,14 @@ WinForms
 **HTML5**
 **(JavaScript)**
 
-[Report Snapshot](../../Exports/Dashboards.md)
+[Report Snapshot](../../Exports/Dashboards.md#reportsnapshot)
 
 +
 
 +
 
 
-[PDF](../../Exports/Dashboards.md)
-
-+
-
-+
-
-+
-
-[Microsoft Excel](../../Exports/Dashboards.md)
+[PDF](../../Exports/Dashboards.md#pdfexportsettings)
 
 +
 
@@ -38,74 +30,7 @@ WinForms
 
 +
 
-
-[Image](../../Exports/Dashboards.md):
-
-[BMP](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[GIF](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[JPEG](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[PCX](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[PNG](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[TIFF](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[EMF](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[SVG](../../Exports/Dashboards.md)
-
-+
-
-+
-
-
-[SVGZ](../../Exports/Dashboards.md)
-
-+
-
-+
-
-[Data](../../Exports/Dashboards.md):
-
-[CSV[1]](../../Exports/Dashboards.md)
+[Microsoft Excel](../../Exports/Dashboards.md#excelexportsettings)
 
 +
 
@@ -113,35 +38,110 @@ WinForms
 
 +
 
-[DBF[1]](../../Exports/Dashboards.md)
+
+[Image](../../Exports/Dashboards.md#imageexportsettings):
+
+[BMP](../../Exports/Dashboards.md#imageexportsettings)
 
 +
 
 +
 
 
-[XML[1]](../../Exports/Dashboards.md)
+[GIF](../../Exports/Dashboards.md#imageexportsettings)
 
 +
 
 +
 
 
-[JSON[1]](../../Exports/Dashboards.md)
+[JPEG](../../Exports/Dashboards.md#imageexportsettings)
 
 +
 
 +
 
 
-[DIF[1]](../../Exports/Dashboards.md)
+[PCX](../../Exports/Dashboards.md#imageexportsettings)
 
 +
 
 +
 
 
-[SYLK[1]](../../Exports/Dashboards.md)
+[PNG](../../Exports/Dashboards.md#imageexportsettings)
+
++
+
++
+
+
+[TIFF](../../Exports/Dashboards.md#imageexportsettings)
+
++
+
++
+
+
+[EMF](../../Exports/Dashboards.md#imageexportsettings)
+
++
+
++
+
+
+[SVG](../../Exports/Dashboards.md#imageexportsettings)
+
++
+
++
+
+
+[SVGZ](../../Exports/Dashboards.md#imageexportsettings)
+
++
+
++
+
+[Data](../../Exports/Dashboards.md#exportsettingsofdata):
+
+[CSV[1]](../../Exports/Dashboards.md#exportsettingsofdata)
+
++
+
++
+
++
+
+[DBF[1]](../../Exports/Dashboards.md#exportsettingsofdata)
+
++
+
++
+
+
+[XML[1]](../../Exports/Dashboards.md#exportsettingsofdata)
+
++
+
++
+
+
+[JSON[1]](../../Exports/Dashboards.md#exportsettingsofdata)
+
++
+
++
+
+
+[DIF[1]](../../Exports/Dashboards.md#exportsettingsofdata)
+
++
+
++
+
+
+[SYLK[1]](../../Exports/Dashboards.md#exportsettingsofdata)
 
 +
 

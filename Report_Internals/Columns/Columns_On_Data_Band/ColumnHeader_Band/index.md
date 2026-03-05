@@ -4,7 +4,7 @@
 The Header band is normally used to output data headers, but there is also a special Column Header band. The Header band is output once before the Data band and contains only one set of data.  The Column Header band is also output only once, but the components on this band are repeated above every column. It is used only for the columns positioned on the Data band.
 
 
-**Notice:** The **Column Header** band is used for columns placed on the Data band. The Header band for page columns has the same functionality.
+* **Notice:** The **Column Header** band is used for columns placed on the Data band. The Header band for page columns has the same functionality.
 
 
 **Example**

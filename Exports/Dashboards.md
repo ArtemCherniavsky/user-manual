@@ -1,16 +1,16 @@
 ## Export Dashboard
 
-When viewing the dashboard in the report viewer, you can convert its elements to [PDF](), [Excel files](), as well as [image]() files such as BMP, GIF, PNG, TIFF, JPEG, PCX, EMF, SVG, and SVGZ. In addition, you can save the dashboard as a [report snapshot]().
+When viewing the dashboard in the report viewer, you can convert its elements to [PDF](#pdfexportsettings), [Excel files](#excelexportsettings), as well as [image](#imageexportsettings) files such as BMP, GIF, PNG, TIFF, JPEG, PCX, EMF, SVG, and SVGZ. In addition, you can save the dashboard as a [report snapshot](#reportsnapshot).
 
 
 ![](../images/topics/Exports.Dashboards_1.png)
 
-To export the dashboard, click the [More Options](../Viewer/Dashboards.md) button and select the appropriate command. If you want to convert only a specific element, click the [Save](../Viewer/Dashboards.md) button on that element and select the file type.
+To export the dashboard, click the [More Options](../Viewer/Dashboards.md#moreoptions) button and select the appropriate command. If you want to convert only a specific element, click the [Save](../Viewer/Dashboards.md#save) button on that element and select the file type.
 
 
 > **Information**
 >
-> For the [Table](../Dashboards/Table.md) element, export formats to [CSV, DBF, XML, JSON, DIF, and SYLK]() are also available. To do this, select the Data command in the Save menu. Then, in the export settings, select the file type into which you want to convert the current element.
+> For the [Table](../Dashboards/Table.md) element, export formats to [CSV, DBF, XML, JSON, DIF, and SYLK](#exportsettingsofdata) are also available. To do this, select the Data command in the Save menu. Then, in the export settings, select the file type into which you want to convert the current element.
 
 After selecting the export format, the export options dialog will be called. The parameters may vary depending on the type. Let's consider export settings in more detail.
 
@@ -81,4 +81,4 @@ Export settings for the [Table](../Dashboards/Table.md) element when converting 
 
 > **Information**
 >
-> You should know that this type of export is available only for the [Table](../Dashboards/Table.md) element. However, if you need to convert the values of all the fields of an element into a data file, you may [change the type of this element](../Dashboards/index.md) to the Table element, and then, export the Table element to the data file.
+> You should know that this type of export is available only for the [Table](../Dashboards/Table.md) element. However, if you need to convert the values of all the fields of an element into a data file, you may [change the type of this element](../Dashboards/index.md#ItemType) to the Table element, and then, export the Table element to the data file.

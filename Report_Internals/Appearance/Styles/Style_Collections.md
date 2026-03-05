@@ -1,12 +1,12 @@
-Collections
+## Collections
 
 A style collection is a group of styles that have the same value in the Collection Name property. Each collection must contain at least one style. For instance, if multiple styles are used in a report, they can be combined into a collection. It's important to note that a report can have multiple style collections.
 
 You can create a style collection in the following ways:
 
-Manually, by assigning the same value to the Collection Name property of the required styles.
+* Manually, by assigning the same value to the Collection Name property of the required styles.
 
-By selecting the Create Style Collection... command from the Actions menu, defining the settings for the new collection, and clicking the Ok button. In this case, the collection will be generated automatically.
+* By selecting the Create Style Collection... command from the Actions menu, defining the settings for the new collection, and clicking the Ok button. In this case, the collection will be generated automatically.
 
 
 It's worth noting that a report can contain both manually created style collections and automatically generated ones. Additionally, if needed, the styles within a generated collection can be edited along with the collection itself.
@@ -14,9 +14,9 @@ It's worth noting that a report can contain both manually created style collecti
 
 You can apply styles from collections in the following ways:
 
-Manually assign a style to each report or report component. You can select from the drop-down menu of quick style selections or from the drop-down list of values for the Style property.
+* Manually assign a style to each report or report component. You can select from the drop-down menu of quick style selections or from the drop-down list of values for the Style property.
 
-Select the style collection from the quick style select menu on the Home tab of the Ribbon panel in the style designer.
+* Select the style collection from the quick style select menu on the Home tab of the Ribbon panel in the style designer.
 
 > **Information**
 >
@@ -37,11 +37,11 @@ Step 3: To create a style collection, fill in the Collection Name property for t
 
 When working with style collections, keep in mind:
 
-When dragging a style from one collection to another, the value of the Collection Name property will change accordingly.
+* When dragging a style from one collection to another, the value of the Collection Name property will change accordingly.
 
-If you rename a style collection, all styles within that collection will have their Collection Name property value changed as well.
+* If you rename a style collection, all styles within that collection will have their Collection Name property value changed as well.
 
-To remove a style from any collection, delete the value of the Collection Name property by leaving the value field of this property blank.
+* To remove a style from any collection, delete the value of the Collection Name property by leaving the value field of this property blank.
 
 
 Step 4: Set up style conditions. Without conditions, when applying a collection of styles to a report, the styles will be applied sequentially from top to bottom. As a result, the last style from the collection will be applied to the report. However, you can also change the style of a report component by selecting it in the report template and choosing the appropriate style from the style menu on the Home tab of the report designer.
@@ -88,11 +88,11 @@ Applying a style collection to a report
 
 After the style collections are created, you can select one of these collections in the report.
 
-To do this, click on the style quick selection menu in the report designer on the Home tab.
+* To do this, click on the style quick selection menu in the report designer on the Home tab.
 
-The drop-down list will display all collections of reports and a list of styles.
+* The drop-down list will display all collections of reports and a list of styles.
 
-After selecting a collection, a message will be displayed asking you to confirm or cancel this action.
+* After selecting a collection, a message will be displayed asking you to confirm or cancel this action.
 
 
 If confirmed, the styles from the collection will be applied to the report components depending on the specified [conditions](Style_Conditions.md) in these styles.

@@ -1,4 +1,4 @@
-List Box
+## List Box
 
 **List Box** is a filtering element on the dashboard, which is used to filter data for analysis elements in the viewer, depending on the selected value. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard in the viewer, it can grow or shrink in height and width.
 
@@ -6,28 +6,28 @@ List Box
 
 This chapter will cover the following:
 
-[List Box editor]();
+* [List Box editor](#ListBoxEditor);
 
-[Table Of Properties]().
+* [Table Of Properties](#TableOfProperties).
 
 The **List Box** element can be subordinate to other filtering elements, or can be the main filtering element for them. The **List Box** can work in two modes:
 
-**One**. In the viewer you can select only one value of the List Box. Accordingly, data filtering for the elements of the dashboard will be executed only by one value.
+* **One**. In the viewer you can select only one value of the List Box. Accordingly, data filtering for the elements of the dashboard will be executed only by one value.
 
-**Multi**. In the viewer, you can select several values of the List Box. Accordingly, data filtering for the elements of the dashboard will be executed by all selected values.
+* **Multi**. In the viewer, you can select several values of the List Box. Accordingly, data filtering for the elements of the dashboard will be executed by all selected values.
 
 The List Box element can be of two types:
 
-Horizontal list of values;
+* Horizontal list of values;
 
-Vertical list of values.
+* Vertical list of values.
 
 
 The item is set up in its editor. To call the editor, you should to the following in the report designer:
 
-Double-click the List Box;
+* Double-click the List Box;
 
-Select the List Box and select **Design** in the context menu.
+* Select the List Box and select **Design** in the context menu.
 
 
 > **Information**
@@ -38,7 +38,7 @@ Select the List Box and select **Design** in the context menu.
 
 In the editor of the List Box element, you may add elements with data, set up the mode for selecting values, select the main element of filtering.
 
-![](../../images/topics/Dashboards.Data_Filtering.List_Box_2.png)
+![](../../images/topics/Dashboards.Data_Filtering.List_Box_3.png)
 
 ![](../../images/img1.png) The **Key** field. The data element is specified there by the values of which the data will be filtered.
 

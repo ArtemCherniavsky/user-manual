@@ -1,22 +1,19 @@
-Style Designer
+## Style Designer
 
 The style designer is a tool designed for creating and editing styles for report components and dashboard elements. Styles can be grouped into collections, and all created styles and their collections can be saved to a file. Using styles and their collections, the visual formatting of the report is achieved.
- 
-
-![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_1.png)
-
+![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_2.png)
 In order to open the Style Designer, you should:
 
-Click on the Style Designer button on the Home ribbon tab in the report designer.
+* Click on the Style Designer button on the Home ribbon tab in the report designer.
 
-Select Edit Styles from the Style property value list of the selected report component or dashboard element.
+* Select Edit Styles from the Style property value list of the selected report component or dashboard element.
 
 
 The Style Designer consists of:
 
-Toolbar, which contains menus and commands for managing styles.
+* Toolbar, which contains menus and commands for managing styles.
 
-List of styles and collections.
+* List of styles and collections.
 
 
 Style customization is performed using its properties on the panel in the report designer.
@@ -26,9 +23,7 @@ Actions Menu
 This menu contains the main commands for managing styles and style collections.
 
 
-![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_2.png)
-
-
+![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_4.png)
 ![](../../../images/img_1.png) The Open... command allows you to open a previously saved *.sts file containing styles and their collections.
 
 ![](../../../images/img_2.png) The Save As... command allows you to save the current list of styles and collections to a *.sts file.
@@ -40,7 +35,7 @@ Add Style Menu
 This menu contains commands for creating new styles.
 
 
-![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_3.png)
+![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Designer_6.png)
 
 ![](../../../images/img_1.png) The [Component](Creating_Component_Style.md) Style type is applied to almost all report components that have the ability to select a style, with the exception of maps, charts, gauges, tables, cross-tabs, and controls. It is not applied to dashboardl elements.
 
@@ -67,37 +62,32 @@ This menu contains commands for creating new styles.
 Get Style from Selected Components Command
 The **Get Style from Selected Components** command allows creating a style with formatting settings of a selected report component (or multiple components) or a dashboard element (or multiple elements). To do this, follow these steps:
 
-Select a report component or a dashboard element.
+* Select a report component or a dashboard element.
 
-Open the style designer.
+* Open the style designer.
 
-Click the **Get Style from Selected Components** button on the toolbar of the style designer.
-
+* Click the **Get Style from Selected Components** button on the toolbar of the style designer.
 After that, a style of a specific type with formatting settings of the selected component or element will be created.
-
-
 Filtering and sorting of styles
 While working in the style designer, you have the option to disable the display of styles belonging to specific types. To do this, follow these steps:
 
-Click on the Settings button in the style designer.
+* Click on the Settings button in the style designer.
 
-In the opened menu, check the types of styles that need to be displayed.
-
+* In the opened menu, check the types of styles that need to be displayed.
 The reset of the display filters will occur:
 
-When creating a style which type is disabled;
+* When creating a style which type is disabled;
 
-When restarting the style designer;
+* When restarting the style designer;
 
-If you go back to the settings menu and check a specific type of style.
-
+* If you go back to the settings menu and check a specific type of style.
 In the settings menu, you can also define the sorting mode for styles and collections:
 
-Ascending, from A to Z.
+* Ascending, from A to Z.
 
-Descending, from Z to A.
+* Descending, from Z to A.
 
-Sorting is disabled. In this case, styles and collections are not sorted, and they can be dragged and dropped in the list, changing the order.
+* Sorting is disabled. In this case, styles and collections are not sorted, and they can be dragged and dropped in the list, changing the order.
 
 Search Styles
 
@@ -129,5 +119,4 @@ When creating styles for charts, maps, progress bars, and maps, it is necessary 
 Style Collections
 
 All created styles in the style designer can be grouped into collections. Whether a style belongs to a collection is determined using the Collection Name style property. Each unique value specified as the value of this property forms a new style collection. Therefore, all styles with the same value of the Collection Name property belong to the same style collection.
-
 [Learn more about style collections.](Style_Collections.md)

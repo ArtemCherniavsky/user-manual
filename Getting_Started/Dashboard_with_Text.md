@@ -1,12 +1,12 @@
-Dashboard with Text
+## Dashboard with Text
 
 To create a dashboard with the [Text](../Dashboards/Text.md) element, you should do the following:
 
 
-Step 1: [Run the report designer](Install_and_First_Run.md);
+Step 1: [Run the report designer](Install_and_First_Run.md#rundesigner);
 
 
-Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md);
+Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md#addingadashboardtothecurrentreport);
 
 
 Step 3: Select the Text element in the toolbox of the report designer or on the Insert tab;
@@ -24,9 +24,7 @@ Step 6: Enter the text;
 
 
 Step 7: Configure the text using the controls;
-
-
-![](../images/topics/Getting_Started.Dashboard_with_Text_2.png)
+![](../images/topics/Getting_Started.Dashboard_with_Text_3.png)
 
 Step 8: Close the element editor;
 
@@ -34,4 +32,4 @@ Step 8: Close the element editor;
 Step 9: Go to the Preview.
 
 
-![](../images/topics/Getting_Started.Dashboard_with_Text_3.png)
+![](../images/topics/Getting_Started.Dashboard_with_Text_4.png)

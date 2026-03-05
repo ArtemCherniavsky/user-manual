@@ -34,4 +34,4 @@ In addition to the CanGrow and CanShrink properties the AutoWidth property can a
 If the AutoWidth property is set to false, then the height of the text depends on settings of the CanGrow and CanShrink properties. If the AutoWidth property is set to true, then the width will be automatically changed.
 
 
-**Important:** If the AutoWidth property is set to false then the height of the text depends on the **CanGrow** and **CanShrink** properties. If the AutoWidth  property is set to false then it will change the width of the text.
+* **Important:** If the AutoWidth property is set to false then the height of the text depends on the **CanGrow** and **CanShrink** properties. If the AutoWidth  property is set to false then it will change the width of the text.

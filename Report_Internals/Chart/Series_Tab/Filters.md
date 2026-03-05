@@ -2,31 +2,31 @@
 
 Filtering series values involves selecting values based on a specific condition.
 
-![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_1.png)
+![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_2.png)
 
 To apply filters to series values, follow these steps:
- In the component editor, go to the Series tab and select the Filters section;
- Click Add Filter;
- Configure the filtering condition using the filter editor.
+* In the component editor, go to the Series tab and select the Filters section;
+* Click Add Filter;
+* Configure the filtering condition using the filter editor.
 
 
 Filter Editor
 The filter editor defines the selection criteria for series values.
 
 
-![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_2.png)
-
-
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_3.png)
- Field Is determines the source of the values: Values, Arguments, or an Expression;
+
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_4.png)
- Data Type defines the data type of both the source value and the filtering value;
+ Field Is determines the source of the values: Values, Arguments, or an Expression;
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_5.png)
- Condition specifies the filtering operation (see the table below);
+ Data Type defines the data type of both the source value and the filtering value;
 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_6.png)
+ Condition specifies the filtering operation (see the table below);
+
+![](../../../images/topics/Report_Internals.Chart.Series_Tab.Filters_8.png)
  Value specifies the filtering value, i.e., the value for which the filter condition will be true.
 
 > **Information**

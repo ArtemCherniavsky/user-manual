@@ -1,4 +1,4 @@
-Check Box
+## Check Box
 
 
 For displaying Boolean values, you can use the **Check Box** component. Various styles can be applied to it. The picture below shows the available styles of check boxes:

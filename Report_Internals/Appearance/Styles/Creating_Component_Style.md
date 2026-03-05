@@ -1,12 +1,12 @@
-Component Style
+## Component Style
 
 The Component Style is applied to all report components that do not have a specific style. For example, for bands, text components, panels, images, etc. To create a component style, do the following:
 
-Click the Add Style button in the Style Designer and select the Component style.
+* Click the Add Style button in the Style Designer and select the Component style.
 
-Configure the formatting settings using the style properties.
+* Configure the formatting settings using the style properties.
 
-Apply the style to [report components](index.md) or [dashboard elements](../../../Dashboards/Appearance.md).
+* Apply the style to [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle).
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Component_Style_1.png)

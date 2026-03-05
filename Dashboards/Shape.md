@@ -1,36 +1,36 @@
-Shape
+## Shape
 
 Shape is an element with the help of which various shapes can be displayed on the dashboard.
 
 
-![](../images/topics/Dashboards.Shape_1.png)
+![](../images/topics/Dashboards.Shape_2.png)
 
 
 This chapter will cover the following:
 
-[Shape editor]();
+* [Shape editor](#ShapeEditor);
 
-[Table of properties]().
+* [Table of properties](#TableOfProperties).
 
 
 The **Shape** element can be placed anywhere on the dashboard. The setting of the **Shape** element is carried out in the shape editor. To invoke the editor of this element, you should:
 
-Double-click on a **Shape**;
+* Double-click on a **Shape**;
 
-Select the Shape element, and select the **Design** command in the context menu;
+* Select the Shape element, and select the **Design** command in the context menu;
 
 To resize the Shape element you should:
 
-Select it in the dashboard;
+* Select it in the dashboard;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 
 **Shape editor**
 
 Shape settings can be found in the Shape editor.
 
-![](../images/topics/Dashboards.Shape_2.png)
+![](../images/topics/Dashboards.Shape_4.png)
 
 ![](../images/img_1.png) **Type** - determines the type of shapes. Click on the value field and select a shape from the drop-down list.
 

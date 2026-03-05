@@ -1,4 +1,4 @@
-Save and Save As
+## Save and Save As
 
 The Save and Save As options in the File menu allow users to save changes to a report. Selecting Save applies changes to the current report. If the report has not been saved before, the Save As command will be triggered. Save As provides multiple options for saving the report file.
 
@@ -7,25 +7,25 @@ The Save and Save As options in the File menu allow users to save changes to a r
 
 A report can be saved to:
 
-[Stimulsoft Cloud Storage](https://cloud.stimulsoft.com/);
+* [Stimulsoft Cloud Storage](https://cloud.stimulsoft.com/);
 
-Local Storage.
+* Local Storage.
 
 
 The report can be saved to local storage as:
- Report Template *.mrt (xml);
+* Report Template *.mrt (xml);
 
-Packed Report Template *.mrz;
+* Packed Report Template *.mrz;
 
-Encrypted Report Template *.mrx;
+* Encrypted Report Template *.mrx;
 
-JSON Report Template *.mrt (json);
+* JSON Report Template *.mrt (json);
 
-Report Templates with Embedded Data (*mrt). In this case, each data connection is converted into a separate XML file and embedded into the report file as a resource. The data source connections will be redefined to use these embedded resources. This may significantly increase the report file size.
+* Report Templates with Embedded Data (*mrt). In this case, each data connection is converted into a separate XML file and embedded into the report file as a resource. The data source connections will be redefined to use these embedded resources. This may significantly increase the report file size.
 
-Compiled Assembly *.dll;
+* Compiled Assembly *.dll;
 
-CSharp Class *.cs.
+* CSharp Class *.cs.
 
 
 > **Information**

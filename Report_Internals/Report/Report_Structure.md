@@ -1,4 +1,4 @@
-Report Structure
+## Report Structure
 
 
 When creating a report in the designer, a report template is generated either as a page or a form. No other elements can be directly placed on the template. All other elements of the report template are arranged on the page or form. The picture below illustrates the hierarchy of the report.

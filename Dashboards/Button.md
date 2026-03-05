@@ -12,65 +12,63 @@ Button is a dashboard element, which allows you to execute a certain script when
 
 This chapter will cover the following:
 
-[Button Text]();
+* [Button Text](#text);
 
-[Icons in the Button]();
+* [Icons in the Button](#icons);
 
-[Button Shape]();
+* [Button Shape](#shape);
 
-[Appearance]();
+* [Appearance](#visualstates);
 
-[Table of the Properties]().
+* [Table of the Properties](#tableofproperties).
 
 When creating dashboards, you can change a type for the Button element. To do this, you should set the Type property to one of the following values:
- Button, i.e. an element will be presented as a simple button and will call a script when clicking.
+* Button, i.e. an element will be presented as a simple button and will call a script when clicking.
 
-Check Box, i.e. an element will be presented as a check box, accordingly it may have checked and unchecked conditions. You can define a condition by default using the Checked property. Depending on a condition, a script can be executed. Also, you can execute a script when clicking.
+* Check Box, i.e. an element will be presented as a check box, accordingly it may have checked and unchecked conditions. You can define a condition by default using the Checked property. Depending on a condition, a script can be executed. Also, you can execute a script when clicking.
 
-The Radio Button, i.e. several buttons can be grouped into one control, where only one button can be checked from the group. Buttons are formed into groups to the general rule of [grouping elements in a dashboard](Groups.md). Depending on a condition, a script can be executed. You can define a condition by default using the Checked property. Also, it’s possible to execute a script when clicking.
+* The Radio Button, i.e. several buttons can be grouped into one control, where only one button can be checked from the group. Buttons are formed into groups to the general rule of [grouping elements in a dashboard](Groups.md). Depending on a condition, a script can be executed. You can define a condition by default using the Checked property. Also, it’s possible to execute a script when clicking.
 
 The script, that is executed when interacting with the Button element, is defined in its events. The following events can be defined for this element:
- When clicking the Click, it occurs when clicking on the element by the input pointer. It’s the main event.
+* When clicking the Click, it occurs when clicking on the element by the input pointer. It’s the main event.
 
-Checked Changed, it occurs when changing element condition from the preset value of the Checked property.
+* Checked Changed, it occurs when changing element condition from the preset value of the Checked property.
 
 Button Text
 When creating dashboards, you can define some text, which will be displayed in the Button element. It is defined using the Text property. Also, as a value of this property you can specify an expression in curly brackets - {expression}. In this case, the text will be the result of the expression calculation. Please, note if an expression is a link to a data source column, the first value from this data source column will be displayed on the button.
 
 
-![](../images/topics/Dashboards.Button_2.png)
+![](../images/topics/Dashboards.Button_3.png)
 
 In addition, you can change horizontal or vertical text alignment. You can do this using the Horizontal Alignment and Vertical Alignment properties. In cases, when the text is longer than the button, it will be wrapped to the next line. However, you can disable wrapping having set the Word Wrap property to the False value. In this case, the text will be clipped to the border of the element.
 
 Icons in the Button
 
-In addition to the text in the Button element, you can specify an icon. It can be done using the Icon Set properties group. In this group, using properties, you can define an icon by default, also icons depending on button condition. It’s relevant for buttons of Check Box and Radio Button type. This way, the button may have three icons: 
- By default, an icon is defined using the property of the same name – Icon;
- Checked Icon, i.e. the icon which will be displayed on the button, if its status will be defined as checked;
+In addition to the text in the Button element, you can specify an icon. It can be done using the Icon Set properties group. In this group, using properties, you can define an icon by default, also icons depending on button condition. It’s relevant for buttons of Check Box and Radio Button type. This way, the button may have three icons:
+* By default, an icon is defined using the property of the same name – Icon;
+* Checked Icon, i.e. the icon which will be displayed on the button, if its status will be defined as checked;
 
-Unchecked Icon, i.e. the icon, that will be displayed on the button, if its status will be defined as unchecked.  
-
+* Unchecked Icon, i.e. the icon, that will be displayed on the button, if its status will be defined as unchecked.
 Icon alignment in the Button element is defined using the Icon Alignment property, and can be defined to the left, to the right, bottom, and center. Please, note that the None value for the Icon Alignment property disables the display of an icon on the button.
 
 
-![](../images/topics/Dashboards.Button_3.png)
+![](../images/topics/Dashboards.Button_4.png)
 
 Button Shape
 
 To display the button in a dashboard, you can use one of two shapes: Rectangle and Circle. By default, rectangle is used to display the button. You can change button shape using the Shape Type property.
 
 
-![](../images/topics/Dashboards.Button_4.png)
+![](../images/topics/Dashboards.Button_5.png)
 
 It’s worth taking into account, that when viewing, the entire dashboard will be stretched to the viewer area. If another is not defined using the Content Alignment property. Elements of the dashboard will be stretched proportionally. However, you can define behavior for the Button element when stretching in width and height. You can do this, having set the Stretch property to the Stretch XY value, i.e. stretch in height and width, or Stretch X, i.e. stretch only in width.
 
 **Appearance**
 
 Element visual design is defined using the properties, which are located in the Appearance group in the properties panel or style settings of the Report Control type. All design properties of the Button element can be divided into the following categories:
- Common, i.e. the categories that are present and for other elements of a dashboard. For example, border, brush, style, rounding radius, font, icon brush, shadow, text brush.
+* Common, i.e. the categories that are present and for other elements of a dashboard. For example, border, brush, style, rounding radius, font, icon brush, shadow, text brush.
 
-Special, i.e. the categories that are located in the Visual States group. These properties allow you to define design depending on the interaction with the Button element. For example, you can change an icon, its brush, button brush when clicking or hovering. More detailed the set of the property will be presented in a table of properties.  
-
+* Special, i.e. the categories that are located in the Visual States group. These properties allow you to define design depending on the interaction with the Button element. For example, you can change an icon, its brush, button brush when clicking or hovering. More detailed the set of the property will be presented in a table of properties.
 It's worth considering that you can’t define design settings in the style properties. For example, you’re not able to change an icon when hovering there. You can do it only using special design properties.
 
 Table of properties

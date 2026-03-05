@@ -1,4 +1,4 @@
-Combo Box
+## Combo Box
 
 **Combo Box** is an element of filtering on the dashboard, which is used to filter data for analysis, depending on the selected value. This element is an analogue of the List Box element, with the only difference that all values are contained in the drop-down menu. It can be located anywhere on the dashboard. Depending on the size of the dashboard panel in the viewer, it can grow or shrink by width only.
 
@@ -6,23 +6,23 @@ Combo Box
 
 This chapter will cover the following:
 
-[Combo Box editor]();
+* [Combo Box editor](#ComboBoxEditor);
 
-[Table Of Properties]().
+* [Table Of Properties](#TableOfProperties).
 
 
 The **Combo Box** element may be subordinate to other filtering elements or be the main filtering element for them. The **Combo Box** item can work in two selection modes:
 
-**One**. In the viewer you can select only one value of the Combo Box. Accordingly, data filtering for the elements of the dashboard will be executed only by one value.
+* **One**. In the viewer you can select only one value of the Combo Box. Accordingly, data filtering for the elements of the dashboard will be executed only by one value.
 
-**Multi**. In the viewer you can select several values of the Combo Box. Accordingly, data filtering for the elements of the dashboard will be executed by all selected values.
+* **Multi**. In the viewer you can select several values of the Combo Box. Accordingly, data filtering for the elements of the dashboard will be executed by all selected values.
 
 
 The item is set up in its editor. To call the editor, you should to the following in the report designer:
 
-Double-click the Combo Box;
+* Double-click the Combo Box;
 
-Select the Combo Box and select **Design** in the context menu.
+* Select the Combo Box and select **Design** in the context menu.
 
 
 > **Information**
@@ -32,9 +32,7 @@ Select the Combo Box and select **Design** in the context menu.
 **Combo Box editor**
 
 In the editor of the Combo Box element, you may add elements with data, set up the mode for selecting values, select the main element of filtering.
-
-
-![](../../images/topics/Dashboards.Data_Filtering.Combo_Box_2.png)
+![](../../images/topics/Dashboards.Data_Filtering.Combo_Box_3.png)
 
 
 ![](../../images/img1.png) The **Key** field. The data element is specified there by the values of which the data will be filtered.

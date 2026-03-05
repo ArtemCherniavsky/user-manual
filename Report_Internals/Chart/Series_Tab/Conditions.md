@@ -6,9 +6,9 @@ Conditional formatting for a series value involves applying a specific color to 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Conditions_1.png)
 
 To configure conditional formatting for series values, follow these steps:
- In the Component Editor, go to the Series tab, then the Conditions section;
- Click Add Condition;
- Configure the conditional formatting using the condition editor.
+* In the Component Editor, go to the Series tab, then the Conditions section;
+* Click Add Condition;
+* Configure the conditional formatting using the condition editor.
 
 Condition Editor
 

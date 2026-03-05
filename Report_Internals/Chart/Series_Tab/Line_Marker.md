@@ -6,8 +6,8 @@ A Line Marker is a graphical symbol used to display intermediate values along a 
 ![](../../../images/topics/Report_Internals.Chart.Series_Tab.Line_Marker_1.png)
 
 To apply line markers to a chart series, follow these steps:
- In the component editor, go to the Series tab and open the Line Marker section;
- Configure the line marker’s appearance using its properties.
+* In the component editor, go to the Series tab and open the Line Marker section;
+* Configure the line marker’s appearance using its properties.
 
 
 > **Information**

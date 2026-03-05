@@ -1,12 +1,12 @@
-Gauge Style
+## Gauge Style
 
 The Gauge Style is applied to the gauge component and element in the report and on the dashboard panel. To create a gauge style, follow these steps:
 
-In the style designer, click the Add Style button and select the Gauge style.
+* In the style designer, click the Add Style button and select the Gauge style.
 
-Use the style properties to customize the formatting.
+* Use the style properties to customize the formatting.
 
-Apply the style to the [report components](index.md) or [dashboard elements](../../../Dashboards/Appearance.md).
+* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle).
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Gauge_Style_1.png)
@@ -17,7 +17,7 @@ Apply the style to the [report components](index.md) or [dashboard elements](../
 >
 > Assign the preset style to the Gauge component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md) button.
+> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > Adjust the obtained style using its properties.
 >

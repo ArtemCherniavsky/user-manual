@@ -1,4 +1,4 @@
-Features: Stimulsoft Reports
+## Features: Stimulsoft Reports
 
 This section describes the basic features of the **Stimulsoft** product line. The product line includes the following tools:
 

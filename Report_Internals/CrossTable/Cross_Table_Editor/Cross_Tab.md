@@ -1,4 +1,4 @@
-Cross-Tab Tab
+## Cross-Tab Tab
 
 
 The Cross-Tab tab defines the structure of the Cross-Tab component. It specifies the data column for the rows, columns, total cells:

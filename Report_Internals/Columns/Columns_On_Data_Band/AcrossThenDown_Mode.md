@@ -7,7 +7,7 @@ This mode is used to output strings logically from left to right on the Data ban
 ![](../../../images/img_Columns_AcrossThenDown1.png)
 
 
-**Note:** The number of columns on a Data band is unlimited.
+* **Note:** The number of columns on a Data band is unlimited.
 
 
 **Example**
@@ -18,7 +18,7 @@ In this example we will build a report with three columns on the Data band. Put 
 Place text components on the ColumnHeader band to represent the Column titles.
 
 
-**Note:** Column edges are indicated with red vertical lines. All components which are placed on the first column will be automatically repeated in the other columns.
+* **Note:** Column edges are indicated with red vertical lines. All components which are placed on the first column will be automatically repeated in the other columns.
 
 
 ![](../../../images/img_Columns_AcrossThenDown2.png)

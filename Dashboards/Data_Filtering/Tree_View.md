@@ -1,4 +1,4 @@
-Tree View
+## Tree View
 
 **Tree View** is a filtering element on the dashboard, which is used to create a hierarchy of values and filter data for analysis in the viewer by these values. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard in the viewer, it can grow and shrink by height and width.
 
@@ -6,22 +6,22 @@ Tree View
 
 This chapter will cover the following:
 
-[Tree View editor]();
+* [Tree View editor](#TreeViewEditor);
 
-[Table Of Properties]().
+* [Table Of Properties](#TableOfProperties).
 
 
 The **Tree View** can be subordinate to other filtering elements, or be the main filtering element for them. The **Tree View** can work in two selection modes:
 
-**One**. In the viewer, you can select only one value within one level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed only by one value.
+* **One**. In the viewer, you can select only one value within one level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed only by one value.
 
-**Multi**. In the viewer, you can select multiple values within the same level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed by all selected values.
+* **Multi**. In the viewer, you can select multiple values within the same level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed by all selected values.
 
 You may setup the **Tree View** element in the editor. To call the editor, you should do the following in the report designer:
 
-Double-click the **Tree View** element;
+* Double-click the **Tree View** element;
 
-Select the **Tree View** element and select the **Design** command in the context menu.
+* Select the **Tree View** element and select the **Design** command in the context menu.
 
 
 > **Information**
@@ -32,7 +32,7 @@ The Tree View editor
 
 In the **Tree View** editor, you can add items with data, set up the value selection mode, select the main filter item.
 
-![](../../images/topics/Dashboards.Data_Filtering.Tree_View_2.png)
+![](../../images/topics/Dashboards.Data_Filtering.Tree_View_3.png)
 
 ![](../../images/img_1.png) The **Key** field. The data item is specified, the values of which will form the hierarchy and be displayed in the **Tree View** item.
 

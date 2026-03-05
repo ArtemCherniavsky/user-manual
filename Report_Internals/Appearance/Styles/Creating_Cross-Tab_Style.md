@@ -1,11 +1,11 @@
-Cross-Tab Style
+## Cross-Tab Style
 
 The Cross-Tab style is applied to the [Cross-Tab](../../CrossTable/index.md) component and [Pivot Table](../../../Dashboards/Pivot_Table.md) element. To create a cross-tab style you should do the following:
- In the style designer, click the Add Style button and select the Cross-Tab style.
+* In the style designer, click the Add Style button and select the Cross-Tab style.
 
-Use the style properties to customize the formatting.
+* Use the style properties to customize the formatting.
 
-Apply the style to the [report components](index.md) or [dashboard elements](../../../Dashboards/Appearance.md).
+* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle).
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Cross-Tab_Style_1.png)
@@ -16,7 +16,7 @@ Apply the style to the [report components](index.md) or [dashboard elements](../
 >
 > Assign the preset style to the Cross-Tab component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md) button.
+> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > Adjust the obtained style using its properties.
 >

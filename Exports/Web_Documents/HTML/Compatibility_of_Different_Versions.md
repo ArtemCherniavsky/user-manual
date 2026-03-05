@@ -4,8 +4,8 @@
 The following minimal web-browsers versions are required for correct HTML export:
 
 
-Internet Explorer 6.0 and higher;
+* Internet Explorer 6.0 and higher;
 
-FireFox 1.5 and higher;
+* FireFox 1.5 and higher;
 
-Opera 7.5 and higher.
+* Opera 7.5 and higher.

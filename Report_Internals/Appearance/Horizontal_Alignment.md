@@ -45,15 +45,11 @@ The image is aligned in the center relatively to the left and right component bo
 ![](../../images/img_3.png) Right
 
 The image is aligned relatively to the right component border.
-
-
 **Line spacing**
 Line spacing is a vertical distance between text rows.
-
-
-![](../../images/topics/Report_Internals.Appearance.Horizontal_Alignment_3.png)
+![](../../images/topics/Report_Internals.Appearance.Horizontal_Alignment_4.png)
 
 To change line distance you should:
- Select a text component in a report;
- Using a control on the Home Ribbon tab in the report designer, select a value of line spacing;
- Or set a value of spacing for the Line Spacing property in the property panel in the report designer.
+* Select a text component in a report;
+* Using a control on the Home Ribbon tab in the report designer, select a value of line spacing;
+* Or set a value of spacing for the Line Spacing property in the property panel in the report designer.

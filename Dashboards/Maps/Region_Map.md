@@ -1,4 +1,4 @@
-Region Map
+## Region Map
 
 **Region Map** provides the ability to display any value with reference to a geographic object.
 
@@ -6,16 +6,16 @@ Region Map
 
 This chapter will cover the following:
 
-[Region Map Editor]();
+* [Region Map Editor](#MapEditor);
 
-[Region Map Editor (Data Columns Mode)]();
+* [Region Map Editor (Data Columns Mode)](#DataColumnsEditor);
 
-[Adding a custom map]();
+* [Adding a custom map](#AddingCustomMap);
 
-[Creating a map file]();
+* [Creating a map file](#CreatingMapFile);
 
-[Editing a custom map]();
- [Table of Properties]().
+* [Editing a custom map](#EditingCustomMap);
+* [Table of Properties](#TableOfProperties).
 
 
 > **Information**
@@ -24,15 +24,15 @@ This chapter will cover the following:
 
 The **Region Map** element can be placed anywhere on the dashboard. This item is configured in its editor. To call the editor, you should:
 
-Double-click on an item;
+* Double-click on an item;
 
-Select the **Region Map** element, and select the **Design** command in the context menu;
+* Select the **Region Map** element, and select the **Design** command in the context menu;
 
 To resize the **Region Map** element you should:
 
-Select an item on the dashboard panel;
+* Select an item on the dashboard panel;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 **Region Map editor**
 
@@ -56,7 +56,7 @@ Below is the editor of the Region Map element when manually filling in the data.
 ![](../../images/img_3.png) The Add Map menu call button where you can change the view of a regional map. All maps are grouped into regional categories. Depending on the selected category, maps of a certain type will be displayed in the list. In the Name field you can specify the name of a map to search for a map of a certain type.
 
 
-![](../../images/topics/Dashboards.Maps.Region_Map_3.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_4.png)
 
 ![](../../images/img_4.png) The **Map Type** parameter is used to change the type of the **Region Map** element. The map may be of the following type:
 
@@ -85,7 +85,7 @@ Below is the editor of the Region Map element when manually filling in the data.
 
 Consider the setting of the Region Map editor, if the data will be obtained from the data fields. To do this, you should select the **Data Columns** value in the **Data from** parameter. Below is a map editor with data fields:
 
-![](../../images/topics/Dashboards.Maps.Region_Map_4.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_5.png)
 
 
 ![](../../images/img1.png) The **Data from** option is used to specify a data source:
@@ -142,14 +142,14 @@ Adding a custom map
 
 When designing dashboards, you can add a custom map. This map will be displayed in the common list of maps and in the user category.
 
-![](../../images/topics/Dashboards.Maps.Region_Map_5.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_6.png)
 
 
 To use a custom map in the design you should:
 
-Add a map file to resources of a report;
+* Add a map file to resources of a report;
 
-In the editor of the Regional map, select this type of the map or drag and drop the resource from the dictionary to the dashboard.
+* In the editor of the Regional map, select this type of the map or drag and drop the resource from the dictionary to the dashboard.
 
 
 > **Information**
@@ -157,42 +157,42 @@ In the editor of the Regional map, select this type of the map or drag and drop 
 > If you an invalid map file to the report resources, this type of the map will be marked in the list with the icon as on the picture below.
 >
 >
-> ![](../../images/topics/Dashboards.Maps.Region_Map_6.png)
+> ![](../../images/topics/Dashboards.Maps.Region_Map_7.png)
 
 Creating a map file
 
 A map file has the *.map extension, with the JSON markup of geographic data. The map file must contain the following fields:
 
-Name. This is the name of the map;
+* Name. This is the name of the map;
 
-Width and Height. Sets the width and height of the map.
+* Width and Height. Sets the width and height of the map.
 
-The Paths array. Contains data of geographic objects of the map.
+* The Paths array. Contains data of geographic objects of the map.
 
 
 Each geographic object in the Paths array must contain the following fields:
 
-Key. This is the identifier of the geographic object. It may only contain English characters "a-z". It cannot contain spaces, special characters, dashes, etc.
+* Key. This is the identifier of the geographic object. It may only contain English characters "a-z". It cannot contain spaces, special characters, dashes, etc.
 
-EnglishName. This is the name of the geographic object.
+* EnglishName. This is the name of the geographic object.
 
-Data. This is a patch of a geographic object.
+* Data. This is a patch of a geographic object.
 
-ISOCode. This is the ISO code of a geographic object.
+* ISOCode. This is the ISO code of a geographic object.
 
 
-![](../../images/topics/Dashboards.Maps.Region_Map_7.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_8.png)
 
 Editing a custom map
 
 You may edit each map that is added to report resources. To do this:
 
-Call the map resource editing form;
+* Call the map resource editing form;
 
-Click the Edit button in the resource editing form.
+* Click the Edit button in the resource editing form.
 
 
-![](../../images/topics/Dashboards.Maps.Region_Map_8.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_9.png)
 
 After that, the map editor will be called. In this editor, you can enable or disable geographic objects, customize the titles of geographic objects, and assign an icon to the map.
 
@@ -202,7 +202,7 @@ After that, the map editor will be called. In this editor, you can enable or dis
 > Titles of geographic objects will be obtained from the EnglishName fields in the *.map file. Each title has an area in which the title text is placed. This area can be moved using the cursor keys (left, right, top, bottom). To resize an area, hold down the Shift key and use the cursor keys (top, right, left, bottom) to increase or decrease the size of the area in the corresponding directions.
 
 
-![](../../images/topics/Dashboards.Maps.Region_Map_9.png)
+![](../../images/topics/Dashboards.Maps.Region_Map_10.png)
 
 
 ![](../../images/img1.png) A panel displays a list of geographic objects of the map. If the check box is selected, then the geographic object will be displayed on the preview panel of the current editor. If the box is unchecked, then the geographic object will not be displayed.

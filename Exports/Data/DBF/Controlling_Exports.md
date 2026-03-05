@@ -3,11 +3,11 @@
 
 The following elements can be specified in the Tag property to control export:
 
-DataType [ : FieldLength [ : DecimalPartLength ] ]
+* DataType [ : FieldLength [ : DecimalPartLength ] ]
 
-ExportType : "FieldName"
+* ExportType : "FieldName"
 
-Column: "FieldName" "DataString"
+* Column: "FieldName" "DataString"
 
 Several elements should be separated with the semicolon. The “DataType" element should be only one and should be placed first, other elements – if necessary.
 
@@ -88,7 +88,7 @@ int :10 : 2
 converts integer digit with the length 10 characters; the second parameter is ignored
 
 
-**Notice:** If the integer part of a digit is long and cannot be placed into the specified field, then it is cut, so data are lost. For example, if the write «-12345,678» in the «float:8:3» field, then the «2345,678» will be output.
+* **Notice:** If the integer part of a digit is long and cannot be placed into the specified field, then it is cut, so data are lost. For example, if the write «-12345,678» in the «float:8:3» field, then the «2345,678» will be output.
 
 
 The "ExportType" element indicates for which export the field name is set. The values can be used: “dbf”, “csv”, “xml”, “default”. The "FieldName" element indicates the field name in the file (for the DBF the is automatically cut up to 10 characters). The own name can be specified to each type of export. If the name for each export is not specified then the name for the “default” type is taken. For example:

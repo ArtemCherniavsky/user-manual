@@ -23,9 +23,9 @@ For example, the prices are in US dollars. Then, select the appropriate currency
 
 It should be noted that previously there were two ways to determine the format mask:
 
-Use local settings, the text is formatted according to the current settings of the operating system.
+* Use local settings, the text is formatted according to the current settings of the operating system.
 
-Each parameter is defined by the format mask manually.
+* Each parameter is defined by the format mask manually.
 
 
 Sometimes there were some disadvantages in both cases. For example, when using local settings to change the format parameters you should edit formats of the operating system. In the second case, when it is needed to change one parameter you should adjust others as well. Considering disadvantages of these methods, there is a third way to determine the format. Using the local settings you can change any parameter format. To do this, set the flag next to the parameter and set its value.

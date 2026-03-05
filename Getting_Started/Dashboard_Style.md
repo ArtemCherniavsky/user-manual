@@ -2,15 +2,15 @@
 
 The following questions will be considered in this chapter:
 
-[Element style creation]();
+* [Element style creation](#CreateStyle);
 
-[Style creation based on the used style]();
+* [Style creation based on the used style](#GetStyleFromSelectedComponents);
 
-[Dashboard appearance]();
+* [Dashboard appearance](#AssignDashboardStyle);
 
-[Elements appearance]();
+* [Elements appearance](#AssignItemStyle);
 
-[Element style copying]().
+* [Element style copying](#CopyStyle).
 
 Element style creation
 
@@ -50,7 +50,6 @@ Step 2: Select the element the style that needs to be changed;
 
 
 Step 3: Click Style Designer button on the Home tab;
-
 Step 4: Click Get Style from Selected Components button in the Style editor;
 
 
@@ -66,26 +65,20 @@ Step 7: Assign a style for a dashboard elements.
 
 
 Dashboard design
- 
 Step 1: Select a dashboard;
-
 Step 2: Click the select style on the Home tab in the report designer;
-
 Step 3: Select a style for your dashboard.
 
 
-![](../images/topics/Getting_Started.Dashboard_Style_5.png)
+![](../images/topics/Getting_Started.Dashboard_Style_6.png)
 
 Dashboard elements design
-
 Step 1: Select a dashboard element;
-
 Step 2: Click the select style on the Home tab in the report designer;
-
 Step 3: Choose a style for the dashboard element.
 
 
-![](../images/topics/Getting_Started.Dashboard_Style_6.png)
+![](../images/topics/Getting_Started.Dashboard_Style_7.png)
 
 Copy Style for dashboard elements
 
@@ -96,7 +89,7 @@ Step 1: Highlight the dashboard element from which you want to copy a style;
 Step 2: Click the Copy on the Home tab;
 
 
-![](../images/topics/Getting_Started.Dashboard_Style_7.png)
+![](../images/topics/Getting_Started.Dashboard_Style_8.png)
 
 Step 3: Hover the cursor for the element, into which you want to copy a style;
 

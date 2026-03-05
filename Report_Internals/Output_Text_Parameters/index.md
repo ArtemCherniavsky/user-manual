@@ -1,4 +1,4 @@
-Output Text Parameters
+## Output Text Parameters
 
 
 Stimulsoft Reports has a number of ways for handling, processing and showing a text.

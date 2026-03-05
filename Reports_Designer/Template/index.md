@@ -1,4 +1,4 @@
-Report Template
+## Report Template
 
 Attention
 
@@ -7,26 +7,23 @@ Scripts can pose a security risk. Therefore, [colculation mode](Calculation_Mode
 
 
 A report or dashboard is a way of processing data presented by any structure. The report engine processes the data of the report or dashboard, and its structure is created in the report template. A report template is an area in the report designer in which a report structure or analytical panel is created using components or elements, respectively.
-
 You can create the structure, a position of components or elements:
 
-On a page or form if you design a report;
+* On a page or form if you design a report;
 
-On the dashboard panel, if you create a [dashboard](../../Dashboards/index.md).
-
-
-![](../../images/topics/Reports_Designer.Template_1.png)
-
-The report template has its settings that affect both the process of building a report or dashboard and its result. For example, in the properties of a report template, the expression processing mode is determined - compilation or interpretation. Also, using the settings of the report template, you can configure the preview panel, report update time, report culture, and more.
-
-The following ways exit to change the report template settings:
-
-Click on the report template area (outside the page or dashboard), and set the property values on the Property panel in the report designer.
-
-Double-click the left mouse button in the report template area (outside the page or dashboard) to call the Report Options window.
+* On the dashboard panel, if you create a [dashboard](../../Dashboards/index.md).
 
 
 ![](../../images/topics/Reports_Designer.Template_2.png)
+The report template has its settings that affect both the process of building a report or dashboard and its result. For example, in the properties of a report template, the expression processing mode is determined - compilation or interpretation. Also, using the settings of the report template, you can configure the preview panel, report update time, report culture, and more.
+The following ways exit to change the report template settings:
+
+* Click on the report template area (outside the page or dashboard), and set the property values on the Property panel in the report designer.
+
+* Double-click the left mouse button in the report template area (outside the page or dashboard) to call the Report Options window.
+
+
+![](../../images/topics/Reports_Designer.Template_3.png)
 
 
 > **Information**

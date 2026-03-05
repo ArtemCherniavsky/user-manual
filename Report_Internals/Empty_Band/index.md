@@ -15,11 +15,11 @@ Example
 Create a new report with borders around the text items on the data band. Then drop an Empty Data band after the Data band. If there is more than oneData band on the page then you should place the Empty Data band after the last Data band, but before any footer bands.
 
 
-**Note:** To output Footer bands on the bottom of a page set the **PrintAtBottom** property of each **Footer** band to **true**.
+* **Note:** To output Footer bands on the bottom of a page set the **PrintAtBottom** property of each **Footer** band to **true**.
 
 
 Then add text objects to the empty band to match those on the Data band. The result should look something like this:
 
 If you then run the report you will see that the empty space is replaced with formatted empty data rows:
 
-**Note:** This band is not working on the Panel and Sub-Report.
+* **Note:** This band is not working on the Panel and Sub-Report.

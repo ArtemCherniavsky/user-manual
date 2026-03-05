@@ -7,4 +7,4 @@ Dither is an intentionally applied form of noise, when processing digit signals.
 ![](../../images/dithering.jpg)
 
 
-**Notice:** On the current moment the export of monochrome image is supported only to the PCX format. So the DitheringType property works only for this export.  Different images may look differently in these modes. The FloydSteinberg is the best mode to output an image but the file size is too big.
+* **Notice:** On the current moment the export of monochrome image is supported only to the PCX format. So the DitheringType property works only for this export.  Different images may look differently in these modes. The FloydSteinberg is the best mode to output an image but the file size is too big.

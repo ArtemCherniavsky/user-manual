@@ -1,4 +1,4 @@
-Report Culture
+## Report Culture
 
 By default, the regional settings of the operating system are used to build reports and dashboards. If you need to show data in the report or dashboard, regardless of the current culture in the operating system, then you should apply a particular culture to this report or dashboard. To apply culture to a report or dashboard, use the **Culture** property of the report template. Set the culture code (format **xx-XX**, for example, **en-GB**) in the field of the property. After that, the report generator, before rendering a report, will set a specific culture and apply regional settings for components and elements. Below, you may find an example of the report with different cultures:
 

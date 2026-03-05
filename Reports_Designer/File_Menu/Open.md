@@ -1,4 +1,4 @@
-Open
+## Open
 
 > **YouTube** [video tutorial on importing reports from Crystal Reports](https://www.youtube.com/watch?v=Xt8X6TmLxY4)
 
@@ -8,20 +8,18 @@ The Open section in the File menu contains commands for loading reports into the
 ![](../../images/topics/Reports_Designer.File_Menu.Open_1.png)
 
 A report can be loaded into the Report Designer from:
- The Recent tab, which stores links to the most recently opened reports;
+* The Recent tab, which stores links to the most recently opened reports;
 
-Import from other report development platforms;
+* Import from other report development platforms;
 
-[Stimulsoft Cloud Storage](https://cloud.stimulsoft.com/);
+* [Stimulsoft Cloud Storage](https://cloud.stimulsoft.com/);
 
-The user's local storage.
+* The user's local storage.
 
 Report Import
 
 Stimulsoft Reports allows importing reports from other report development platforms. The import process can be done directly in the Report Designer or using the Import Utility. To import reports in the Report Designer, go to the File menu, select Open, then Import, and choose the platform from which you want to import the report.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Open_2.png)
+![](../../images/topics/Reports_Designer.File_Menu.Open_3.png)
 
 All imports, except those from Crystal Reports and DevExpress XtraReports, are built-in. This means reports from these platforms can be opened directly in the designer. However, for Crystal Reports and DevExpress XtraReports, reports must first be converted using the Import Utility before being opened in Stimulsoft Report Designer.
 
@@ -43,7 +41,7 @@ Step 2: Download the archive with the import projects and unpack it.
 Step 3: Use the development environment, such as Visual Studio, to compile the project.
 
 
-![](../../images/topics/Reports_Designer.File_Menu.Open_3.png)
+![](../../images/topics/Reports_Designer.File_Menu.Open_4.png)
 
 
 Step 4: Select the reports that you want to convert to Stimulsoft reports and specify the location where the converted report should be saved.
@@ -52,7 +50,7 @@ Step 4: Select the reports that you want to convert to Stimulsoft reports and sp
 Step 5: Click the Convert button. The result of the conversion will be displayed to the user.
 
 
-![](../../images/topics/Reports_Designer.File_Menu.Open_4.png)
+![](../../images/topics/Reports_Designer.File_Menu.Open_5.png)
 
 Use converted reports in Stimulsoft products.
 

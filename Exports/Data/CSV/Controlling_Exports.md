@@ -3,9 +3,9 @@
 
 The Tag property of each text box in a Data band can be specified with the following elements that control the export:
 
-Export Type : "FieldName"
+* Export Type : "FieldName"
 
-Column: "FieldName" "DataRow"
+* Column: "FieldName" "DataRow"
 
 Several elements should be separated with the semicolon.
 

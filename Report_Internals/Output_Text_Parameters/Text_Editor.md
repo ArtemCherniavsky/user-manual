@@ -1,10 +1,10 @@
-Text Editor
+## Text Editor
 
 
 Editing text components can be done in the Text Editor. This editor contains several tabs in which you can change an expression of the text component, select a column, system variable, specify the calculation results.
 
 
-The tab Expression
+* The tab Expression
 
 
 In the tab Expression, you can specify a text, expression, reference to any item in the data dictionary:
@@ -20,7 +20,7 @@ This tab has the following panels:
 ![](../../images/img_2.png) The panel Data Dictionary contains items of a report data dictionary. It also supports Drag and Drop of items from the panel ![](../../images/img_2.png) to the panel ![](../../images/img_1.png). At the same time, a reference will be automatically generated on the data dictionary item. In the picture above you see that the expression {Categories.CategoryName} is a reference to the description of the data columns CategoryName (data source Categories) in the report data dictionary.
 
 
-The tab Data Column
+* The tab Data Column
 
 
 ![](../../images/topics/Report_Internals.Output_Text_Parameters.Text_Editor_2.png)
@@ -29,7 +29,7 @@ The tab Data Column
 This tab is represented by a single panel, which displays only the data columns from the Dictionary. When you select a column, an expression will be formed. This expression is a reference to the description of this column in the report data dictionary. Also on this tab you may find parameter Show Instead Null Values​​, using which you can specify the characters to be displayed instead of the zero values ​​of selected data columns.
 
 
-The tab System Variable
+* The tab System Variable
 
 
 ![](../../images/topics/Report_Internals.Output_Text_Parameters.Text_Editor_3.png)
@@ -42,7 +42,7 @@ This tab has the following panels:
 ![](../../images/img_2.png) The panel **Descriptions**. This panel displays a description of the selected variable.
 
 
-The tab **Summary**
+* The tab **Summary**
 
 
 On this tab, you can create an expression that calculates summary. The result of it will be displayed in this text component:

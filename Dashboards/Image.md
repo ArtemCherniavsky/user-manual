@@ -1,17 +1,17 @@
-Image
+## Image
 
 **Image** is an element with which you can display various graphical objects (photo, logo, picture, etc.) on the dashboard. The Image element supports the following types of graphics - BMP, PNG, JPEG, TIFF, GIF, PNG, ICO, EMF, WMF, SVG.
 
-![](../images/topics/Dashboards.Image_1.png)
+![](../images/topics/Dashboards.Image_2.png)
 
 
 This chapter will cover the following:
 
-[Image editor]();
+* [Image editor](#ImageEditor);
 
-[Element settings]();
+* [Element settings](#Settings);
 
-[Table of properties]().
+* [Table of properties](#TableOfProperties).
 
 
 > **Information**
@@ -20,30 +20,30 @@ This chapter will cover the following:
 
 The image can be placed anywhere on the dashboard. Setting up the source for the image element is carried out in its editor. To call the editor, you should:
 
-Double-click on the Image element;
+* Double-click on the Image element;
 
-Select the Image item, and select the Design command in the context menu;
+* Select the Image item, and select the Design command in the context menu;
 
-Select the Image item, and, on the property panel, click the **Browse** button of the Image, Hyperlink properties of the image.
+* Select the Image item, and, on the property panel, click the **Browse** button of the Image, Hyperlink properties of the image.
 
 To resize an image element you should:
 
-Select it in the dashboard;
+* Select it in the dashboard;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 
 **Image editor**
 
 In the editor you can indicate the source of the image for the current element. Within one element, you can display only one graphic object (picture, logo, photo, an image by hyperlink).
 
-![](../images/topics/Dashboards.Image_2.png)
+![](../images/topics/Dashboards.Image_4.png)
 
-In the **Image** field you can upload an image from the local storage.
+* In the **Image** field you can upload an image from the local storage.
 
-In the Icon field, you can select an icon for the Image element and the color of this icon.
+* In the Icon field, you can select an icon for the Image element and the color of this icon.
 
-In the **Hyperlink** field, the link to the graphic object is indicated. This can be either a URL or a link to a report resource (resource://logo). In addition, you can specify a link to the datacolumn://DataSource.DataColumn data column which contains an image in the base64 encoding or variable - variable://variablename.
+* In the **Hyperlink** field, the link to the graphic object is indicated. This can be either a URL or a link to a report resource (resource://logo). In addition, you can specify a link to the datacolumn://DataSource.DataColumn data column which contains an image in the base64 encoding or variable - variable://variablename.
 
 > **Information**
 >
@@ -62,11 +62,11 @@ In the **Hyperlink** field, the link to the graphic object is indicated. This ca
 
 Any graphic object added to the element is stretched to the entire area of ​​the element, with the exception of the specified margins and padding. The setting of the graphic object in the element is carried out using buttons on the ribbon panel or using properties on the property panel. All these properties are located in the Image additional group:
 
-The **Aspect Ratio** property. When stretching an image, its proportions may be broken. To stretch the Image element while maintaining the proportions of the graphic object, you should set the Aspect Ratio property to **true**.
+* The **Aspect Ratio** property. When stretching an image, its proportions may be broken. To stretch the Image element while maintaining the proportions of the graphic object, you should set the Aspect Ratio property to **true**.
 
-The **Horizontal Alignment** property is relevant if the **Aspect Ratio** property is set to **true**. Horizontal alignment of the graphic object within the Image element. You can also specify the horizontal alignment using the buttons on the Ribbon panel.
+* The **Horizontal Alignment** property is relevant if the **Aspect Ratio** property is set to **true**. Horizontal alignment of the graphic object within the Image element. You can also specify the horizontal alignment using the buttons on the Ribbon panel.
 
-The **Vertical Alignment** property is relevant if the **Aspect Ratio** property is set to **true**. Vertical alignment of the graphic object within the Image element. You can also specify the vertical alignment using the buttons on the Ribbon panel.
+* The **Vertical Alignment** property is relevant if the **Aspect Ratio** property is set to **true**. Vertical alignment of the graphic object within the Image element. You can also specify the vertical alignment using the buttons on the Ribbon panel.
 
 **List of properties**
 

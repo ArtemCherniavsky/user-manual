@@ -3,11 +3,11 @@
 The StiText component and components, inherited from it, have the TextQuality property. This property allows selecting/displaying the quality of the text. The property may have one of three values​​:
 
 
-Standard.
+* Standard.
 
-Typographic.
+* Typographic.
 
-Wysiwyg.
+* Wysiwyg.
 
 In the Standard and Typographic modes, text displaying is performed using a GDI + system library. The difference between these modes is that in the Typographic mode, a text is output with antialiasing and looks fine, but the rendering is slow. In the Wysiwyg mode a text is displaying using the GDI system library. The text in this mode may not look as beautiful as in the other two modes.
 

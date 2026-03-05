@@ -3,11 +3,11 @@
 When creating or using relations between data sources, the following restrictions are:
 
 
-Selected data sources (parent and child) must be of the same type, i.e. types relations should be identical. If the types relations are different, then you can use the CashAllData property.
+* Selected data sources (parent and child) must be of the same type, i.e. types relations should be identical. If the types relations are different, then you can use the CashAllData property.
 
-Name must be present and correct, in terms of C# or VB.NET compiler. If the name is reserved in the source, you must add the @ symbol before the relation name. For example, @relation.
+* Name must be present and correct, in terms of C# or VB.NET compiler. If the name is reserved in the source, you must add the @ symbol before the relation name. For example, @relation.
 
-Column-keys must comply with all rules of creation a relation to ADO.NET:
+* Column-keys must comply with all rules of creation a relation to ADO.NET:
 
 ![](../../../../images/fly.png) Their number must be the same;
 

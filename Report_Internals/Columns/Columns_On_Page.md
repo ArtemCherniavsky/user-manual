@@ -10,7 +10,7 @@ It is possible to output data on a page in columns using the Columns property. B
 The **ColumnWidth** property is used to set the column width and is applied to all columns which will be output on the page. The **ColumnGaps** property is used to set the space between the columns.
 
 
-**Important:** Three page properties have to be set to output columns on a page. The Columns property is used to define the number of columns, the **ColumnWidth** property is used to set the width of each column, and the **ColumnGaps** property is used to set the space between the columns.
+* **Important:** Three page properties have to be set to output columns on a page. The Columns property is used to define the number of columns, the **ColumnWidth** property is used to set the width of each column, and the **ColumnGaps** property is used to set the space between the columns.
 
 ![](../../images/img_Columns_On_Page1.png)
 
@@ -31,7 +31,7 @@ The space between columns
 In columnar output mode the page is separated vertically and the report is logically output in the first column, then in the second etc.
 
 
-**Note:** The number of columns on a page is unlimited.
+* **Note:** The number of columns on a page is unlimited.
 
 
 **Example**
@@ -39,7 +39,7 @@ In columnar output mode the page is separated vertically and the report is logic
 Suppose that you need a report with two columns. Set the Columns property to 2 (this means that two columns will be output on each page). Set the ColumnWidth to a suitable width for one column and in the ColumnGaps property set the space between columns. Put two bands on a page: a Header band and a Data band. The data headers will be output on the Header band and data itself will be output on the Data band.
 
 
-**Note:** Column borders are indicated by the red line.
+* **Note:** Column borders are indicated by the red line.
 
 
 ![](../../images/img_Columns_On_Page2.png)

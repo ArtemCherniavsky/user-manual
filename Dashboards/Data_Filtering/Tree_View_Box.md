@@ -1,4 +1,4 @@
-Tree View Box
+## Tree View Box
 
 **Tree View Box** is a filtering element on the dashboard, which is used to create a hierarchy of values and filter data for analysis in the viewer by these values. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard in the viewer, it can grow or shrink by width only.
 
@@ -6,22 +6,22 @@ Tree View Box
 
 This chapter will cover the following:
 
-[Tree View Box editor]();
+* [Tree View Box editor](#TreeViewBoxEditor);
 
-[Table Of Properties]().
+* [Table Of Properties](#TableOfProperties).
 
 
 The **Tree View Box** can be subordinate to other filtering elements, or be the main filtering element for them. The **Tree View Box** can work in two selection modes:
 
-**One**. In the viewer, you can select only one value within one level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed only by one value.
+* **One**. In the viewer, you can select only one value within one level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed only by one value.
 
-**Multi**. In the viewer, you can select multiple values within the same level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed by all selected values.
+* **Multi**. In the viewer, you can select multiple values within the same level of the hierarchy of values. Accordingly, data filtering for the elements of the dashboard will be performed by all selected values.
 
 You may setup the **Tree View Box** element in the editor. To call the editor, you should do the following in the report designer:
 
-Double-click the **Tree View Box** element;
+* Double-click the **Tree View Box** element;
 
-Select the **Tree View Box** element and select the **Design** command in the context menu.
+* Select the **Tree View Box** element and select the **Design** command in the context menu.
 
 
 > **Information**
@@ -31,9 +31,7 @@ Select the **Tree View Box** element and select the **Design** command in the co
 The Tree View Box editor
 
 In the **Tree View Box** editor, you can add items with data, set up the value selection mode, select the main filter item.
-
-
-![](../../images/topics/Dashboards.Data_Filtering.Tree_View_Box_2.png)
+![](../../images/topics/Dashboards.Data_Filtering.Tree_View_Box_3.png)
 
 
 ![](../../images/img_1.png) The **Key** field. The data item is specified, the values of which will form the hierarchy and be displayed in the **Tree View Box** item.

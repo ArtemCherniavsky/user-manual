@@ -1,4 +1,4 @@
-Loading Images
+## Loading Images
 
 
 To print an image it is necessary to use the Image component. But an image should be loaded first. There are three ways:
@@ -27,7 +27,7 @@ Loading an image from a report code
 Sometimes it is not convenient to store images for report rendering in files. The report generator can save it in the report code. Using the Image property it is possible to load an image from the report code. After loading the image will be saved in the report code.
 
 
-**Important:** Do not use this way to output images with the size >100kb. This can be critical for speed of working with the report designer.
+* **Important:** Do not use this way to output images with the size >100kb. This can be critical for speed of working with the report designer.
 
 
 ![](../../images/topics/Report_Internals.Graphic_information_output.Loading_Images_2.png)

@@ -29,7 +29,7 @@ Custom fonts
 
 When creating reports you can use custom fonts, which are absent in the list of fonts, i.e. they are not set to operating system by default. To do that, you should add font files (*.ttf, *.otf) to report sources. In this case, a font will be embedded to a report and can be used:
 
-When directly assigning a font to a text component. To do that you should make the following steps:
+* When directly assigning a font to a text component. To do that you should make the following steps:
 
 Step 1: Select a text component or several components;
 
@@ -41,7 +41,7 @@ Step 2: Select an added font on the Home tab of the ribbon report designer panel
 The font you select will be applied to all selected components.
 
 
-When conditional formatting of a component. To do that you should make the following steps:
+* When conditional formatting of a component. To do that you should make the following steps:
 
 
 Step 1: Select a text component;
@@ -64,7 +64,7 @@ Step 6: Click the Ok button in the Font option, then click the button in the con
 Now, when performing a logical condition, the custom font will be applied to the component.
 
 
-In report styles. To do that, you should make the following steps:
+* In report styles. To do that, you should make the following steps:
 
 
 Step 1: Click the Style Designer on the Home ribbon of the report designer panel.

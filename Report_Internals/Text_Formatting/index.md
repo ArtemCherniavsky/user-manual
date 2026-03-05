@@ -1,4 +1,4 @@
-Text Formatting
+## Text Formatting
 
 
 The Text format is a representation of information in the special form (grouping and data output, to the specified pattern). Stimulsoft Report contains all necessary instruments required for formatting of all information that will be output. The Text Format is the basic tool for formatting a text before output. This tool is a dialog box, which allows setting parameters of format. Text format dialog box is called from the context menu, that appears when right-clicked on the text components, which supports formatting.

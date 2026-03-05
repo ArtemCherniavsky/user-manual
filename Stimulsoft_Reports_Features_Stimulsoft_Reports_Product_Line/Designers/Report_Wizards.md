@@ -1,4 +1,4 @@
-Report Wizards
+## Report Wizards
 
 The list below shows which report wizards are supported.
 

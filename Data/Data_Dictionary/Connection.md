@@ -17,15 +17,15 @@ If to choose any other type of connection, the dialog box will be a New ***type*
 
 There is a list below with built-in connection types:
 
-SQL - this connection describes the parameters to access the Microsoft SQL Server database;
+* SQL - this connection describes the parameters to access the Microsoft SQL Server database;
 
-OleDB - connection describes the parameters to access databases via the OleDB driver;
+* OleDB - connection describes the parameters to access databases via the OleDB driver;
 
-ODBC connection describes the parameters to access databases via the ODBC driver
+* ODBC connection describes the parameters to access databases via the ODBC driver
 
-XML connection describes the parameters to access XML files;
+* XML connection describes the parameters to access XML files;
 
-MS Access connection describes the parameters to access the MS Access database;
+* MS Access connection describes the parameters to access the MS Access database;
 
 The picture below shows the Select Type Of Connection window:
 

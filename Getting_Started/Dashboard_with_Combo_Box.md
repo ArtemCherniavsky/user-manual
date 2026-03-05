@@ -20,9 +20,7 @@ Step 5: Select the Combo **Box** element;
 ![](../images/topics/Getting_Started.Dashboard_with_Combo_Box_1.png)
 
 Step 6: Place the element on the dashboard;
-
-Step 7: If the element editor is not displayed, you should double click on the element; 
-
+Step 7: If the element editor is not displayed, you should double click on the element;
 Step 8: Drag a data column from data dictionary. By default, the data column will be added to the Key field;
 
 
@@ -47,7 +45,6 @@ Step 12: If you need the list of values to be depended on the selected value of 
 
 
 Step 13: Close the element editor.
-
 Step 14: Go to the Preview tab.
 
 

@@ -5,11 +5,11 @@ The report dictionary contains a description of data in a structured view, for e
 
 You can transform data using different ways:
 
-Write queries with parameters;
+* Write queries with parameters;
 
-Change data structure in a storage;
+* Change data structure in a storage;
 
-Create a storage procedure and more.
+* Create a storage procedure and more.
 
 
 However, you can use the Data Transformation tool in the report designer. Using this tool, you can create a description of data as a table. After that, you will be able to render some reports in the report designer based on this table.

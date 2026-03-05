@@ -1,4 +1,4 @@
-Tab Page
+## Tab Page
 
 The Page tab is a tab on the Ribbon of the report designer that contains commands for managing the report page settings, the workspace of the dashboard panel, and the dialog form.
 
@@ -45,8 +45,8 @@ This group contains settings for displaying the grid, additional information, an
 
 ![](../images/img_6.png) The Show Rulers command enables or disables the display of rulers in the report designer.
 
-![](../images/img_7.png) A control that allows displaying additional information on report components or dashboard elements. This is an equivalent of the  [Quick Info](File_Menu/Options.md) tab in the report designer settings.
+![](../images/img_7.png) A control that allows displaying additional information on report components or dashboard elements. This is an equivalent of the  [Quick Info](File_Menu/Options.md#QuickInfo) tab in the report designer settings.
 
-![](../images/img_8.png) A control that allows enabling or disabling the display of various report designer panels, such as [Properties](Panels.md), [Dictionary](Panels.md), [Tree](Panels.md).
+![](../images/img_8.png) A control that allows enabling or disabling the display of various report designer panels, such as [Properties](Panels.md#PropertiesGrid), [Dictionary](Panels.md#Dictionary), [Tree](Panels.md#Tree).
 
-![](../images/img_9.png) The Show Toolbox command enables or disables the display of the  [Toolbox](Insert_Tab.md).
+![](../images/img_9.png) The Show Toolbox command enables or disables the display of the  [Toolbox](Insert_Tab.md#Toolbox).

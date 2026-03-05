@@ -1,4 +1,4 @@
-Technical Support
+## Technical Support
 
 Users with active subscription and users who are evaluating the software (pre-sale) may get technical support.
 

@@ -1,4 +1,4 @@
-Localizations
+## Localizations
 
 The list of UI localizations is shown below.
 

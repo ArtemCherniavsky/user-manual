@@ -1,4 +1,4 @@
-Data Summary Types
+## Data Summary Types
 
 
 When rendering a cross-table, the report generator should know how the values in the summary cells will be summarize. Summation function is set using the Summary property of a summary cell. For each summary cell its own function can be specified. A Cross Table works with the following functions:

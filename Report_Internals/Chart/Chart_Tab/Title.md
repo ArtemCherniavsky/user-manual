@@ -1,9 +1,7 @@
-Title
+## Title
 
 The Title is text that represents the name of the chart or provides an explanation for it.
-
-
-![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Title_1.png)
+![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Title_2.png)
 
 
 To configure the title, go to the Chart tab in the component editor and select the Title sub-tab. Then, use the properties to define and customize the title.

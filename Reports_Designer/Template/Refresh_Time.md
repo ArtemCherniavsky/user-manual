@@ -1,19 +1,19 @@
-Refresh Time
+## Refresh Time
 
 By default, the report is built:
 
-When you load reports into the viewer;
+* When you load reports into the viewer;
 
-When you switch from the report designer to the Preview tab;
+* When you switch from the report designer to the Preview tab;
 
-When you click the Refresh button on the preview tab.
+* When you click the Refresh button on the preview tab.
 
 
 In this case, to rebuild the report, you need some action from the user. To rebuild a report automatically at a specified time interval, you should set the Refresh Time report property to:
 
-One of the predefined values ​​from seconds to hours;
+* One of the predefined values ​​from seconds to hours;
 
-Enter the value in seconds manually. For example, if you want the report to be rebuilt every hour, enter 3600 (1 hour = 3600 seconds).
+* Enter the value in seconds manually. For example, if you want the report to be rebuilt every hour, enter 3600 (1 hour = 3600 seconds).
 
 
 After the specified interval, the report will be automatically rebuilt.

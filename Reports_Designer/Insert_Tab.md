@@ -1,13 +1,13 @@
 ## Tab Insert
 
-The Insert tab is a section of the Ribbon in the report designer that contains commands for creating a new page, a new form, a new dashboard, as well as inserting report components or dashboard elements. It functions as an equivalent to the [Toolbox]() in the report designer and can be used alongside it or independently.
+The Insert tab is a section of the Ribbon in the report designer that contains commands for creating a new page, a new form, a new dashboard, as well as inserting report components or dashboard elements. It functions as an equivalent to the [Toolbox](#Toolbox) in the report designer and can be used alongside it or independently.
 
 ![](../images/topics/Reports_Designer.Insert_Tab_1.png)
 
 
 You can enable or disable the Insert tab in:
- [Report Designer settings](File_Menu/Options.md);
- [Toolbox settings]().
+* [Report Designer settings](File_Menu/Options.md);
+* [Toolbox settings](#SetupToolbox).
 
 
 All elements in the Insert tab or Toolbox are organized into groups.
@@ -71,8 +71,8 @@ The Toolbox is a sidebar in the report designer that contains report components,
 ![](../images/topics/Reports_Designer.Insert_Tab_6.png)
 
 You can enable or disable the Toolbox in:
- [Report designer settings](File_Menu/Options.md);
+* [Report designer settings](File_Menu/Options.md);
 
-[Toolbox settings]();
+* [Toolbox settings](#SetupToolbox);
 
-[Page](Page_Tab.md) tab of the report designer.
+* [Page](Page_Tab.md) tab of the report designer.

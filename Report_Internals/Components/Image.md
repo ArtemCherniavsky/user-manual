@@ -1,4 +1,4 @@
-Image
+## Image
 
 To enhance visual expressiveness and information perception, images are often included in reports. These images may consist of product visuals, employee photos, company logos, etc. In Stimulsoft Reports, the Image component is used to display these images. This component supports the following image types: BMP, PNG, JPEG, TIFF, GIF, ICO, EMF, SVG, and WMF. The Image component must be placed where the image needs to appear (e.g., report page, data band, header, footer, etc.).
 
@@ -7,23 +7,23 @@ To enhance visual expressiveness and information perception, images are often in
 
 To add a image to a report, follow these steps:
 
-Select the Image component from the Toolbox or the Insert tab in the Components group.
+* Select the Image component from the Toolbox or the Insert tab in the Components group.
 
-Place this component on the report page or within the report band.
+* Place this component on the report page or within the report band.
 
 
 The Image component can be configured using:
 
-The [component editor](), where the image source is selected.
+* The [component editor](#editor), where the image source is selected.
 
-The [properties]() associated with this component.
+* The [properties](#properties) associated with this component.
 
 
 To open the editor, you should:
 
-Double-click the Image component.
+* Double-click the Image component.
 
-Select the Image component and choose the Design command from the context menu.
+* Select the Image component and choose the Design command from the context menu.
 
 Image Editor
 
@@ -68,9 +68,9 @@ After opening the Image component editor, you need to define the source for the 
 Additional panels
 Additional panels can be displayed in the Image editor:
 
-Gallery panel. Displays a list of images as thumbnails from variables and resources. This panel is available only for the Image source.
+* Gallery panel. Displays a list of images as thumbnails from variables and resources. This panel is available only for the Image source.
 
-History panel. Shows a list of the most recently loaded images. This panel is available only for the File and Image URL sources.
+* History panel. Shows a list of the most recently loaded images. This panel is available only for the File and Image URL sources.
 
 Stretching images
 When displaying images, the image dimensions often do not match the component dimensions. This can result in empty space left unfilled by the image. There are also instances where the image dimensions are larger than the component dimensions. In such cases, you can enable the mode to stretch the image to fit the component dimensions by setting the Stretch property to True.

@@ -1,4 +1,4 @@
-Calculation mode
+## Calculation mode
 
 Important
 
@@ -20,13 +20,12 @@ In Interpretation mode, the Stimulsoft interpreter is used to calculate expressi
 
 You can change the mode of calculating expressions in a report or on the dashboard in the following way:
 
-In the report designer, select the report template area and choose the expression processing mode as the value of the Calculation Mode property on the Property panel.
-
-![](../../images/topics/Reports_Designer.Template.Calculation_Mode_1.png)
-
- Double-click on the report template area to call the Report Options window. Select the expression processing mode as the value of the Calculation mode parameter.
+* In the report designer, select the report template area and choose the expression processing mode as the value of the Calculation Mode property on the Property panel.
 
 ![](../../images/topics/Reports_Designer.Template.Calculation_Mode_2.png)
+* Double-click on the report template area to call the Report Options window. Select the expression processing mode as the value of the Calculation mode parameter.
+
+![](../../images/topics/Reports_Designer.Template.Calculation_Mode_3.png)
 
 
 > **Information**

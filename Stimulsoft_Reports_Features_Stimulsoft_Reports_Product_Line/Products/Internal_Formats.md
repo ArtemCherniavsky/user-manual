@@ -1,4 +1,4 @@
-Internal Formats
+## Internal Formats
 
 Stimulsoft file formats to which you can save reports.
 

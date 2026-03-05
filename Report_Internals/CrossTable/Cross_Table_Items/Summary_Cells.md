@@ -1,4 +1,4 @@
-Summary Cells
+## Summary Cells
 
 
 Summary cells are the elements of a cross table, which set rules for cells formatting on intersection of columns and rows of a summary cell. On a picture below the structure of a simplest cross table is represented.

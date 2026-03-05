@@ -1,4 +1,4 @@
-Hotkeys
+## Hotkeys
 
 The report designer supports many hotkeys. Using them can speed up the effectiveness of work in creating reports. The table below lists the hotkeys and their descriptions.
 

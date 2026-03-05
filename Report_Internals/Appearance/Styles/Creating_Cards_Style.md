@@ -1,11 +1,11 @@
-Cards Style
+## Cards Style
 
 The Cards style is applied to the [Cards](../../../Dashboards/Cards.md) element. Do the next steps to create a table style:
- In the style designer, click the Add Style button and select the Cards style.
+* In the style designer, click the Add Style button and select the Cards style.
 
-Use the style properties to customize the formatting.
+* Use the style properties to customize the formatting.
 
-Apply the style to the [report components](index.md) or [dashboard elements](../../../Dashboards/Appearance.md).
+* Apply the style to the [report components](index.md#applystyle) or [dashboard elements](../../../Dashboards/Appearance.md#ApplyStyle).
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Creating_Cards_Style_1.png)
@@ -16,7 +16,7 @@ Apply the style to the [report components](index.md) or [dashboard elements](../
 >
 > Assign the preset style to the Cards component or element and select that component.
 >
-> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md) button.
+> Call up the Style Designer and click the [Get Style from Selected Components](Style_Designer.md#GetStyleFromSelectedComponents) button.
 >
 > Adjust the obtained style using its properties.
 >

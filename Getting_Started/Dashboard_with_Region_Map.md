@@ -1,30 +1,30 @@
-Dashboard with Region Map
+## Dashboard with Region Map
 
 This chapter will cover issues such as:
 
-[Creating a Region Map]();
+* [Creating a Region Map](#creatingaregionmap);
 
-[Enabling short signatures]();
+* [Enabling short signatures](#shortsignatures);
 
-[Disabling values]();
+* [Disabling values](#disablingvalues);
 
-[Color each]();
+* [Color each](#coloreach);
 
-[Heatmap]();
+* [Heatmap](#heatmap);
 
-[Map with a group]();
+* [Map with a group](#amapwithgroup);
 
-[Heatmap with a group]().
+* [Heatmap with a group](#heatmapwithgrouping).
 
 Creating a Region Map
 
 To create a dashboard panel with the [Region Map](../Dashboards/Maps/Region_Map.md) element, you should do the following:
 
 
-Step 1: [Run the report designer](Install_and_First_Run.md);
+Step 1: [Run the report designer](Install_and_First_Run.md#rundesigner);
 
 
-Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md);
+Step 2: [Create a dashboard](Creating_Dashboard.md) or [add it to a current report](Creating_Dashboard.md#addingadashboardtothecurrentreport);
 
 
 Step 3: [Connect data](Connecting_Data.md);
@@ -39,7 +39,6 @@ Step 5: Put the item on the dashboard panel;
 
 
 Step 6: If the item editor did not open, double-click on the region map;
-
 Step 7: Click the control to open the menu with a list of maps;
 
 
@@ -73,7 +72,7 @@ Step 12: Drag the data column with the values in the Value field;
 Step 13: You can also specify a data column with the names of geographic objects. If this data column is not specified, then the names of the geographic objects will be their keys.
 
 
-Step 14: You can specify a data column with colors for geographic objects. If this data column is not specified, then geographic objects use color from the style. When you set a data column with colors of geographic objects, you should also enable the [Color Each]() option.
+Step 14: You can specify a data column with colors for geographic objects. If this data column is not specified, then geographic objects use color from the style. When you set a data column with colors of geographic objects, you should also enable the [Color Each](#ColorEach) option.
 
 
 Step 15: Close the map editor;

@@ -7,8 +7,8 @@ A Marker is a graphical symbol used to display series values on a chart. Markers
 
 
 To apply a marker to a chart series, follow these steps:
- In the component editor, go to the Series tab and open the Marker section;
- Configure the marker’s appearance using its properties.
+* In the component editor, go to the Series tab and open the Marker section;
+* Configure the marker’s appearance using its properties.
 
 
 > **Information**

@@ -1,17 +1,17 @@
-Resources
+## Resources
 
 > **YouTube** [working with resources](https://www.youtube.com/watch?v=TwMpBguli9k)
 
 
 Resources are files that can be embedded in a report template. The following can be added as resources:
 
-Data files - CSV, Excel, JSON, XML, DBF;
+* Data files - CSV, Excel, JSON, XML, DBF;
 
-Image files - SVG, JPEG, JPG, PNG, BMP, GIF and other image files.
+* Image files - SVG, JPEG, JPG, PNG, BMP, GIF and other image files.
 
-Report templates (*.mrt, *.mrz) and built reports (*.mdc, *.mdz).
+* Report templates (*.mrt, *.mrz) and built reports (*.mdc, *.mdz).
 
-RTF files.
+* RTF files.
 
 
 You should do the following to embed a file into a report:

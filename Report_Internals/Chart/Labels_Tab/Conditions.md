@@ -5,10 +5,10 @@ Conditional Formatting of Labels allows changing the background of labels when a
 ![](../../../images/topics/Report_Internals.Chart.Labels_Tab.Conditions_1.png)
 
 
-To apply conditional formatting to labels, you need: 
- In the component editor, go to the Labels tab and open the Conditions section;
- Click the Add Condition button;
- Configure the conditional formatting using the Condition Editor.
+To apply conditional formatting to labels, you need:
+* In the component editor, go to the Labels tab and open the Conditions section;
+* Click the Add Condition button;
+* Configure the conditional formatting using the Condition Editor.
 
 Condition Editor
 

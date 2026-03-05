@@ -1,4 +1,4 @@
-Legend
+## Legend
 
 The Legend is the area where the legend items for different data series in the chart are displayed. The legend can be placed in various parts of the chart: either within the chart area or outside of it.
 
@@ -7,8 +7,8 @@ The Legend is the area where the legend items for different data series in the c
 
 The legend settings can be configured:
 
-In the Chart tab, under the Legend sub-tab, using properties.
- However, the type and format of the values are defined in the Labels tab, under the Common sub-tab.
+* In the Chart tab, under the Legend sub-tab, using properties.
+* However, the type and format of the values are defined in the Labels tab, under the Common sub-tab.
 
 
 Below is a table of properties used to configure the chart legend:

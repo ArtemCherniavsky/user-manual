@@ -1,13 +1,11 @@
 ## Y Right Axis
 
 The Y Right Axis tab contains settings for the argument axis and its labels.
+![](../../../images/topics/Report_Internals.Chart.Area_Tab.Y_Right_Axis_2.png)
 
-
-![](../../../images/topics/Report_Internals.Chart.Area_Tab.Y_Right_Axis_1.png)
-
-To configure the Y Axis of the chart, you need:  
- Open the component editor and go to the Area tab, then select the Y Right Axis tab;
- Set the desired property values.
+To configure the Y Axis of the chart, you need:
+* Open the component editor and go to the Area tab, then select the Y Right Axis tab;
+* Set the desired property values.
 
 Below is a table of properties used to configure the Y Right Axis.
 

@@ -1,4 +1,4 @@
-Data for Maps
+## Data for Maps
 
 
 The Map component provides an opportunity to visualize the data with reference to geographical location. The data for maps can be specified manually and by passing from a data source. Consider both of these methods in detail.

@@ -1,4 +1,4 @@
-Info
+## Info
 
 Attention
 
@@ -28,11 +28,11 @@ Password Protection
 
 When developing and saving a report, you can protect the report file with a password. To do this:
 
-Open or create a report in the Report Designer;
- In the Info section, select Protect Report;
- Enter a password to protect the report file;
+* Open or create a report in the Report Designer;
+* In the Info section, select Protect Report;
+* Enter a password to protect the report file;
 
-Select [Save](Save.md) or [Save As](Save.md). The report will then be saved as an mrx file.
+* Select [Save](Save.md) or [Save As](Save.md). The report will then be saved as an mrx file.
 
 
 The file will be encrypted. To decrypt it—meaning, to open the report in the designer or viewer—you will need to enter the correct password.

@@ -1,4 +1,4 @@
-Totals not Related to Bands
+## Totals not Related to Bands
 
 
 The calculation of totals in reports can be made by specifying an expression, for example, {Sum(DataBand1)}. At the same time, the totals are calculated when rendering the report: each time when an operation with DataBand in carried out, a single value is calculated. Then, all calculated values are added together and the total value will be displayed. In this case, totals are associated with bands. The calculation of totals in Stimulsoft Reports can be made in another way - instantly. In other words, calculate the total not associated with bands. To do this, use the special prefix Totals before the function with the separator ".", For example, {Totals.Sum(DataBand1)}. Calculation of functions with the prefix Totals occurs where the function was called, as opposed to the totals associated with bands, the calculation of which is performed during rendering the report.

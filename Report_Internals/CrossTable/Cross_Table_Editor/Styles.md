@@ -1,4 +1,4 @@
-Styles Tab
+## Styles Tab
 
 
 The final stage in the creation of a cross-tab is to define its style:

@@ -1,4 +1,4 @@
-Reporting Features
+## Reporting Features
 
 Important
 
@@ -1240,7 +1240,7 @@ Formatting in text
 +
 
 
-[HTML tags](../../Report_Internals/Html_Tags/index.md)
+[HTML tags](../../Report_Internals/Html_Tags/index.md#tableofhtmltags)
 
 +
 

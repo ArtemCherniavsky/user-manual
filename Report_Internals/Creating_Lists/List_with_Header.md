@@ -16,4 +16,4 @@ Create a new report. Put a data band on a page. Add the Header band to a report.
 When report rendering for one Data band, it is possible to create more than one Header band. For example, one Header band can be output only in the beginning of data. And the second one can be output in the beginning of data and on other pages of a report. Header bands are output in the same order as they are placed on a page.
 
 
-**Notice:** For one Data band unlimited number of Header bands can be created.
+* **Notice:** For one Data band unlimited number of Header bands can be created.

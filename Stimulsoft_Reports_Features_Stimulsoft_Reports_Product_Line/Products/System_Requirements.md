@@ -1,4 +1,4 @@
-System Requirements
+## System Requirements
 
 The table helps you to check which system parameters are necessary for using Stimulsoft Reports.
 

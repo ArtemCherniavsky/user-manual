@@ -1,4 +1,4 @@
-Trimming in the End of Text Line
+## Trimming in the End of Text Line
 
 
 If there is not enough space to put whole text line in the text component, then, using the TextOptions.Trimming property, it is possible to customize text trimming. It has the following values:

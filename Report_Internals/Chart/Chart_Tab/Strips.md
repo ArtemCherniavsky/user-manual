@@ -1,15 +1,13 @@
-Strips
+## Strips
 
 Strips are horizontal or vertical ranges of values highlighted with a specific color.
-
-
-![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Strips_1.png)
+![](../../../images/topics/Report_Internals.Chart.Chart_Tab.Strips_2.png)
 
 To add a strip:
 
-In the component editor, go to the Chart tab and select the Strips sub-tab;
- Click the Add Strip button;
- Configure the strip using the available properties.
+* In the component editor, go to the Chart tab and select the Strips sub-tab;
+* Click the Add Strip button;
+* Configure the strip using the available properties.
 
 
 > **Information**

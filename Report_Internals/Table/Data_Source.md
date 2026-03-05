@@ -1,4 +1,4 @@
-DataSource Property
+## DataSource Property
 
 
 It is necessary to define the data source to output data in the Table component. The reporting tool should know how many times do cells must be printed in a table. Therefore, the Table component should have the reference to the data source. There are several ways how to do this. You may use the Table editor. Double click on the Table header to call the editor. Also the Table editor can be called using the DataSource property of a Table.

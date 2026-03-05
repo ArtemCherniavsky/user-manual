@@ -1,20 +1,20 @@
-User Functions
+## User Functions
 
 When designing reports and dashboards, you may create user functions in the report designer. The function script can be written using the visual programming tool Blockly or one of the programming languages set as the report scripting language: JS, C#, or VB.NET. These functions are created in the report data dictionary.
 
 
 To create a new function, you should:
 
-Select New Function... from the New menu;
+* Select New Function... from the New menu;
 
-Select the New Function... command from the data dictionary context menu.
+* Select the New Function... command from the data dictionary context menu.
 
 
 The user function can be edited. To do this you should:
 
-Select the user function in the data dictionary, and click the Edit control;
+* Select the user function in the data dictionary, and click the Edit control;
 
-Select the user function in the data dictionary, and click the Edit command in the data dictionary context menu.
+* Select the user function in the data dictionary, and click the Edit command in the data dictionary context menu.
 
 User Function Editor
 
@@ -48,8 +48,8 @@ The function is created in a special editor:
 
 The specifics of the function's script using code
 When implementing a function script using code, there are several limitations and features you should keep in mind:
- The script should be implemented in the programming language that is set as the report scripting language. Change it using the report template property of the same name, Script Language.
+* The script should be implemented in the programming language that is set as the report scripting language. Change it using the report template property of the same name, Script Language.
 
-When building a report using the .NET and .NET Framework report engine, the function script written using code will be executed only if the [report calculation mode](../../Reports_Designer/Template/Calculation_Mode.md) is set to Compilation.
+* When building a report using the .NET and .NET Framework report engine, the function script written using code will be executed only if the [report calculation mode](../../Reports_Designer/Template/Calculation_Mode.md) is set to Compilation.
 
-When running function script code in a reporting tool for .NET and the .NET Framework, you should be aware of the Compilation Access option, which can be found in the Main tab of the [Options menu in the report designer](../../Reports_Designer/File_Menu/Options.md). If Compilation Access is set to Deny or Force Interpretation, the script code will not be executed. In reporting tools for JS, PHP and Python, you should consider the value of the Events Access parameter, which can be found in the Main tab in the Options menu of the report designer. If Event Access is set to Deny, the script code will not be executed.
+* When running function script code in a reporting tool for .NET and the .NET Framework, you should be aware of the Compilation Access option, which can be found in the Main tab of the [Options menu in the report designer](../../Reports_Designer/File_Menu/Options.md). If Compilation Access is set to Deny or Force Interpretation, the script code will not be executed. In reporting tools for JS, PHP and Python, you should consider the value of the Events Access parameter, which can be found in the Main tab in the Options menu of the report designer. If Event Access is set to Deny, the script code will not be executed.

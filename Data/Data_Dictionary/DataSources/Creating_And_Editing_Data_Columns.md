@@ -1,4 +1,4 @@
-Creating and Editing Data Columns
+## Creating and Editing Data Columns
 
 Creating data columns
 

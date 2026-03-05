@@ -1,13 +1,11 @@
-Common
+## Common
 
 The Common tab contains settings related to the chart area.
-
-
-![](../../../images/topics/Report_Internals.Chart.Area_Tab.Common_1.png)
+![](../../../images/topics/Report_Internals.Chart.Area_Tab.Common_2.png)
 
 To configure the chart area, you need:
- Open the component editor and go to the Area tab, then select the Common tab;
- Set the desired property values.
+* Open the component editor and go to the Area tab, then select the Common tab;
+* Set the desired property values.
 
 Below is a table of properties used to configure the chart area.
 

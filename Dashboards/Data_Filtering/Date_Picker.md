@@ -1,4 +1,4 @@
-Date Picker
+## Date Picker
 
 **Date Picker** is a filtering element on the dashboard panel that is used to determine the calendar range and filter the data for the analysis in the viewer, taking into account the specified range. It can be located anywhere on the dashboard panel. Depending on the size of the dashboard panel in the viewer, it can grow or shrink by width only.
 
@@ -6,24 +6,24 @@ Date Picker
 
 This chapter will cover the following:
 
-[Date Picker editor]();
+* [Date Picker editor](#DatePickerEditor);
 
-[Table Of Properties]().
+* [Table Of Properties](#TableOfProperties).
 
 
 The **Date Picker** element can only be the main filtering element for other filtering elements and cannot depend on the values of other filtering elements. The **Date Picker** can have the following selection modes:
 
-**Single**. By default, the current date of the operating system and the subsequent range will be determined depending on the value of the **Condition** parameter.
+* **Single**. By default, the current date of the operating system and the subsequent range will be determined depending on the value of the **Condition** parameter.
 
-**Range**. By default, the current day range will be set.
+* **Range**. By default, the current day range will be set.
 
-**Auto Range**. By default, the range will be set from an earlier date in the data source to the latest date. In other words, the original date range will correspond to the data range of the data source.
+* **Auto Range**. By default, the range will be set from an earlier date in the data source to the latest date. In other words, the original date range will correspond to the data range of the data source.
 
 You may setup the **Date Picker** element in the editor. To call the editor, you should to the following in the report designer:
 
-Double-click on the **Date Picker** element;
+* Double-click on the **Date Picker** element;
 
-Select the **Date Picker** and choose the Design command in the context menu.
+* Select the **Date Picker** and choose the Design command in the context menu.
 
 
 **The Date Picker editor**

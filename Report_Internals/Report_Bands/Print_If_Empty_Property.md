@@ -10,4 +10,4 @@ There is a property in a report generator that allows you to display a report he
 By default, this property is enabled. If you disable this property for two bands, you get a blank page.
 
 
-**Note:** that in this example, in addition to the Print If Empty property, the Print At Bottom property of the Report Summary band band is also set.
+* **Note:** that in this example, in addition to the Print If Empty property, the Print At Bottom property of the Report Summary band band is also set.

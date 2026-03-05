@@ -1,4 +1,4 @@
-Report Designer
+## Report Designer
 
 > **Information**
 >
@@ -11,21 +11,21 @@ The Report Designer is a standalone application that is part of the Stimulsoft R
 
 The key elements of the Report Designer interface include:
 
-Ribbon panel with tabs: [Home](Home_Tab.md), [Insert](Insert_Tab.md), [Page](Page_Tab.md), [Layout](Layout_Tab.md), [Preview](File_Menu/Preview.md);
+* Ribbon panel with tabs: [Home](Home_Tab.md), [Insert](Insert_Tab.md), [Page](Page_Tab.md), [Layout](Layout_Tab.md), [Preview](File_Menu/Preview.md);
 
-[File menu](File_Menu/index.md);
+* [File menu](File_Menu/index.md);
 
-Panels: [Properties](Panels.md), [Data dictionary](Panels.md), [Tree](Panels.md), [Toolbox](Insert_Tab.md);
+* Panels: [Properties](Panels.md), [Data dictionary](Panels.md), [Tree](Panels.md), [Toolbox](Insert_Tab.md#Toolbox);
 
-Report template;
+* Report template;
 
-[Status bar]();
+* [Status bar](#StatusBar);
 
 Additionally, the report designer includes:
- [Context menu]() for components or elements;
+* [Context menu]() for components or elements;
 
-[Component layout wizard]();
- [Component drag-and-drop wizard]().
+* [Component layout wizard](#PlacementWizard);
+* [Component drag-and-drop wizard](#DragAndDropWizard).
 
 Status Bar
 
@@ -37,7 +37,7 @@ The Status Bar is located at the bottom of the Report Designer window and contai
 
 ![](../images/img_1.png) A control element that allows users to change the measurement units in the report. Clicking on it displays a list of available measurement units;
 
-![](../images/img_2.png) A command to initiate a report check. More details about the report inspector can be found in the [corresponding section](File_Menu/Info.md);
+![](../images/img_2.png) A command to initiate a report check. More details about the report inspector can be found in the [corresponding section](File_Menu/Info.md#ReportChecker);
 
 ![](../images/img_3.png) A field displaying the name of the selected component or element;
 

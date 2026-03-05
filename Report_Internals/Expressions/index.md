@@ -3,19 +3,19 @@
 Expressions are a crucial part of Stimulsoft Reports - without them, it would not be possible to produce any reports at all. An expression is a combination of one or more of the following:
 
 
-Text;
+* Text;
 
-Mathematical and Logical operators;
+* Mathematical and Logical operators;
 
-Constants;
+* Constants;
 
-Functions;
+* Functions;
 
-Field names;
+* Field names;
 
-Controls;
+* Controls;
 
-Properties.
+* Properties.
 
 
 Stimulsoft Reports processes the expressions defined in a report to calculate the value to be displayed or printed for each one. This value is saved and can be used in further calculations when generating the report output.

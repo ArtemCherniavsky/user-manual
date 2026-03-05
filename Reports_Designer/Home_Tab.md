@@ -1,4 +1,4 @@
-Tab Home
+## Tab Home
 
 The Home tab is a section of the Ribbon in the report designer, containing key commands for configuring report components and dashboard elements.
 
@@ -57,7 +57,7 @@ This group contains commands for managing horizontal and vertical alignment, tex
 
 ![](../images/img_4.png) The [Horizontal Alignment](../Report_Internals/Appearance/Horizontal_Alignment.md) controls: Left, Center, Right, Width.
 
-![](../images/img_4.png) The [Line Spacing](../Report_Internals/Appearance/Horizontal_Alignment.md) controls open a drop-down menu for selecting text line spacing options.
+![](../images/img_4.png) The [Line Spacing](../Report_Internals/Appearance/Horizontal_Alignment.md#LineSpacing) controls open a drop-down menu for selecting text line spacing options.
 
 Borders Group
 
@@ -79,7 +79,7 @@ This group contains commands and controls for configuring the [borders](../Repor
 
 ![](../images/img_6.png) A control that allows changing the border style of a component or element. Clicking this control opens a drop-down list of available border styles.
 
-![](../images/img_7.png) A command that opens the [border editor](../Report_Internals/Appearance/Borders.md).
+![](../images/img_7.png) A command that opens the [border editor](../Report_Internals/Appearance/Borders.md#BorderEditor).
 
 Formatting Group
 
@@ -112,6 +112,6 @@ This group contains commands for managing [styles](../Report_Internals/Appearanc
 
 ![](../images/img_4.png) A command that opens [style designer](../Report_Internals/Appearance/Styles/Style_Designer.md).
 
-![](../images/img_5.png) A control that allows selecting a style for report components or dashboard elements. Clicking this control opens a drop-down list of styles and collections. When a collection is selected, it is [applied to the report](../Report_Internals/Appearance/Styles/Style_Collections.md).
+![](../images/img_5.png) A control that allows selecting a style for report components or dashboard elements. Clicking this control opens a drop-down list of styles and collections. When a collection is selected, it is [applied to the report](../Report_Internals/Appearance/Styles/Style_Collections.md#ApplyStyleCollection).
 
 ![](../images/img_6.png) A command that opens [style designer](../Report_Internals/Appearance/Styles/Style_Designer.md).

@@ -1,13 +1,13 @@
-Rendering Order of Bands
+## Rendering Order of Bands
 
 
 In this article, let's review the process of rendering report bands and define their relationships within the first level of nesting. By the first level of nesting, we mean that the report will not have a hierarchy, but rather consist of simple lists, groups, etc. All bands can be categorized into the following types.
 
-**Page Header** and **Page Footer**, **Overlay** are page bands. These bands are related to the report pages, and are displayed on each page of the report;
- **Report Title** and **Report Summary** are report bands. As evident from their group name, these bands are interconnected with the report and are used to display the title and summary in reports. They are displayed only once;
- **Data Band**, **Hierarchical Band** are list bands. In the following text, when referring to the Data Band, we also imply that it can be used as a substitute for the Hierarchical Band;
- Bands associated with the **Data Band** are **Header Band**, **Footer Band**, **Group Header Band**, **Group Footer Band**, **Column Header Band**, **Column Footer Band**, **Empty Band**;
- The **Child Band**.
+* **Page Header** and **Page Footer**, **Overlay** are page bands. These bands are related to the report pages, and are displayed on each page of the report;
+* **Report Title** and **Report Summary** are report bands. As evident from their group name, these bands are interconnected with the report and are used to display the title and summary in reports. They are displayed only once;
+* **Data Band**, **Hierarchical Band** are list bands. In the following text, when referring to the Data Band, we also imply that it can be used as a substitute for the Hierarchical Band;
+* Bands associated with the **Data Band** are **Header Band**, **Footer Band**, **Group Header Band**, **Group Footer Band**, **Column Header Band**, **Column Footer Band**, **Empty Band**;
+* The **Child Band**.
 
 
 ![](../../images/cross12.png)

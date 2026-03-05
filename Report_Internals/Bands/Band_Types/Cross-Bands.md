@@ -4,7 +4,7 @@
 Cross-bands must be placed on a standard band, and thus cannot be directly placed on a page or a container. They are used to enable the rendering of complex cross-reports.
 
 
-**Important:** Cross bands occupy the full height of their parent component, so it is not recommended to place them directly on the page. If the band does not fit on one page, it is not wrapped, but a new page segment is added.
+* **Important:** Cross bands occupy the full height of their parent component, so it is not recommended to place them directly on the page. If the band does not fit on one page, it is not wrapped, but a new page segment is added.
 
 
 Please refer to the list below to see all the cross-bands available in Stimulsoft Reports.

@@ -1,4 +1,4 @@
-MasterComponent Property
+## MasterComponent Property
 
 
 It is necessary to put two tables on a page for creating the Master-Detail using the Table component. Specify Master data source for the first table (this table is the Master table). Specify Detail data source to the second table (this table is the Detail table). Then you should bind these two tables using the MasterComponent property of a second table. There are several ways to set the Master table. The first way - you may set the Master table in the property grid.

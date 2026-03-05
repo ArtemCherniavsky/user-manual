@@ -27,7 +27,7 @@ If the set the ResetPageNumber page property to  true, then numeration for each 
 ![](../../images/topics/Report_Internals.Pagination.ResetPageNumber_Property_4.png)
 
 
-**Information:** The **ResetPageNumber** property works with the following variables: **PageNumber**, **PageNofM**, **TotalPageCount**. With system variables: **PageNumberThrough**, **PageNofMThrough**, **TotalPageCountThrough** - this property does not work.
+* **Information:** The **ResetPageNumber** property works with the following variables: **PageNumber**, **PageNofM**, **TotalPageCount**. With system variables: **PageNumberThrough**, **PageNofMThrough**, **TotalPageCountThrough** - this property does not work.
 
 
 By default the property is set to false.

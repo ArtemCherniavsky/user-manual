@@ -1,4 +1,4 @@
-Custom Data Sources
+## Custom Data Sources
 
 If you want to build a report based on the custom data then, in Stimulsoft Reports, you can create custom data based on custom data sources. To do this, you should select Data from User Sources in the New Data Source window, and in the next New Data Source dialog box, configure a custom data source. The picture below shows the form New Data Source:
 

@@ -1,15 +1,15 @@
-Support for GS1 standard
+## Support for GS1 standard
 
 The GS1 barcode standard is an international system for identifying products, services, and objects, enabling their unique labeling worldwide.
 
 
 Key points:
 
-The GS1 organization manages the standards, ensuring consistency of codes across different countries.
+* The GS1 organization manages the standards, ensuring consistency of codes across different countries.
 
-Each code is based on a unique identifier (GTIN), which links the product to its information in databases.
+* Each code is based on a unique identifier (GTIN), which links the product to its information in databases.
 
-Different barcode formats are used: linear (EAN-13, UPC, ITF-14) and two-dimensional (QR, DataMatrix, GS1 Digital Link).
+* Different barcode formats are used: linear (EAN-13, UPC, ITF-14) and two-dimensional (QR, DataMatrix, GS1 Digital Link).
 
 
 On the surface, GS1 barcodes may look like ordinary EAN-13, Code 128, or DataMatrix codes, but internally they encode information according to strict rules that distinguish them from “regular” uses of the same formats.

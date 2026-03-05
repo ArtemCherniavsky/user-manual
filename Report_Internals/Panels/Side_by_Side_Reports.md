@@ -1,4 +1,4 @@
-Side-by-Side Reports
+## Side-by-Side Reports
 
 
 Side-by-side report is a report in what containers can help to speed up report creation. Two lists of rows are output simultaneously in this report. Both lists are independent from each other. Usually it is necessary to use the Sub report component to create such a report. But it is much easier to create a report with panels.

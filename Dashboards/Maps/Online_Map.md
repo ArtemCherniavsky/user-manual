@@ -1,4 +1,4 @@
-Online Map
+## Online Map
 
 **Online Map** is used to display any object by geographic coordinates on the online map from Bing.
 
@@ -7,32 +7,32 @@ Online Map
 
 This chapter will cover the following:
 
-[Editor by coordinates]();
+* [Editor by coordinates](#MapByCoordinates);
 
-[Editor by Location]();
+* [Editor by Location](#MapByLocation);
 
-[Table of Properties]().
+* [Table of Properties](#TableOfProperties).
 
 
 The Online Map element can be placed anywhere on the dashboard. This item is configured in the element editor. To call the editor, you should:
 
-Double-click on an item;
+* Double-click on an item;
 
-Select Online Map, and select the Design command in the context menu.
+* Select Online Map, and select the Design command in the context menu.
 
 
 To resize an item on the Online Map, you should:
 
-Select an item on the dashboard;
+* Select an item on the dashboard;
 
-Increase or decrease the size of the element vertically, horizontally or diagonally.
+* Increase or decrease the size of the element vertically, horizontally or diagonally.
 
 
 You can display the Objects on Online Map by:
 
-Geographic coordinates (Latitude and Longitude);
+* Geographic coordinates (Latitude and Longitude);
 
-Location.
+* Location.
 
 
 ![](../../images/topics/Dashboards.Maps.Online_Map_2.png)
@@ -81,9 +81,9 @@ If you display the objects by location, then the online map editor will contain 
 ![](../../images/img_5.png) The Mode parameter. It allows you to determine the option to display the value of a geographical object:
 
 * Value. A numerical value will be displayed for each geographic object.
- Bubble. A separate bubble will represent the value of every geographic object. The larger is the value; the larger is the bubble in diameter.
- Icon. A numerical value with a specific symbol will be displayed for each geographic object. The icon can be selected from the Stimulsoft collection or uploaded from your local storage. Also, for the icons from the collection, you can set its color.
- Chart. If you select this value, an additional field called Arguments will be displayed. In this field, you should specify the data field, the values   from which will be the arguments for the chart values   of each geographic object. In other words, each value is a pie chart sliced by arguments.
+* Bubble. A separate bubble will represent the value of every geographic object. The larger is the value; the larger is the bubble in diameter.
+* Icon. A numerical value with a specific symbol will be displayed for each geographic object. The icon can be selected from the Stimulsoft collection or uploaded from your local storage. Also, for the icons from the collection, you can set its color.
+* Chart. If you select this value, an additional field called Arguments will be displayed. In this field, you should specify the data field, the values   from which will be the arguments for the chart values   of each geographic object. In other words, each value is a pie chart sliced by arguments.
 
 * The Heatmap. When selecting this value, a heatmap of values. Also, additional parameters of the heatmap settings will be displayed.
 
@@ -116,13 +116,13 @@ To display a heatmap on an online map, you should set the Display Mode parameter
 
 The color scheme is a ready-made set of parts of a range of values with assigned colors. The preset color scheme can be edited. To do this, you should select the color scheme and click the Edit button. In the Add Map menu, you should change the color scheme parameters:
 
-Add or delete parts of the range;
+* Add or delete parts of the range;
 
-Specify a relative value of the border of the current range part;
+* Specify a relative value of the border of the current range part;
 
-Change color for border values;
+* Change color for border values;
 
-Change radius for color glow for the value.
+* Change radius for color glow for the value.
 
 
 ![](../../images/topics/Dashboards.Maps.Online_Map_6.png)

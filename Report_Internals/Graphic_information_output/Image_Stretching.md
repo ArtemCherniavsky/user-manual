@@ -1,4 +1,4 @@
-Image Stretching
+## Image Stretching
 
 
 Often image size does not fit to the component size. In this case free space can be found in a component. Sometimes an image size is bigger that the component size. In such situations it is necessary to stretch images to fill the component with the image. For this, it is necessary to put the Stretch property of the Image component to true.
@@ -13,4 +13,4 @@ After setting the Stretch property to true the image will fill all free space of
 ![](../../images/img_Stretch2.png)
 
 
-**Important:** The **AspectRatio** property is in process only when the image stretching is enabled.
+* **Important:** The **AspectRatio** property is in process only when the image stretching is enabled.

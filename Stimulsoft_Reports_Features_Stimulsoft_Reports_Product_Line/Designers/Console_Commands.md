@@ -1,4 +1,4 @@
-Console Commands
+## Console Commands
 
 You can launch the Stimulsoft Designer using commands in the console. Begin by navigating to the application folder. For Stimulsoft BI Designer, the path will be "c:\Program Files (x86)\Stimulsoft Designer %version%\". Below is a table of console commands and their parameters.
 

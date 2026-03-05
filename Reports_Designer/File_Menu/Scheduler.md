@@ -1,4 +1,4 @@
-Schedule
+## Schedule
 
 The Schedule point in the File menu contains a list of created Schedulers in the report designer and the command of a new element Scheduler creation. This element allows you to make definite actions with a report by schedule. For example, you can automate the process of report creation, export it to a definite file type and save the result to the local storage or send by email.
 
@@ -6,30 +6,30 @@ The Schedule point in the File menu contains a list of created Schedulers in the
 
 The following questions will be considered in this chapter:
 
-[Panel control of schedulers;]()
+* [Panel control of schedulers;](#toolbar)
 
-[Parameters of the Scheduler Once;]()
+* [Parameters of the Scheduler Once;](#once)
 
-[Parameters of the Scheduler Hourly;]()
+* [Parameters of the Scheduler Hourly;](#hourly)
 
-[Parameters of the Scheduler Daily;]()
+* [Parameters of the Scheduler Daily;](#daily)
 
-[Parameters of the Scheduler Weekly;]()
+* [Parameters of the Scheduler Weekly;](#weekly)
 
-[Parameters of the Scheduler Monthly;]()
+* [Parameters of the Scheduler Monthly;](#monthly)
 
-[More Options;]()
+* [More Options;](#moreoptions)
 
-[Scheduler Actions.]()
+* [Scheduler Actions.](#actions)
 
 All schedulers are located in the Schedule panel point, as a list. To add a new scheduler, you should click the New Scheduler button. When creating a scheduler you should define its type. Depending on a type, schedule settings may vary.
- The Scheduler Once will be run once at a specified date and time, unless otherwise specified by additional parameters;
+* The Scheduler Once will be run once at a specified date and time, unless otherwise specified by additional parameters;
 
-The Scheduler Hourly will be run every hour at certain minutes, unless otherwise specified by additional parameters;
- The Scheduler Daily  will be run every day at certain time, unless otherwise specified by additional parameters;
- The Scheduler Weekly will be run on a certain day of the week and time, unless otherwise specified by additional parameters;
+* The Scheduler Hourly will be run every hour at certain minutes, unless otherwise specified by additional parameters;
+* The Scheduler Daily  will be run every day at certain time, unless otherwise specified by additional parameters;
+* The Scheduler Weekly will be run on a certain day of the week and time, unless otherwise specified by additional parameters;
 
-The Scheduler Weekly will be run on a certain day of the week and time, unless otherwise specified by additional parameters.
+* The Scheduler Weekly will be run on a certain day of the week and time, unless otherwise specified by additional parameters.
 
 > **Information**
 >
@@ -57,9 +57,7 @@ Also, control commands are duplicated in the context menu of the schedulers. Bes
 Parameters of the Scheduler once
 
 Below you can see the menu of a new Scheduler Once creation.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_3.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_4.png)
 
 
 ![](../../images/img_1.png) The Name parameter allows you to specify name for the current scheduler.
@@ -75,9 +73,7 @@ Below you can see the menu of a new Scheduler Once creation.
 Parameter of Scheduler Hourly
 
 Below you can see the menu of a new Scheduler Hourly creation.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_4.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_6.png)
 
 
 ![](../../images/img_1.png) The Name parameter allows you to specify name for the current scheduler.
@@ -95,9 +91,7 @@ Below you can see the menu of a new Scheduler Hourly creation.
 Parameters of the Scheduler Daily
 
 Below you can see the menu of a new Scheduler Daily creation.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_5.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_8.png)
 
 
 ![](../../images/img_1.png) The Name parameter allows you to specify name for the current scheduler.
@@ -115,9 +109,7 @@ Below you can see the menu of a new Scheduler Daily creation.
 Parameters of Scheduler Weekly
 
 Below you can see the menu of a new Scheduler Weekly creation.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_6.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_10.png)
 
 
 ![](../../images/img_1.png) The Name parameter allows you to specify name for the current scheduler.
@@ -138,9 +130,7 @@ Below you can see the menu of a new Scheduler Weekly creation.
 Parameters of the Scheduler Monthly
 
 Below you can see the menu of a new Scheduler Monthly creation.
-
-
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_7.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_12.png)
 
 
 ![](../../images/img_1.png) The Name parameter allows you to specify name for the current scheduler.
@@ -165,7 +155,7 @@ More Options
 Apart from basic parameters, each scheduler contains additional parameters, which are located on a separate panel. To open this panel, you should click the More Options button.
 
 
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_8.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_13.png)
 
 
 ![](../../images/img_1.png) The Repeat task every parameter allows you to define the interval of additional run of the current scheduler. The for a duration of parameter allows you to define the interval during which additional runs of the scheduler will be occurred.
@@ -181,14 +171,14 @@ Apart from basic parameters, each scheduler contains additional parameters, whic
 Scheduler actions
 
 Each scheduler makes definite actions. By type, all actions can be divided into:
- The Run Report, i.e rendering and exporting a report or a dashboard to a definite document;
- The Send Email, i.e sending a report file or a document to a definite list of people.
+* The Run Report, i.e rendering and exporting a report or a dashboard to a definite document;
+* The Send Email, i.e sending a report file or a document to a definite list of people.
 
 
 Max number of actions in the scheduler is limited up to 15 tasks. You can control the Scheduler tasks on the Actions tab in its editor.
 
 
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_9.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_14.png)
 
 
 ![](../../images/img_1.png) The list of all scheduler actions.
@@ -206,7 +196,7 @@ Max number of actions in the scheduler is limited up to 15 tasks. You can contro
 In case of creating the Send Email action, you should fill some fields, too.
 
 
-![](../../images/topics/Reports_Designer.File_Menu.Scheduler_10.png)
+![](../../images/topics/Reports_Designer.File_Menu.Scheduler_15.png)
 
 
 ![](../../images/img_1.png) The list of all scheduler actions.

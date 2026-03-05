@@ -1,4 +1,4 @@
-Database Packs
+## Database Packs
 
 The table shows the list of supported database adapters. The loading of adapters in the desktop Designer is carried out automatically. For runtime components, you need to add the appropriate [NuGet adapter packages](https://www.nuget.org/packages?q=stimulsoft&sortBy=relevance) to the project.
 
@@ -62,7 +62,7 @@ MS SQL
 
 +
 
-[MySQL]()[1]
+[MySQL](#Information)[1]
 
 +
 
@@ -124,7 +124,7 @@ OLE DB
 
 +
 
-[Oracle]()[2]
+[Oracle](#Information)[2]
 
 +
 
@@ -169,7 +169,7 @@ MS Access
 
 +
 
-[PostgreSQL]()[3]
+[PostgreSQL](#Information)[3]
 
 +
 

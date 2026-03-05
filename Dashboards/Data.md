@@ -1,27 +1,27 @@
-Data
+## Data
 
 Elements of data analysis can work with different data sources. Before starting the design of the dashboard, you should read the following chapters:
- [Data Sources](../Data/Data_Dictionary/DataSources/Creating_Data_Source.md);
+* [Data Sources](../Data/Data_Dictionary/DataSources/Creating_Data_Source.md);
 
-[Relations](../Data/Data_Dictionary/Relation/Creating_Relation/index.md) between data sources;
- Data transformation.
+* [Relations](../Data/Data_Dictionary/Relation/Creating_Relation/index.md) between data sources;
+* Data transformation.
 
 
 This chapter will cover the following:
 
-[Data fields]();
+* [Data fields](#DataFields);
 
-[Data filed expression]();
+* [Data filed expression](#Expression);
 
-[Adding data to an element]();
+* [Adding data to an element](#AddingDataField);
 
-[Putting values manually]();
+* [Putting values manually](#EnterValuesManual);
 
-[Enter data manually]();
+* [Enter data manually](#enterdatamanually);
 
-[Removing data from elements]();
+* [Removing data from elements](#RemoveData);
 
-[Table of Functions]().
+* [Table of Functions](#TableOfFunctions).
 
 
 All data sources of dashboard elements form a virtual data table for the current dashboard. This is necessary for the interaction of the dashboard elements with each other.
@@ -39,11 +39,11 @@ You can view the virtual table of a dashboard by selecting the View Query comman
 
 There are fields in which data fields are indicated in the editor of the dashboard elements. Each data field has an expression which results of processing are the data values ​​for the current dashboard item. The data field expression can be a reference to a data column or a variable.
 
-If a reference to a data column is specified, the values ​​of the data column will be the values ​​of the data field on the basis of which the current element of the dashboard will be rendered.
+* If a reference to a data column is specified, the values ​​of the data column will be the values ​​of the data field on the basis of which the current element of the dashboard will be rendered.
 
-If a reference to a variable is specified, the value of the variable will be the value of the current data field. You should know that at this moment we support the variable of the [Value](../Data/Data_Dictionary/Variables/New_Variable.md) is specified.
+* If a reference to a variable is specified, the value of the variable will be the value of the current data field. You should know that at this moment we support the variable of the [Value](../Data/Data_Dictionary/Variables/New_Variable.md) is specified.
 
-Also, you can manually specify the values ​​of the data field. To do this, enter a value or a list of values in the **Expression** field of the current data field. To enter values ​​manually, you should use the **List()** or **Array()** functions using the "," separator between values.
+* Also, you can manually specify the values ​​of the data field. To do this, enter a value or a list of values in the **Expression** field of the current data field. To enter values ​​manually, you should use the **List()** or **Array()** functions using the "," separator between values.
 
 
 A function can be applied to the expression of data fields. In that case, the values of the data field will be the values processed using this function.
@@ -51,26 +51,26 @@ A function can be applied to the expression of data fields. In that case, the va
 
 You can add a new data field using on of the ways below:
 
-Drag and drop a data column into an item field. In this case, a new data field will be created with reference to the data column you dragged.
+* Drag and drop a data column into an item field. In this case, a new data field will be created with reference to the data column you dragged.
 
-Select the **New Field** command from the context menu of the element editor.
+* Select the **New Field** command from the context menu of the element editor.
 
 In the Table element, the data fields can be of the following types:
 
-**Measure**. By default, this field type applies to all numeric data types. Also, this type of data field is used if it is necessary to group the values of the current data field by the values of another data field.
+* **Measure**. By default, this field type applies to all numeric data types. Also, this type of data field is used if it is necessary to group the values of the current data field by the values of another data field.
 
-**Dimension**. This type of field is used by default for non-numeric data types. When grouping data, the values of this data field will be a condition of grouping for the values of other data fields.
+* **Dimension**. This type of field is used by default for non-numeric data types. When grouping data, the values of this data field will be a condition of grouping for the values of other data fields.
 
 
 Changing the type of data field is carried out in the **Table** element editor, using the **Measure** and **Dimension** buttons:
 
-![](../images/topics/Dashboards.Data_2.png)
+![](../images/topics/Dashboards.Data_3.png)
 
 **Data field expression**
 
 The data fields of the element have the **Expression** field. In this field, you can see the expression of the current data field, and there is also a drop-down menu with a list of commands:
 
-![](../images/topics/Dashboards.Data_3.png)
+![](../images/topics/Dashboards.Data_5.png)
 
 ![](../images/img_1.png) The command is used to create a field of the **Dimension** type.
 
@@ -101,35 +101,33 @@ Drag and drop the data source or columns from the dictionary to the element or i
 > When you drag a data source into the dashboard, a **Table** element with all columns of this data source will be added.
 
 
-Select the data field in the element editor, using the **Field** command, select a data column. In this case, the expression of the data field will be a reference to the selected data column.
- Select the data field, call the Expression editor to create an expression for this field;
- Select the data field and change the expression manually.
+* Select the data field in the element editor, using the **Field** command, select a data column. In this case, the expression of the data field will be a reference to the selected data column.
+* Select the data field, call the Expression editor to create an expression for this field;
+* Select the data field and change the expression manually.
 
 
 **Putting values manually**
 
 In the elements of the dashboard, you can enter one value for the current data field or you can specify a list of values. To enter a single value, you should:
 
-Call the item editor;
+* Call the item editor;
 
-Create a new data field;
+* Create a new data field;
 
-In the Expression field you should enter the value for the current data field;
+* In the Expression field you should enter the value for the current data field;
 
-In addition to this data, which entered manually.
+* In addition to this data, which entered manually.
 
-![](../images/topics/Dashboards.Data_4.png)
+![](../images/topics/Dashboards.Data_6.png)
 
 To enter a list of values, you should to the following:
 
-Call the item editor;
+* Call the item editor;
 
-Create a new data field;
+* Create a new data field;
 
-In the Expression field you should enter the **List()** or **Array()** function with the list of values with the "," separator.
-
-
-![](../images/topics/Dashboards.Data_5.png)
+* In the Expression field you should enter the **List()** or **Array()** function with the list of values with the "," separator.
+![](../images/topics/Dashboards.Data_8.png)
 
 Enter data manually
 
@@ -139,7 +137,7 @@ There is the mode of element data manual input for the following elements: [Char
 To go to the manual value input mode, you should click the Enter Data Manually control. After that, the grid of value input, where you should specify element data will be displayed. You can specify expressions in the cells. For example, specify a link to the - {Variable1}. In this case, the result of the expression processing will be a value for the current cell.
 
 
-![](../images/topics/Dashboards.Data_6.png)
+![](../images/topics/Dashboards.Data_9.png)
 
 
 > **Information**
@@ -148,22 +146,22 @@ To go to the manual value input mode, you should click the Enter Data Manually c
 
 The commands of row control are placed in the context menu and allow you to:
 
-Move a selected row upper or bottom;
+* Move a selected row upper or bottom;
 
-Insert a row or rows upper or bottom than the current one;
+* Insert a row or rows upper or bottom than the current one;
 
-Delete a selected row or rows from the grid of element data.
+* Delete a selected row or rows from the grid of element data.
 
 
 Pay attention to the fact that:
 
-The cells in the grid of manual input can be selected using the Ctrl button.
+* The cells in the grid of manual input can be selected using the Ctrl button.
 
-The range of cells can be selected using the Shift button.
+* The range of cells can be selected using the Shift button.
 
-You can entirely select a column or row having clicked a column or row header;
+* You can entirely select a column or row having clicked a column or row header;
 
-You can select entirely the grid of manual input having clicked the upper left cell, which is located at the intersection of row and column headers.
+* You can select entirely the grid of manual input having clicked the upper left cell, which is located at the intersection of row and column headers.
 
 
 To go back to the data from columns mode, you should click the Use Data Fields in the element editor.
@@ -173,21 +171,21 @@ Links to data columns can be specified in a dashboard element and entered manual
 
 **Removing data from elements**
 
-Select the field in a specific field of the element editor, and click the **Remove Field** button (see the picture below).
+* Select the field in a specific field of the element editor, and click the **Remove Field** button (see the picture below).
 
-![](../images/topics/Dashboards.Data_7.png)
+![](../images/topics/Dashboards.Data_10.png)
 
 
-Select the **Remove Field** command in the context menu of the current data field.
+* Select the **Remove Field** command in the context menu of the current data field.
 
-Select the **Remove All Fields** command in the context menu of the field of the dashboard element, .
+* Select the **Remove All Fields** command in the context menu of the field of the dashboard element, .
 
 
 If the manual mode is enabled you can:
 
-Delete rows from a table. To do this, you should select the rows or cells in the rows that should be deleted and select the Delete command from the context menu of the value input grid.
+* Delete rows from a table. To do this, you should select the rows or cells in the rows that should be deleted and select the Delete command from the context menu of the value input grid.
 
-Also, you should clear the content of the cells. To do this, you should select the cells that should be cleared and click the Delete key on the keyboard.
+* Also, you should clear the content of the cells. To do this, you should select the cells that should be cleared and click the Delete key on the keyboard.
 
 
 **List of functions**

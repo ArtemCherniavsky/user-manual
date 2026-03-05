@@ -7,24 +7,24 @@ The Sub-Report component is used to display another report in the current report
 
 You can place sub-reports on:
 
-[Bands](Sub-Reports_on_Data_Band.md);
+* [Bands](Sub-Reports_on_Data_Band.md);
 
-[Pages](Sub-Reports_on_Page.md);
+* [Pages](Sub-Reports_on_Page.md);
 
-Panels;
+* Panels;
 
-Any other components of the report that can be containers for sub-reports.
+* Any other components of the report that can be containers for sub-reports.
 
 
 A report that will be displayed in the rendered report using the Sub-Report component can be obtained:
 
-From another page in the report template;
+* From another page in the report template;
 
-From the file (*.mrt, *.mrz, *.mdc, *.mdz);
+* From the file (*.mrt, *.mrz, *.mdc, *.mdz);
 
-By the hyperlink (*.mrt, *.mrz, *.mdc, *.mdz);
+* By the hyperlink (*.mrt, *.mrz, *.mdc, *.mdz);
 
-From the report resources (*.mrt, *.mrz, *.mdc, *.mdz).
+* From the report resources (*.mrt, *.mrz, *.mdc, *.mdz).
 
 
 > **Information**
@@ -33,6 +33,6 @@ From the report resources (*.mrt, *.mrz, *.mdc, *.mdz).
 
 You can add sub-reports by:
 
-Selecting this component in the Components group in the Toolbox or in the Insert tab. In this case, a new page which is associated with this component will be automatically created in the report.
+* Selecting this component in the Components group in the Toolbox or in the Insert tab. In this case, a new page which is associated with this component will be automatically created in the report.
 
-Dragging the report from the resources to the report. In this case, a new page will not be created, and in the Sub-Report component, a link to the resource will be generated.
+* Dragging the report from the resources to the report. In this case, a new page will not be created, and in the Sub-Report component, a link to the resource will be generated.

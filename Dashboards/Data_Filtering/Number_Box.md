@@ -1,4 +1,4 @@
-Number Box
+## Number Box
 
 The Number Box is a filtering element on the dashboard that is utilized to specify either a numeric value or a range of values. It serves to filter data for analysis elements within the viewer. This element can be positioned anywhere on the dashboard. Its width is capable of adjusting, either expanding or contracting, depending on the dimensions of the dashboard in the viewer.
 
@@ -6,29 +6,27 @@ The Number Box is a filtering element on the dashboard that is utilized to speci
 
 This chapter will cover the following questions:
 
-[Number Box editor]();
+* [Number Box editor](#numberboxeditor);
 
-[Switching Values]();
+* [Switching Values](#step);
 
-[List of properties]().
+* [List of properties](#properties).
 
 The Number Box element can function only as the primary filter element among other filter elements, and it cannot rely on the values of other filter elements. The Number Box element can operate in the following selection modes:
 
-Single. In this mode, a single numeric value is defined, and the filter is applied to the dashboard elements based on the value of the Condition parameter.
+* Single. In this mode, a single numeric value is defined, and the filter is applied to the dashboard elements based on the value of the Condition parameter.
 
-Range. In this mode, both the minimum and maximum numeric values are determined.
-
+* Range. In this mode, both the minimum and maximum numeric values are determined.
 The configuration of the Number Box element takes place within its editor. To access the editor in the report designer, follow these steps:
 
-Double-click on the Number Box element.
+* Double-click on the Number Box element.
 
-Select the Number Box element, then choose the Design command from the context menu.
+* Select the Number Box element, then choose the Design command from the context menu.
 
 
 The Number Box editor
 
 In the Number Box editor, you can add elements with data, configure the value selection mode, and designate the primary filtering element.
-
 ![](../../images/numberbox-with-viewmode.png)
 
 

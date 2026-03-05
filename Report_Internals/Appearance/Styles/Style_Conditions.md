@@ -1,10 +1,10 @@
-Conditions
+## Conditions
 
 Styles are applied to report components:
 
-Manually. To do this, select a report component, select a style from the quick style selection menu on the Home tab, or select the desired style in the Style property of the component or element.
+* Manually. To do this, select a report component, select a style from the quick style selection menu on the Home tab, or select the desired style in the Style property of the component or element.
 
-Apply the collection to the report. In this case, the styles from the collection will be applied automatically, according to the specified conditions. If the styles in the collection do not have application conditions defined, then all styles from this collection will be applied to all components sequentially. As a result, the components will be assigned the latest style from the collection.
+* Apply the collection to the report. In this case, the styles from the collection will be applied automatically, according to the specified conditions. If the styles in the collection do not have application conditions defined, then all styles from this collection will be applied to all components sequentially. As a result, the components will be assigned the latest style from the collection.
 
 
 > **Information**
@@ -16,9 +16,9 @@ To apply a collection of styles to report components automatically, it is necess
 
 If you wish to use style application conditions, you can access the Conditions editor by following these steps:
 
-Select a style in the style designer.
+* Select a style in the style designer.
 
-Click the Browse button next to the Conditions property on the property panel of the style designer.
+* Click the Browse button next to the Conditions property on the property panel of the style designer.
 
 
 > **Information**
@@ -32,16 +32,16 @@ Adding and setting conditions for applying a style from the collection is done i
 
 Furthermore, you can add multiple condition blocks, which are processed sequentially from top to bottom. The first block that is processed is the one located above the others. If you want to change the sequence in which the condition blocks are processed, you can follow these steps:
 
-Select a block of conditions in the editor.
+* Select a block of conditions in the editor.
 
-Move the condition block up or down the list.
+* Move the condition block up or down the list.
 
 
 To delete a block of conditions, you need to follow these steps:
 
-Select a block of conditions in the editor.
+* Select a block of conditions in the editor.
 
-Click on the Remove Condition button.
+* Click on the Remove Condition button.
 
 
 ![](../../../images/topics/Report_Internals.Appearance.Styles.Style_Conditions_1.png)
@@ -138,9 +138,9 @@ Nesting level of other bands
 For the Report Title and Report Summary bands, you can only create a collection of styles for the first and second levels of nesting. It is impossible to create a style collection for the third and subsequent levels of nesting for these bands. Unlike the Data band, subordination in this case is determined by the location of the bands on the report page, rather than by their nesting level.
 
 
-For the Report Title band, the nesting level is determined in the following way - the first (top) band is assigned the first nesting level, and all subsequent (lower) bands are assigned the second nesting level.
+* For the Report Title band, the nesting level is determined in the following way - the first (top) band is assigned the first nesting level, and all subsequent (lower) bands are assigned the second nesting level.
 
-For the Report Summary band, the order is slightly different - all bands, except for the last (low) one, are assigned the second level of nesting, while the last (low) band is assigned the first level.
+* For the Report Summary band, the order is slightly different - all bands, except for the last (low) one, are assigned the second level of nesting, while the last (low) band is assigned the first level.
 
 
 The image below illustrates the nesting level distribution for the Report Title and Report Summary bands.
