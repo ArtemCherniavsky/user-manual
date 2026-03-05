@@ -1,4 +1,4 @@
-# Project Architecture
+# Project Architecture 
 
 Jekyll-based documentation site deployed to GitHub Pages via GitHub Actions.
 
